@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1>Home</h1>
+    <h1>Home3</h1>
     <!--a href="about" target="_blank">launch about</a-->
     <a href="about">launch about</a>
 
