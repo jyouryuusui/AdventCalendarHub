@@ -32,21 +32,32 @@ const messages = {
       home: 'Article',
       about: 'About',
       hello: 'Hello world',
-    }
+    },
+    title: "Title",
+    summary: "Summary",
+    date: "Date"
+  
   },
   ja: {
     message: {
       home: '記事',
       about: '概要',
       hello: '世界',
-    }
+    },
+    title: "タイトル",
+    summary: "概要",
+    date: "日付"
+
   },
   fr: {
     message: {
       home: 'fr記事',
       about: 'fr概要',
       hello: 'fr世界',
-    }
+    },
+    title: "Title",
+    summary: "Summary",
+    date: "Date"
   }
 };
 

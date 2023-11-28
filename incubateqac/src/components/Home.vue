@@ -5,11 +5,20 @@
     <br>
 
     <v-data-table
-      :headers="headers"
+      :headers="headers.map(header => ({ ...header, title: t(header.title) }))"
       :items="articles"
       :items-per-page="5"
       class="elevation-1"
-    ></v-data-table>
+    >
+    <template v-slot:item.title="{ item }">
+      {{item.columns.title[locale]}}
+      <!--{{ item.title[locale.value] }}-->
+    </template>
+    <template v-slot:item.summary="{ item }">
+      {{item.columns.summary[locale]}}
+      <!--{{ item.summary[locale.value] }}-->
+    </template>
+  </v-data-table>
 
 </v-container>
 </template>
@@ -31,21 +40,40 @@ interface Article {
 
 const headers: ReadonlyHeaders = [
 {
-  title: '記事のタイトル',
+  title: 'title',
   key: 'title',
   align: 'start',
   sortable: false,
   value: 'title',
-  },{
-  title: 'ソートID',
-  key: 'sort_id',
+  },
+  {
+  title: 'summary',
+  key: 'summary',
+  align: 'start',
+  sortable: false,
+  value: 'summary' 
+},
+  {
+  title: 'date',
+  key: 'creationDate',
   align: 'start',
   sortable: true,
-  value: 'sort_id' 
-},
-
+  value: 'creationDate' 
+}
 ];
 
+/*
+interface LanguageHeader {
+  code: string;
+  name: string;
+}
+const languageOptions: LanguageHeader{} = [
+  en:{ code: 'en', name: 'English (EN)' },
+  ja:{ code: 'ja', name: '日本語 (JA)' },
+  fr:{ code: 'fr', name: 'Fr (FR)' }
+  // 他の言語オプションを追加
+];
+*/
 
 
 const articles = ref<Article[]>([]);
@@ -58,12 +86,15 @@ const loadArticles = async () => {
       throw new Error('Failed to fetch articles');
     }
     const data = await response.json();
+
     articles.value = data.data;
+    
     //console.log(articles.value);
   } catch (error) {
     console.error('Error loading articles:', error);
   }
 };
+
 
 onMounted(loadArticles);
 

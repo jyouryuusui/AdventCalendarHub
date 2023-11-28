@@ -1,61 +1,94 @@
 {
+  "title": "houdini advent calendar hub",
+  "summary": "houdini advent calendar articles",
+  "lastUpdated": "2023-11-28T12:34:56+09:00",
+  "categories": ["JavaScript", "Python", "Cloud"],
   "data": [
     {
-      "title": "最新のJavaScriptテクニック",
-      "title_en": "NewJavaScript",
-      "author": "山田太郎",
-      "twitter_icon_url": "https://example.com/yamada_icon.jpg",
-      "thumbnail_url": "https://example.com/article1_thumbnail.jpg",
-      "update_date": "2023-06-15",
-      "creation_year": "2023",
-      "article_url": "https://qiita.com/article1",
-      "summary_jp": "最新のJavaScriptに関するテクニックとその使用方法について詳しく解説。",
-      "summary_en": "Detailed explanation on the latest JavaScript techniques and their applications.",
-      "likes_count": 150,
+      "title": { 
+        "ja":"最新のJavaScriptテクニック",
+        "en":"Latest JavaScript Techniques",
+        "fr":"Dernières techniques en JavaScript"
+      },
+      "author": {
+        "name": "山田太郎",
+        "qiitaUrl":"https://qiita.com/jyouryuusui",
+        "twitterUrl":"https://twitter.com/jyouryuusui",
+        "twitterIcon":"https://pbs.twimg.com/profile_images/660407809075314688/TRxI_Mv6_normal.jpg"
+      },
+      "thumbnailUrl": "https://example.com/article1_thumbnail.jpg",
+      "creationDate": "2023-06-15",
+      "articleUrl": "https://qiita.com/article1",
+      "summary":  { 
+        "ja":"最新のJavaScriptに関するテクニックとその使用方法について詳しく解説。",
+        "en":"A detailed explanation of the latest JavaScript techniques and how to use them.",
+        "fr":"Explication détaillée des dernières techniques en JavaScript et comment les utiliser."
+      },
+      "categories": [
+        "JavaScript",
+        "Cloud"
+      ],
       "tags": [
         "JavaScript",
-        "プログラミング",
-        "Web開発"
+        "Cloud"
       ],
-      "sort_id": 1
+      "articleId": 1
     },
     {
-      "title": "Pythonでのデータ分析入門",
-      "title_en": "PythondataNyumon",
-      "author": "佐藤花子",
-      "twitter_icon_url": "https://example.com/sato_icon.jpg",
-      "thumbnail_url": "https://example.com/article2_thumbnail.jpg",
-      "update_date": "2023-05-10",
-      "creation_year": "2023",
-      "article_url": "https://qiita.com/article2",
-      "summary_jp": "Pythonを用いたデータ分析の基本から応用までをわかりやすく説明。",
-      "summary_en": "A clear guide from basics to advanced data analysis using Python.",
-      "likes_count": 200,
-      "tags": [
-        "Python",
-        "データ分析",
-        "機械学習"
+      "title": { 
+        "ja":"Pythonでのデータ分析入門",
+        "en":"Introduction to Data Analysis with Python",
+        "fr":"Introduction à l'analyse de données avec Python"
+      },
+      "author": {
+        "author": "佐藤花子",
+        "qiitaUrl":"https://qiita.com/jyouryuusui",
+        "twitterUrl":"https://twitter.com/jyouryuusui",
+        "twitterIcon":"https://pbs.twimg.com/profile_images/660407809075314688/TRxI_Mv6_normal.jpg"
+      },
+      "thumbnailUrl": "https://example.com/article2_thumbnail.jpg",
+      "creationDate": "2023-05-10",
+      "articleUrl": "https://qiita.com/article2",
+      "summary":  { 
+        "ja":"Pythonを用いたデータ分析の基本から応用までをわかりやすく説明。",
+        "en":"Clearly explains the basics to advanced concepts of data analysis using Python.",
+        "fr":"Explication claire des concepts de base à avancés de l'analyse de données avec Python."
+      },
+      "categories": [
+        "Python"
       ],
-      "sort_id": 2
+      "tags": [
+        "Python"
+      ],
+      "articleId": 2
     },
     {
-      "title": "クラウドサービスの最適な活用方法",
-      "title_en": "CloudUsage",
-      "author": "鈴木一郎",
-      "twitter_icon_url": "https://example.com/suzuki_icon.jpg",
-      "thumbnail_url": "https://example.com/article3_thumbnail.jpg",
-      "update_date": "2023-04-20",
-      "creation_year": "2022",
-      "article_url": "https://qiita.com/article3",
-      "summary_jp": "クラウドサービスを効率的に活用するための戦略とテクニック。",
-      "summary_en": "Strategies and techniques for efficient utilization of cloud services.",
-      "likes_count": 180,
-      "tags": [
-        "クラウド",
-        "ITインフラ",
-        "テクノロジー"
+      "title": { 
+        "ja":"クラウドサービスの最適な活用方法",
+        "en":"Optimal Utilization of Cloud Services",
+        "fr":"Utilisation optimale des services cloud"
+      },
+      "author": {
+        "author": "鈴木一郎",
+        "qiitaUrl":"https://qiita.com/jyouryuusui",
+        "twitterUrl":"https://twitter.com/jyouryuusui",
+        "twitterIcon":"https://pbs.twimg.com/profile_images/660407809075314688/TRxI_Mv6_normal.jpg"
+      },
+      "thumbnailUrl": "https://example.com/article3_thumbnail.jpg",
+      "creationDate": "2023-04-20",
+      "articleUrl": "https://qiita.com/article3",
+      "summary":  { 
+        "ja":"クラウドサービスを効率的に活用するための戦略とテクニック。",
+        "en":"Strategies and techniques for efficiently utilizing cloud services.",
+        "fr":"Stratégies et techniques pour utiliser efficacement les services cloud."
+      },
+      "categories": [
+        "Cloud"
       ],
-      "sort_id": 3
+      "tags": [
+        "Cloud"
+      ],
+      "articleId": 3
     }
   ]
 }
