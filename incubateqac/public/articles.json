@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "title": "最新のJavaScriptテクニック",
+      "title_en": "NewJavaScript",
+      "author": "山田太郎",
+      "twitter_icon_url": "https://example.com/yamada_icon.jpg",
+      "thumbnail_url": "https://example.com/article1_thumbnail.jpg",
+      "update_date": "2023-06-15",
+      "creation_year": "2023",
+      "article_url": "https://qiita.com/article1",
+      "summary_jp": "最新のJavaScriptに関するテクニックとその使用方法について詳しく解説。",
+      "summary_en": "Detailed explanation on the latest JavaScript techniques and their applications.",
+      "likes_count": 150,
+      "tags": [
+        "JavaScript",
+        "プログラミング",
+        "Web開発"
+      ],
+      "sort_id": 1
+    },
+    {
+      "title": "Pythonでのデータ分析入門",
+      "title_en": "PythondataNyumon",
+      "author": "佐藤花子",
+      "twitter_icon_url": "https://example.com/sato_icon.jpg",
+      "thumbnail_url": "https://example.com/article2_thumbnail.jpg",
+      "update_date": "2023-05-10",
+      "creation_year": "2023",
+      "article_url": "https://qiita.com/article2",
+      "summary_jp": "Pythonを用いたデータ分析の基本から応用までをわかりやすく説明。",
+      "summary_en": "A clear guide from basics to advanced data analysis using Python.",
+      "likes_count": 200,
+      "tags": [
+        "Python",
+        "データ分析",
+        "機械学習"
+      ],
+      "sort_id": 2
+    },
+    {
+      "title": "クラウドサービスの最適な活用方法",
+      "title_en": "CloudUsage",
+      "author": "鈴木一郎",
+      "twitter_icon_url": "https://example.com/suzuki_icon.jpg",
+      "thumbnail_url": "https://example.com/article3_thumbnail.jpg",
+      "update_date": "2023-04-20",
+      "creation_year": "2022",
+      "article_url": "https://qiita.com/article3",
+      "summary_jp": "クラウドサービスを効率的に活用するための戦略とテクニック。",
+      "summary_en": "Strategies and techniques for efficient utilization of cloud services.",
+      "likes_count": 180,
+      "tags": [
+        "クラウド",
+        "ITインフラ",
+        "テクノロジー"
+      ],
+      "sort_id": 3
+    }
+  ]
+}
