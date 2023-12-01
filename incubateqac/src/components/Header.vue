@@ -6,6 +6,7 @@
       <v-spacer></v-spacer>
       <v-tabs>
         <v-tab :to="homeUrl">{{ t('message.home') }}</v-tab>
+        <v-tab :to="calendarUrl">{{ t('message.calendar') }}</v-tab>
         <v-tab :to="aboutUrl">{{ t('message.about') }}</v-tab>
         
         <v-menu offset-y>
@@ -74,6 +75,7 @@ const generateUrl = (path: string): string => {
 
 const homeUrl = computed(() => generateUrl('/'));
 const aboutUrl = computed(() => generateUrl('/about'));
+const calendarUrl = computed(() => generateUrl('/calendar'));
 
 //watch(currentLanguage, (newLocale) => {
 //  locale.value = newLocale;

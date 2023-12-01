@@ -7,17 +7,35 @@
     <v-data-table
       :headers="headers.map(header => ({ ...header, title: t(header.title) }))"
       :items="articles"
-      :items-per-page="5"
+      :items-per-page="50"
+      dense
+      hide-default-footer
+      style="padding:0 0 20px 0;white-space: pre-line;"
       class="elevation-1"
     >
+
+    <template v-slot:item.thumbnail="{ item }">
+    </template>
+
     <template v-slot:item.title="{ item }">
-      {{item.columns.title[locale]}}
-      <!--{{ item.title[locale.value] }}-->
+      <v-img :src="item.raw.thumbnailUrl" aspect-ratio="1.7" class="thumbnail"></v-img>
+      
+      
     </template>
     <template v-slot:item.summary="{ item }">
-      {{item.columns.summary[locale]}}
-      <!--{{ item.summary[locale.value] }}-->
+      <div>
+        <div class="titlediv">
+          <span class="title">{{item.raw.title[locale]}}</span>
+        </div>
+        <div class="summarydiv">
+          <span class="summary">{{item.raw.summary[locale]}}</span>
+        </div>
+      </div>
     </template>
+    <template v-slot:item.creationDate="{ item }">
+      <span class="creationDate">{{item.raw.creationDate}}</span>      
+    </template>
+
   </v-data-table>
 
 </v-container>
@@ -45,36 +63,24 @@ const headers: ReadonlyHeaders = [
   align: 'start',
   sortable: false,
   value: 'title',
-  },
-  {
+  width: '15%' as unknown as number
+  },{
   title: 'summary',
   key: 'summary',
   align: 'start',
   sortable: false,
-  value: 'summary' 
+  value: 'summary',
+  width: '70%' as unknown as number
 },
   {
   title: 'date',
   key: 'creationDate',
-  align: 'start',
+  align: 'end',
   sortable: true,
-  value: 'creationDate' 
+  value: 'creationDate',
+  width: '15%' as unknown as number
 }
 ];
-
-/*
-interface LanguageHeader {
-  code: string;
-  name: string;
-}
-const languageOptions: LanguageHeader{} = [
-  en:{ code: 'en', name: 'English (EN)' },
-  ja:{ code: 'ja', name: '日本語 (JA)' },
-  fr:{ code: 'fr', name: 'Fr (FR)' }
-  // 他の言語オプションを追加
-];
-*/
-
 
 const articles = ref<Article[]>([]);
 
@@ -99,3 +105,29 @@ const loadArticles = async () => {
 onMounted(loadArticles);
 
 </script>
+<style>
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.titlediv {
+  margin:2px 0;
+}
+.summary {
+  font-size: 1em;
+}
+.summarydiv {
+  margin:2px 0;
+}
+
+.thumbnail {
+  min-width: 60px;
+  max-width: 120px;
+  margin:2px;
+  height: auto;
+}
+
+.creationDate {
+  font-size: 0.8em;
+}
+</style>

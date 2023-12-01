@@ -16,7 +16,7 @@
         "twitterUrl":"https://twitter.com/jyouryuusui",
         "twitterIcon":"https://pbs.twimg.com/profile_images/660407809075314688/TRxI_Mv6_normal.jpg"
       },
-      "thumbnailUrl": "https://example.com/article1_thumbnail.jpg",
+      "thumbnailUrl": "1.jpg",
       "creationDate": "2023-06-15",
       "articleUrl": "https://qiita.com/article1",
       "summary":  { 
@@ -46,11 +46,11 @@
         "twitterUrl":"https://twitter.com/jyouryuusui",
         "twitterIcon":"https://pbs.twimg.com/profile_images/660407809075314688/TRxI_Mv6_normal.jpg"
       },
-      "thumbnailUrl": "https://example.com/article2_thumbnail.jpg",
+      "thumbnailUrl": "2.jpg",
       "creationDate": "2023-05-10",
       "articleUrl": "https://qiita.com/article2",
       "summary":  { 
-        "ja":"Pythonを用いたデータ分析の基本から応用までをわかりやすく説明。",
+        "ja":"Pythonを用いたデータ分析の基本から応用までをわかりやすく説明。ここの文章は長文にするために、同じ文を繋げる。Pythonを用いたデータ分析の基本から応用までをわかりやすく説明。",
         "en":"Clearly explains the basics to advanced concepts of data analysis using Python.",
         "fr":"Explication claire des concepts de base à avancés de l'analyse de données avec Python."
       },
@@ -74,7 +74,7 @@
         "twitterUrl":"https://twitter.com/jyouryuusui",
         "twitterIcon":"https://pbs.twimg.com/profile_images/660407809075314688/TRxI_Mv6_normal.jpg"
       },
-      "thumbnailUrl": "https://example.com/article3_thumbnail.jpg",
+      "thumbnailUrl": "3.jpg",
       "creationDate": "2023-04-20",
       "articleUrl": "https://qiita.com/article3",
       "summary":  { 

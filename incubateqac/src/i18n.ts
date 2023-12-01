@@ -31,9 +31,10 @@ const messages = {
     message: {
       home: 'Article',
       about: 'About',
+      calendar: 'Calendar',
       hello: 'Hello world',
     },
-    title: "Title",
+    title: "",
     summary: "Summary",
     date: "Date"
   
@@ -42,9 +43,10 @@ const messages = {
     message: {
       home: '記事',
       about: '概要',
+      calendar: 'カレンダー',
       hello: '世界',
     },
-    title: "タイトル",
+    title: "",
     summary: "概要",
     date: "日付"
 
@@ -53,9 +55,10 @@ const messages = {
     message: {
       home: 'fr記事',
       about: 'fr概要',
+      calendar: 'frカレンダー',
       hello: 'fr世界',
     },
-    title: "Title",
+    title: "",
     summary: "Summary",
     date: "Date"
   }

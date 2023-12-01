@@ -1,0 +1,61 @@
+{
+  "title": "houdini advent calendar hub",
+  "summary": "houdini advent calendar articles",
+  "lastUpdated": "2023-11-28T12:34:56+09:00",
+  "language": "ja",
+  "categories": ["JavaScript", "Python", "Cloud"],
+  "data": [
+    {
+      "title": "最新のJavaScriptテクニック",
+      "author": {
+        "name": "山田太郎",
+        "qiitaUrl":"https://qiita.com/jyouryuusui",
+        "twitterUrl":"https://twitter.com/jyouryuusui",
+        "twitterIcon":"https://pbs.twimg.com/profile_images/660407809075314688/TRxI_Mv6_normal.jpg"
+      },
+      "thumbnailUrl": "https://example.com/article1_thumbnail.jpg",
+      "creationDate": "2023-06-15",
+      "articleUrl": "https://qiita.com/article1",
+      "summary": "最新のJavaScriptに関するテクニックとその使用方法について詳しく解説。",
+      "categories": [
+        "JavaScript",
+        "Cloud"
+      ],
+      "articleId": 1
+    },
+    {
+      "title": "Pythonでのデータ分析入門",
+      "author": {
+        "author": "佐藤花子",
+        "qiitaUrl":"https://qiita.com/jyouryuusui",
+        "twitterUrl":"https://twitter.com/jyouryuusui",
+        "twitterIcon":"https://pbs.twimg.com/profile_images/660407809075314688/TRxI_Mv6_normal.jpg"
+      },
+      "thumbnailUrl": "https://example.com/article2_thumbnail.jpg",
+      "creationDate": "2023-05-10",
+      "articleUrl": "https://qiita.com/article2",
+      "summary": "Pythonを用いたデータ分析の基本から応用までをわかりやすく説明。",
+      "categories": [
+        "Python"
+      ],
+      "articleId": 2
+    },
+    {
+      "title": "クラウドサービスの最適な活用方法",
+      "author": {
+        "author": "鈴木一郎",
+        "qiitaUrl":"https://qiita.com/jyouryuusui",
+        "twitterUrl":"https://twitter.com/jyouryuusui",
+        "twitterIcon":"https://pbs.twimg.com/profile_images/660407809075314688/TRxI_Mv6_normal.jpg"
+      },
+      "thumbnailUrl": "https://example.com/article3_thumbnail.jpg",
+      "creationDate": "2023-04-20",
+      "articleUrl": "https://qiita.com/article3",
+      "summary": "クラウドサービスを効率的に活用するための戦略とテクニック。",
+      "categories": [
+        "Cloud"
+      ],
+      "articleId": 3
+    }
+  ]
+}
