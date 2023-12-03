@@ -1,0 +1,552 @@
+[
+    {
+        "thumbnailUrl": "2021120102.jpg",
+        "creationDate": "2021-12-01",
+        "author": {
+            "name": "@Alidade",
+            "twitterIcon": "Alidade.jpg",
+            "qiitaUrl": "https://qiita.com/Alidade",
+            "twitterUrl": "https://twitter.com/Alidade"
+        },
+        "title": {
+            "ja": "簡単なプロシージャル電柱",
+            "en": "簡単なプロシージャル電柱"
+        },
+        "articleUrl": "https://nullnode.wixsite.com/houdinipsalm/post/houdini-advent-calendar-2021-day-1st",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120102,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120202.jpg",
+        "creationDate": "2021-12-02",
+        "author": {
+            "name": "@fereria",
+            "twitterIcon": "fereria.jpg",
+            "qiitaUrl": "https://qiita.com/fereria",
+            "twitterUrl": "https://twitter.com/fereria"
+        },
+        "title": {
+            "ja": "InlineUSDの使い方",
+            "en": "InlineUSDの使い方"
+        },
+        "articleUrl": "https://fereria.github.io/reincarnation_tech/10_Houdini/11_SOLARIS/15_inline_usd/",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120202,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120302.jpg",
+        "creationDate": "2021-12-03",
+        "author": {
+            "name": "@kei_iketani",
+            "twitterIcon": "kei_iketani.jpg",
+            "qiitaUrl": "https://qiita.com/kei_iketani",
+            "twitterUrl": "https://twitter.com/kei_iketani"
+        },
+        "title": {
+            "ja": "Houdini ApprenticeからMayaにオブジェクトを読み込む裏ワザ！（修正済み）",
+            "en": "Houdini ApprenticeからMayaにオブジェクトを読み込む裏ワザ！（修正済み）"
+        },
+        "articleUrl": "https://note.com/johnkparkh13/n/n841b189ac521",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120302,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120402.jpg",
+        "creationDate": "2021-12-04",
+        "author": {
+            "name": "@ijiVFX",
+            "twitterIcon": "ijiVFX.jpg",
+            "qiitaUrl": "https://qiita.com/ijiVFX",
+            "twitterUrl": "https://twitter.com/ijiVFX"
+        },
+        "title": {
+            "ja": "爆発で硬い地面がえぐれた様な跡を作るよ",
+            "en": "爆発で硬い地面がえぐれた様な跡を作るよ"
+        },
+        "articleUrl": "https://qiita.com/ijiVFX/items/66c29070c23a2f99d38b",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120402,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120502.jpg",
+        "creationDate": "2021-12-05",
+        "author": {
+            "name": "@ikatnek",
+            "twitterIcon": "ikatnek.jpg",
+            "qiitaUrl": "https://qiita.com/ikatnek",
+            "twitterUrl": "https://twitter.com/ikatnek"
+        },
+        "title": {
+            "ja": "「枠内」な (バグ) レポートの書き方",
+            "en": "「枠内」な (バグ) レポートの書き方"
+        },
+        "articleUrl": "https://ikatnek.blogspot.com/2021/12/how-to-write-on-target-bug-report.html",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120502,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120602.jpg",
+        "creationDate": "2021-12-06",
+        "author": {
+            "name": "@fereria",
+            "twitterIcon": "fereria.jpg",
+            "qiitaUrl": "https://qiita.com/fereria",
+            "twitterUrl": "https://twitter.com/fereria"
+        },
+        "title": {
+            "ja": "LayoutAssetGalleryとLayout",
+            "en": "LayoutAssetGalleryとLayout"
+        },
+        "articleUrl": "https://fereria.github.io/reincarnation_tech/10_Houdini/11_SOLARIS/17_layout_asset_gallery/",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120602,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120702.jpg",
+        "creationDate": "2021-12-07",
+        "author": {
+            "name": "@d-gfx",
+            "twitterIcon": "d-gfx.jpg",
+            "qiitaUrl": "https://qiita.com/d-gfx",
+            "twitterUrl": "https://twitter.com/d-gfx"
+        },
+        "title": {
+            "ja": "SDFについて（その１：基礎および可視化方法について）",
+            "en": "SDFについて（その１：基礎および可視化方法について）"
+        },
+        "articleUrl": "https://dlanggraphics.blogspot.com/2021/12/houdini-apprentice-advent-calendar-2021-01.html",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120702,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120802.jpg",
+        "creationDate": "2021-12-08",
+        "author": {
+            "name": "@d-gfx",
+            "twitterIcon": "d-gfx.jpg",
+            "qiitaUrl": "https://qiita.com/d-gfx",
+            "twitterUrl": "https://twitter.com/d-gfx"
+        },
+        "title": {
+            "ja": "SDFについて（その２：xyzdist の利用）",
+            "en": "SDFについて（その２：xyzdist の利用）"
+        },
+        "articleUrl": "https://dlanggraphics.blogspot.com/2021/12/houdini-apprentice-advent-calendar-2021-02.html",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120802,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120902.jpg",
+        "creationDate": "2021-12-09",
+        "author": {
+            "name": "@d-gfx",
+            "twitterIcon": "d-gfx.jpg",
+            "qiitaUrl": "https://qiita.com/d-gfx",
+            "twitterUrl": "https://twitter.com/d-gfx"
+        },
+        "title": {
+            "ja": "SDFについて（その３：応用例）",
+            "en": "SDFについて（その３：応用例）"
+        },
+        "articleUrl": "https://dlanggraphics.blogspot.com/2021/12/houdini-apprentice-advent-calendar-2021-03.html",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120902,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121002.jpg",
+        "creationDate": "2021-12-10",
+        "author": {
+            "name": "@ikatnek",
+            "twitterIcon": "ikatnek.jpg",
+            "qiitaUrl": "https://qiita.com/ikatnek",
+            "twitterUrl": "https://twitter.com/ikatnek"
+        },
+        "title": {
+            "ja": "Match Size を最初のフレームだけ適用",
+            "en": "Match Size を最初のフレームだけ適用"
+        },
+        "articleUrl": "http://ikatnek.blogspot.com/2021/12/match-size-only-on-first-frame.html",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121002,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121102.jpg",
+        "creationDate": "2021-12-11",
+        "author": {
+            "name": "@Borndigital_Yoshida",
+            "twitterIcon": "Borndigital_Yoshida.jpg",
+            "qiitaUrl": "https://qiita.com/Borndigital_Yoshida",
+            "twitterUrl": "https://twitter.com/Borndigital_Yoshida"
+        },
+        "title": {
+            "ja": "Houdini19で簡単にOCIO（ミニマム設定）を設定する",
+            "en": "Houdini19で簡単にOCIO（ミニマム設定）を設定する"
+        },
+        "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/4412128745753",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121102,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121202.jpg",
+        "creationDate": "2021-12-12",
+        "author": {
+            "name": "@kkcg",
+            "twitterIcon": "kkcg.jpg",
+            "qiitaUrl": "https://qiita.com/kkcg",
+            "twitterUrl": "https://twitter.com/kkcg"
+        },
+        "title": {
+            "ja": "ぶら下げたこんにゃくを顔面にぶつける in Houdini",
+            "en": "ぶら下げたこんにゃくを顔面にぶつける in Houdini"
+        },
+        "articleUrl": "https://kk-cg.net/?p=82",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121202,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121302.jpg",
+        "creationDate": "2021-12-13",
+        "author": {
+            "name": "@Alidade",
+            "twitterIcon": "Alidade.jpg",
+            "qiitaUrl": "https://qiita.com/Alidade",
+            "twitterUrl": "https://twitter.com/Alidade"
+        },
+        "title": {
+            "ja": "ナイトライフにちなむ布地をプレゼントします",
+            "en": "ナイトライフにちなむ布地をプレゼントします"
+        },
+        "articleUrl": "https://qiita.com/Alidade/items/72bccf2bba38e017d33c",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121302,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121402.jpg",
+        "creationDate": "2021-12-14",
+        "author": {
+            "name": "@kit2cuz",
+            "twitterIcon": "kit2cuz.jpg",
+            "qiitaUrl": "https://qiita.com/kit2cuz",
+            "twitterUrl": "https://twitter.com/kit2cuz"
+        },
+        "title": {
+            "ja": "MaterialXで遊ぶ",
+            "en": "MaterialXで遊ぶ"
+        },
+        "articleUrl": "https://qiita.com/kit2cuz/items/d4459493248b147f4ea6",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121402,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121502.jpg",
+        "creationDate": "2021-12-15",
+        "author": {
+            "name": "@Borndigital_Yoshida",
+            "twitterIcon": "Borndigital_Yoshida.jpg",
+            "qiitaUrl": "https://qiita.com/Borndigital_Yoshida",
+            "twitterUrl": "https://twitter.com/Borndigital_Yoshida"
+        },
+        "title": {
+            "ja": "Houdini19のビューポートでPyroのMotionVectorやNormalを確認する",
+            "en": "Houdini19のビューポートでPyroのMotionVectorやNormalを確認する"
+        },
+        "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/4412125577369",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121502,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121602.jpg",
+        "creationDate": "2021-12-16",
+        "author": {
+            "name": "@okada_takuya",
+            "twitterIcon": "okada_takuya.jpg",
+            "qiitaUrl": "https://qiita.com/okada_takuya",
+            "twitterUrl": "https://twitter.com/okada_takuya"
+        },
+        "title": {
+            "ja": "Houdini 19.0 版 バリエーションコピー　~Merge Packedの使用~",
+            "en": "Houdini 19.0 版 バリエーションコピー　~Merge Packedの使用~"
+        },
+        "articleUrl": "https://qiita.com/okada_takuya/items/aca23e14209d4cedd574",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121602,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121702.jpg",
+        "creationDate": "2021-12-17",
+        "author": {
+            "name": "@shige_ktgw",
+            "twitterIcon": "shige_ktgw.jpg",
+            "qiitaUrl": "https://qiita.com/shige_ktgw",
+            "twitterUrl": "https://twitter.com/shige_ktgw"
+        },
+        "title": {
+            "ja": "VOPを使ってVolume Deform",
+            "en": "VOPを使ってVolume Deform"
+        },
+        "articleUrl": "http://nomoreretake.net/2021/12/17/houdinivop_volume-deformer/",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121702,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121802.jpg",
+        "creationDate": "2021-12-18",
+        "author": {
+            "name": "@indyzone",
+            "twitterIcon": "indyzone.jpg",
+            "qiitaUrl": "https://qiita.com/indyzone",
+            "twitterUrl": "https://twitter.com/indyzone"
+        },
+        "title": {
+            "ja": "Gas Project Non Divergentについて",
+            "en": "Gas Project Non Divergentについて"
+        },
+        "articleUrl": "https://bit.ly/3sb9PA1",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121802,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121902.jpg",
+        "creationDate": "2021-12-19",
+        "author": {
+            "name": "@bechica",
+            "twitterIcon": "bechica.jpg",
+            "qiitaUrl": "https://qiita.com/bechica",
+            "twitterUrl": "https://twitter.com/bechica"
+        },
+        "title": {
+            "ja": "これから Houdini を始めるあなたへ",
+            "en": "これから Houdini を始めるあなたへ"
+        },
+        "articleUrl": "https://qiita.com/bechica/items/62dda8ddd99db482bee1",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121902,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021122002.jpg",
+        "creationDate": "2021-12-20",
+        "author": {
+            "name": "@ryuji_shirai",
+            "twitterIcon": "ryuji_shirai.jpg",
+            "qiitaUrl": "https://qiita.com/ryuji_shirai",
+            "twitterUrl": "https://twitter.com/ryuji_shirai"
+        },
+        "title": {
+            "ja": "MatrixのアレをHoudiniで作ってみた",
+            "en": "MatrixのアレをHoudiniで作ってみた"
+        },
+        "articleUrl": "https://qiita.com/ryuji_shirai/items/9ee0f26968bdef66ea22",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021122002,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021122102.jpg",
+        "creationDate": "2021-12-21",
+        "author": {
+            "name": "@Bosshi",
+            "twitterIcon": "Bosshi.jpg",
+            "qiitaUrl": "https://qiita.com/Bosshi",
+            "twitterUrl": "https://twitter.com/Bosshi"
+        },
+        "title": {
+            "ja": "Houdiniでバリエーション作成！",
+            "en": "Houdiniでバリエーション作成！"
+        },
+        "articleUrl": "https://qiita.com/Bosshi/items/08f1d62024fa39bd319f",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021122102,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021122202.jpg",
+        "creationDate": "2021-12-22",
+        "author": {
+            "name": "@shin_t_o_",
+            "twitterIcon": "shin_t_o_.jpg",
+            "qiitaUrl": "https://qiita.com/shin_t_o_",
+            "twitterUrl": "https://twitter.com/shin_t_o_"
+        },
+        "title": {
+            "ja": "Houdiniのattributeをデータベースにして都市データを扱ってみる(1. 実装編)",
+            "en": "Houdiniのattributeをデータベースにして都市データを扱ってみる(1. 実装編)"
+        },
+        "articleUrl": "https://qiita.com/shin_t_o_/items/c10341115efb3f35cdb0",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021122202,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021122302.jpg",
+        "creationDate": "2021-12-23",
+        "author": {
+            "name": "@kickbase",
+            "twitterIcon": "kickbase.jpg",
+            "qiitaUrl": "https://qiita.com/kickbase",
+            "twitterUrl": "https://twitter.com/kickbase"
+        },
+        "title": {
+            "ja": "Event Scriptを利用してWrangleのRun Overを表示する",
+            "en": "Event Scriptを利用してWrangleのRun Overを表示する"
+        },
+        "articleUrl": "https://www.kickbase.net/entry/houdini_event_script",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021122302,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021122402.jpg",
+        "creationDate": "2021-12-24",
+        "author": {
+            "name": "@ikatnek",
+            "twitterIcon": "ikatnek.jpg",
+            "qiitaUrl": "https://qiita.com/ikatnek",
+            "twitterUrl": "https://twitter.com/ikatnek"
+        },
+        "title": {
+            "ja": "なぜ USD を使うのか? なぜ Solaris を使うのか?",
+            "en": "なぜ USD を使うのか? なぜ Solaris を使うのか?"
+        },
+        "articleUrl": "http://ikatnek.blogspot.com/2021/12/why-use-usd-why-use-solaris.html",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021122402,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021122502.jpg",
+        "creationDate": "2021-12-25",
+        "author": {
+            "name": "@jyouryuusui",
+            "twitterIcon": "jyouryuusui.jpg",
+            "qiitaUrl": "https://qiita.com/jyouryuusui",
+            "twitterUrl": "https://twitter.com/jyouryuusui"
+        },
+        "title": {
+            "ja": "TouchDesignerからHoudiniへKinectの情報を持っていきたい",
+            "en": "TouchDesignerからHoudiniへKinectの情報を持っていきたい"
+        },
+        "articleUrl": "https://qiita.com/jyouryuusui/items/3cbb20131a3cf490bda7",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021122502,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    }
+]

@@ -1,0 +1,552 @@
+[
+    {
+        "thumbnailUrl": "2021120101.jpg",
+        "creationDate": "2021-12-01",
+        "author": {
+            "name": "@jyouryuusui",
+            "twitterIcon": "jyouryuusui.jpg",
+            "qiitaUrl": "https://qiita.com/jyouryuusui",
+            "twitterUrl": "https://twitter.com/jyouryuusui"
+        },
+        "title": {
+            "ja": "フェイシャルキャプチャ― in Houdini",
+            "en": "フェイシャルキャプチャ― in Houdini"
+        },
+        "articleUrl": "https://qiita.com/jyouryuusui/items/271501cbeea78ee705ab",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120101,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120201.jpg",
+        "creationDate": "2021-12-02",
+        "author": {
+            "name": "@shop_0761",
+            "twitterIcon": "shop_0761.jpg",
+            "qiitaUrl": "https://qiita.com/shop_0761",
+            "twitterUrl": "https://twitter.com/shop_0761"
+        },
+        "title": {
+            "ja": "SOP~TOPまでのワークフロー的なやつをかきます",
+            "en": "SOP~TOPまでのワークフロー的なやつをかきます"
+        },
+        "articleUrl": "https://shop-0761.hatenablog.com/entry/2021/12/02/120000",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120201,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120301.jpg",
+        "creationDate": "2021-12-03",
+        "author": {
+            "name": "@PontaYamazato",
+            "twitterIcon": "PontaYamazato.jpg",
+            "qiitaUrl": "https://qiita.com/PontaYamazato",
+            "twitterUrl": "https://twitter.com/PontaYamazato"
+        },
+        "title": {
+            "ja": "今年のカード",
+            "en": "今年のカード"
+        },
+        "articleUrl": "https://note.com/pontayamazato/n/n9a01614259b6",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120301,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120401.jpg",
+        "creationDate": "2021-12-04",
+        "author": {
+            "name": "@core_aoi",
+            "twitterIcon": "core_aoi.jpg",
+            "qiitaUrl": "https://qiita.com/core_aoi",
+            "twitterUrl": "https://twitter.com/core_aoi"
+        },
+        "title": {
+            "ja": "実践 Houdini Engine for Unity",
+            "en": "実践 Houdini Engine for Unity"
+        },
+        "articleUrl": "https://note.com/aoi/n/n8fbfd54c349f",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120401,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120501.jpg",
+        "creationDate": "2021-12-05",
+        "author": {
+            "name": "@sasaki_0222",
+            "twitterIcon": "sasaki_0222.jpg",
+            "qiitaUrl": "https://qiita.com/sasaki_0222",
+            "twitterUrl": "https://twitter.com/sasaki_0222"
+        },
+        "title": {
+            "ja": "Houdini19 Karma 初見所感・備忘録・Tips",
+            "en": "Houdini19 Karma 初見所感・備忘録・Tips"
+        },
+        "articleUrl": "https://qiita.com/sasaki_0222/items/3c8fc415c4349d9f2c43",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120501,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120601.jpg",
+        "creationDate": "2021-12-06",
+        "author": {
+            "name": "@kickbase",
+            "twitterIcon": "kickbase.jpg",
+            "qiitaUrl": "https://qiita.com/kickbase",
+            "twitterUrl": "https://twitter.com/kickbase"
+        },
+        "title": {
+            "ja": "複数入力に対しPackするツールを作った話",
+            "en": "複数入力に対しPackするツールを作った話"
+        },
+        "articleUrl": "https://www.kickbase.net/entry/multi_packer",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120601,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120701.jpg",
+        "creationDate": "2021-12-07",
+        "author": {
+            "name": "@kurosawa",
+            "twitterIcon": "kurosawa.jpg",
+            "qiitaUrl": "https://qiita.com/kurosawa",
+            "twitterUrl": "https://twitter.com/kurosawa"
+        },
+        "title": {
+            "ja": "Houdini Engine for Unreal Engine ことはじめ",
+            "en": "Houdini Engine for Unreal Engine ことはじめ"
+        },
+        "articleUrl": "https://note.com/thesaurus/n/ne761f1c02fb0",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120701,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120801.jpg",
+        "creationDate": "2021-12-08",
+        "author": {
+            "name": "@70_cg_art",
+            "twitterIcon": "70_cg_art.jpg",
+            "qiitaUrl": "https://qiita.com/70_cg_art",
+            "twitterUrl": "https://twitter.com/70_cg_art"
+        },
+        "title": {
+            "ja": "チュートリアルの履修が楽になるフォルダ構成",
+            "en": "チュートリアルの履修が楽になるフォルダ構成"
+        },
+        "articleUrl": "https://qiita.com/70_cg_art/items/9248033d1e542499d297",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120801,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021120901.jpg",
+        "creationDate": "2021-12-09",
+        "author": {
+            "name": "@daisea3e1203",
+            "twitterIcon": "daisea3e1203.jpg",
+            "qiitaUrl": "https://qiita.com/daisea3e1203",
+            "twitterUrl": "https://twitter.com/daisea3e1203"
+        },
+        "title": {
+            "ja": "Rig PoseノードからHDAへの大量のパラメータ追加を楽に行う",
+            "en": "Rig PoseノードからHDAへの大量のパラメータ追加を楽に行う"
+        },
+        "articleUrl": "https://qiita.com/daisea3e1203/items/1537bb436987b5fd55eb",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021120901,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121001.jpg",
+        "creationDate": "2021-12-10",
+        "author": {
+            "name": "@tanitta",
+            "twitterIcon": "tanitta.jpg",
+            "qiitaUrl": "https://qiita.com/tanitta",
+            "twitterUrl": "https://twitter.com/tanitta"
+        },
+        "title": {
+            "ja": "HoudiniでPythonの静的型検査をやってみる",
+            "en": "HoudiniでPythonの静的型検査をやってみる"
+        },
+        "articleUrl": "https://tanitta.hatenablog.com/entry/2021/12/10/191729?_ga=2.210698640.442893257.1639126137-730120998.1564028130",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121001,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121101.jpg",
+        "creationDate": "2021-12-11",
+        "author": {
+            "name": "@sasaki_0222",
+            "twitterIcon": "sasaki_0222.jpg",
+            "qiitaUrl": "https://qiita.com/sasaki_0222",
+            "twitterUrl": "https://twitter.com/sasaki_0222"
+        },
+        "title": {
+            "ja": "今年Houdini関係で登壇して公開した資料まとめ",
+            "en": "今年Houdini関係で登壇して公開した資料まとめ"
+        },
+        "articleUrl": "https://qiita.com/sasaki_0222/items/1b7284c61ad4b2b461f9",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121101,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121201.jpg",
+        "creationDate": "2021-12-12",
+        "author": {
+            "name": "@fereria",
+            "twitterIcon": "fereria.jpg",
+            "qiitaUrl": "https://qiita.com/fereria",
+            "twitterUrl": "https://twitter.com/fereria"
+        },
+        "title": {
+            "ja": "ComponentBuilderで遊ぼう",
+            "en": "ComponentBuilderで遊ぼう"
+        },
+        "articleUrl": "https://fereria.github.io/reincarnation_tech/05_DCCTool/10_Houdini/11_SOLARIS/16_component_builder/",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121201,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121301.jpg",
+        "creationDate": "2021-12-13",
+        "author": {
+            "name": "@55hertz",
+            "twitterIcon": "55hertz.jpg",
+            "qiitaUrl": "https://qiita.com/55hertz",
+            "twitterUrl": "https://twitter.com/55hertz"
+        },
+        "title": {
+            "ja": "Mixamo to Cascadeur to Houdini（KineFX）モーション",
+            "en": "Mixamo to Cascadeur to Houdini（KineFX）モーション"
+        },
+        "articleUrl": "https://qiita.com/55hertz/items/167628f6e4df2683f07f",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121301,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121401.jpg",
+        "creationDate": "2021-12-14",
+        "author": {
+            "name": "@talkyren",
+            "twitterIcon": "talkyren.jpg",
+            "qiitaUrl": "https://qiita.com/talkyren",
+            "twitterUrl": "https://twitter.com/talkyren"
+        },
+        "title": {
+            "ja": "HoudiniのVEXを用いた雪の結晶の生成シミュレーションの一例 | An example of snowflake growth simulation using VEX in Houdini",
+            "en": "HoudiniのVEXを用いた雪の結晶の生成シミュレーションの一例 | An example of snowflake growth simulation using VEX in Houdini"
+        },
+        "articleUrl": "https://qiita.com/talkyren/items/1b806c8d28fa8cbd2ebe",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121401,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121501.jpg",
+        "creationDate": "2021-12-15",
+        "author": {
+            "name": "@YuriSerizawa",
+            "twitterIcon": "YuriSerizawa.jpg",
+            "qiitaUrl": "https://qiita.com/YuriSerizawa",
+            "twitterUrl": "https://twitter.com/YuriSerizawa"
+        },
+        "title": {
+            "ja": "[UE4]Houdini EngineにEUWを組み合わせてちょっと使いやすくしてみる",
+            "en": "[UE4]Houdini EngineにEUWを組み合わせてちょっと使いやすくしてみる"
+        },
+        "articleUrl": "https://qiita.com/YuriSerizawa/items/726395ad0968f22a99ef",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121501,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121601.jpg",
+        "creationDate": "2021-12-16",
+        "author": {
+            "name": "@TF_siri",
+            "twitterIcon": "TF_siri.jpg",
+            "qiitaUrl": "https://qiita.com/TF_siri",
+            "twitterUrl": "https://twitter.com/TF_siri"
+        },
+        "title": {
+            "ja": "水に濡れて張り付いて透ける布",
+            "en": "水に濡れて張り付いて透ける布"
+        },
+        "articleUrl": "https://qiita.com/TF_siri/items/e203ecfbcb0a772786a4",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121601,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121701.jpg",
+        "creationDate": "2021-12-17",
+        "author": {
+            "name": "@kit2cuz",
+            "twitterIcon": "kit2cuz.jpg",
+            "qiitaUrl": "https://qiita.com/kit2cuz",
+            "twitterUrl": "https://twitter.com/kit2cuz"
+        },
+        "title": {
+            "ja": "特定の方向からオイラー角を求める",
+            "en": "特定の方向からオイラー角を求める"
+        },
+        "articleUrl": "https://qiita.com/kit2cuz/items/55be3f432783fc979b16",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121701,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121801.jpg",
+        "creationDate": "2021-12-18",
+        "author": {
+            "name": "@yohanashima",
+            "twitterIcon": "yohanashima.jpg",
+            "qiitaUrl": "https://qiita.com/yohanashima",
+            "twitterUrl": "https://twitter.com/yohanashima"
+        },
+        "title": {
+            "ja": "Geometry ShaderをSOPで再現してみる",
+            "en": "Geometry ShaderをSOPで再現してみる"
+        },
+        "articleUrl": "https://heyyocg.com/geometry-shader-kind-houdini-sop/",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121801,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021121901.jpg",
+        "creationDate": "2021-12-19",
+        "author": {
+            "name": "@TrsNium",
+            "twitterIcon": "TrsNium.jpg",
+            "qiitaUrl": "https://qiita.com/TrsNium",
+            "twitterUrl": "https://twitter.com/TrsNium"
+        },
+        "title": {
+            "ja": "HoudiniでWireにディテールを与える",
+            "en": "HoudiniでWireにディテールを与える"
+        },
+        "articleUrl": "https://qiita.com/TrsNium/items/729f57764007e7360e68",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021121901,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021122001.jpg",
+        "creationDate": "2021-12-20",
+        "author": {
+            "name": "@sugiggy",
+            "twitterIcon": "sugiggy.jpg",
+            "qiitaUrl": "https://qiita.com/sugiggy",
+            "twitterUrl": "https://twitter.com/sugiggy"
+        },
+        "title": {
+            "ja": "ぶっ刺しオブジェクトをブレンドする",
+            "en": "ぶっ刺しオブジェクトをブレンドする"
+        },
+        "articleUrl": "https://sugi-iggy.blogspot.com/",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021122001,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021122101.jpg",
+        "creationDate": "2021-12-21",
+        "author": {
+            "name": "@yu_nnnnnnnn",
+            "twitterIcon": "yu_nnnnnnnn.jpg",
+            "qiitaUrl": "https://qiita.com/yu_nnnnnnnn",
+            "twitterUrl": "https://twitter.com/yu_nnnnnnnn"
+        },
+        "title": {
+            "ja": "TextureSheetsの解説と検証していきます",
+            "en": "TextureSheetsの解説と検証していきます"
+        },
+        "articleUrl": "https://wakumoku.com/2021/12/19/texture-sheets%e3%82%92%e6%a4%9c%e8%a8%bc%e3%81%97%e3%81%a6%e3%81%bf%e3%82%8b/",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021122101,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021122201.jpg",
+        "creationDate": "2021-12-22",
+        "author": {
+            "name": "@Satsuki-Sensei",
+            "twitterIcon": "Satsuki-Sensei.jpg",
+            "qiitaUrl": "https://qiita.com/Satsuki-Sensei",
+            "twitterUrl": "https://twitter.com/Satsuki-Sensei"
+        },
+        "title": {
+            "ja": "Pixel Wrangleを発見しました",
+            "en": "Pixel Wrangleを発見しました"
+        },
+        "articleUrl": "https://qiita.com/Satsuki-Sensei/items/29fc51b364e7deee546a",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021122201,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021122301.jpg",
+        "creationDate": "2021-12-23",
+        "author": {
+            "name": "@taichi-i",
+            "twitterIcon": "taichi-i.jpg",
+            "qiitaUrl": "https://qiita.com/taichi-i",
+            "twitterUrl": "https://twitter.com/taichi-i"
+        },
+        "title": {
+            "ja": "Python State Info Panel について初歩的な確認",
+            "en": "Python State Info Panel について初歩的な確認"
+        },
+        "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/4411665478041",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021122301,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021122401.jpg",
+        "creationDate": "2021-12-24",
+        "author": {
+            "name": "@ts_bros",
+            "twitterIcon": "ts_bros.jpg",
+            "qiitaUrl": "https://qiita.com/ts_bros",
+            "twitterUrl": "https://twitter.com/ts_bros"
+        },
+        "title": {
+            "ja": "vegetation modeling&tree_rigの紹介",
+            "en": "vegetation modeling&tree_rigの紹介"
+        },
+        "articleUrl": "https://msjbinc.blogspot.com/2021/12/startup-vegetation-modeling-tree-rig.html",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021122401,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2021122501.jpg",
+        "creationDate": "2021-12-25",
+        "author": {
+            "name": "@procedural_design",
+            "twitterIcon": "procedural_design.jpg",
+            "qiitaUrl": "https://qiita.com/procedural_design",
+            "twitterUrl": "https://twitter.com/procedural_design"
+        },
+        "title": {
+            "ja": "Procedural Hard Surface ModelingのためのWorley noiseの実装",
+            "en": "Procedural Hard Surface ModelingのためのWorley noiseの実装"
+        },
+        "articleUrl": "https://qiita.com/procedural_design/items/d7689f0074c4a9cb5927",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2021122501,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    }
+]

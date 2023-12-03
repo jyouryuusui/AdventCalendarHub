@@ -26,7 +26,7 @@
     {
       "title": "Pythonでのデータ分析入門",
       "author": {
-        "author": "佐藤花子",
+        "name": "佐藤花子",
         "qiitaUrl":"https://qiita.com/jyouryuusui",
         "twitterUrl":"https://twitter.com/jyouryuusui",
         "twitterIcon":"https://pbs.twimg.com/profile_images/660407809075314688/TRxI_Mv6_normal.jpg"
@@ -43,7 +43,7 @@
     {
       "title": "クラウドサービスの最適な活用方法",
       "author": {
-        "author": "鈴木一郎",
+        "name": "鈴木一郎",
         "qiitaUrl":"https://qiita.com/jyouryuusui",
         "twitterUrl":"https://twitter.com/jyouryuusui",
         "twitterIcon":"https://pbs.twimg.com/profile_images/660407809075314688/TRxI_Mv6_normal.jpg"

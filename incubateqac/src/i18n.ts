@@ -29,39 +29,45 @@ const determineLocale = () => {
 const messages = {
   en: {
     message: {
-      home: 'Article',
+      home: 'Search',
       about: 'About',
       calendar: 'Calendar',
+      hometxt: 'This site is..',
       hello: 'Hello world',
     },
+    search: "Search",
     title: "",
     summary: "Summary",
-    date: "Date"
+    author: ""
   
   },
   ja: {
     message: {
-      home: '記事',
+      home: '記事検索',
       about: '概要',
       calendar: 'カレンダー',
       hello: '世界',
+      hometxt: 'このサイトは..',
     },
+    search: "検索",
     title: "",
     summary: "概要",
-    date: "日付"
+    author: ""
 
-  },
+  }/*,
   fr: {
     message: {
-      home: 'fr記事',
+      home: 'fr検索',
       about: 'fr概要',
       calendar: 'frカレンダー',
       hello: 'fr世界',
+      hometxt: 'This site is..',
     },
+    search: "Search",
     title: "",
     summary: "Summary",
-    date: "Date"
-  }
+    author: "Date"
+  }*/
 };
 
 
