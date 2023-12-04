@@ -150,7 +150,7 @@ const goHome = () => {
 function navigateToOption(optionTitle: string) {
   // ここで optionTitle に基づいたナビゲーション処理を行います
   // 例えば、タイトルに応じた URL にリダイレクトする等
-  console.log("Navigating to option: " + optionTitle);
+  // console.log("Navigating to option: " + optionTitle);
   // router.push({ name: 'OptionPage', params: { option: optionTitle } });
   // homeUrl にナビゲートし、検索クエリに optionTitle を追加
   router.push({ path: homeUrl.value, query: { search: optionTitle } });
