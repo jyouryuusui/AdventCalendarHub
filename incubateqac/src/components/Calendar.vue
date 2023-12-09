@@ -2,7 +2,7 @@
   <v-container>
     <h1>Calendar</h1>
     <a href="/">launch about</a>
-    <p>{{ t('message.hello') }}</p>
+    <p>{{ t('message.calendar') }}</p>
   </v-container>
 </template>
 
@@ -10,6 +10,8 @@
 //import { defineComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
 const { t, locale } = useI18n();
+
+
 
 /*
 export default defineComponent({

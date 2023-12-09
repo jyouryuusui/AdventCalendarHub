@@ -2,7 +2,7 @@
   <v-container style="max-width: 1200px;">
     
     <h1>{{ t('message.home') }}</h1>
-    <p>{{ t('message.hometxt') }}</p>
+    <p class="topinfo">{{ t('message.hometxt') }}</p>
     <!-- 検索窓の追加 -->
     <v-row>
       <v-col cols="9" style="max-width:600px;">
@@ -69,23 +69,36 @@
     <v-data-table
       :headers="headers.map(header => ({ ...header, title: t(header.title) }))"
       :items="filteredArticles"
-      :items-per-page="10"
-      :sort-desc=true
+      :items-per-page="5"
+      :sort-by="[{ key: 'articleId', order: 'desc'}]"
+      :items-per-page-options="[
+        { value: 5, title: '5' },
+        { value: 10, title: '10' },
+        { value: 25, title: '25' },
+        { value: 50, title: '50' },
+        { value: -1, title: 'All' }
+      ]"
       dense
       style="padding:0 0 20px 0;white-space: pre-line;"
       items-per-page-text=""
     >
     <template v-slot:item.title="{ item }">
       <div v-if="display.smAndUp" >
-      <a v-if="item.raw.articleUrl!=''" :href="item.raw.articleUrl" target="_blank" class="title" rel="noopener noreferrer">
-        <v-img v-if="locale=='en'" :src="'thumbnail/'+item.raw.thumbnailUrl" aspect-ratio="1.7" class="thumbnail"></v-img>
-        <v-img v-else :src="'../thumbnail/'+item.raw.thumbnailUrl" aspect-ratio="1.7" class="thumbnail"></v-img>
-      
-      </a>
-      </div>
+        <a v-if="item.raw.articleUrl!=''" :href="item.raw.articleUrl" target="_blank" class="title" rel="noopener noreferrer">
+          <v-img v-if="locale=='en'" :src="'thumbnail/'+item.raw.thumbnailUrl" aspect-ratio="1.7" class="thumbnail"></v-img>
+          <v-img v-else :src="'../thumbnail/'+item.raw.thumbnailUrl" aspect-ratio="1.7" class="thumbnail"></v-img>
+        
+        </a>
+
+        <a v-else-if="item.raw.thumbnailUrl!=''" href="">
+          <v-img v-if="locale=='en'" :src="'thumbnail/'+item.raw.thumbnailUrl" aspect-ratio="1.7" class="thumbnail"></v-img>
+          <v-img v-else :src="'../thumbnail/'+item.raw.thumbnailUrl" aspect-ratio="1.7" class="thumbnail"></v-img>
+        </a>
+
+    </div>
       
     </template>
-    <template v-slot:item.creationDate="{ item }">
+    <template v-slot:item.articleId="{ item }">
       <div>
         <span class="creationDate">{{ item.raw.creationDate }}</span>
 
@@ -93,7 +106,11 @@
           <a v-if="item.raw.articleUrl!=''" :href="item.raw.articleUrl" target="_blank" class="title" rel="noopener noreferrer">
             <v-img v-if="locale=='en'" :src="'thumbnail/'+item.raw.thumbnailUrl" aspect-ratio="1.7" class="thumbnail"></v-img>
             <v-img v-else :src="'../thumbnail/'+item.raw.thumbnailUrl" aspect-ratio="1.7" class="thumbnail"></v-img>
+          </a>
           
+          <a v-else-if="item.raw.thumbnailUrl!=''" href="">
+            <v-img v-if="locale=='en'" :src="'thumbnail/'+item.raw.thumbnailUrl" aspect-ratio="1.7" class="thumbnail"></v-img>
+            <v-img v-else :src="'../thumbnail/'+item.raw.thumbnailUrl" aspect-ratio="1.7" class="thumbnail"></v-img>
           </a>
         </div>
 
@@ -122,9 +139,9 @@
     </template>
     <template v-slot:item.author="{ item }">
       <div class="d-flex flex-column align-center" v-if="display.smAndUp">
-          <v-avatar  style="cursor: pointer;" size="30" @click="() => handleAuthorClick(item.raw.author.name)"> <!-- サイズを小さくする -->
-            <v-img v-if="locale=='en'" :src="'icon/'+item.raw.author.twitterIcon"></v-img>
-            <v-img v-else="locale=='en'" :src="'../icon/'+item.raw.author.twitterIcon"></v-img>
+          <v-avatar  style="cursor: pointer;" size="40" @click="() => handleAuthorClick(item.raw.author.name)"> <!-- サイズを小さくする -->
+            <v-img v-if="locale=='en'" :src="'icon/'+item.raw.author.icon"></v-img>
+            <v-img v-else="locale=='en'" :src="'../icon/'+item.raw.author.icon"></v-img>
           </v-avatar>
           <!--span class="authorname"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 16 16"><path fill="currentColor" d="M9.294 6.928L14.357 1h-1.2L8.762 6.147L5.25 1H1.2l5.31 7.784L1.2 15h1.2l4.642-5.436L10.751 15h4.05L9.294 6.928ZM7.651 8.852l-.538-.775L2.832 1.91h1.843l3.454 4.977l.538.775l4.491 6.47h-1.843l-3.664-5.28Z"/></svg>{{ item.raw.author.name }}</span-->
           <span class="authorname" @click="() => handleAuthorClick(item.raw.author.name)">{{ item.raw.author.name }}
@@ -172,6 +189,7 @@ interface Article {
   categories: string ;
   tags: string ;
   creationDate: string ;
+  articleId: number;
 }
 
 const headers: ReadonlyHeaders = [
@@ -184,10 +202,10 @@ const headers: ReadonlyHeaders = [
   width: '15%' as unknown as number
   },{
   title: 'summary',
-  key: 'creationDate',
+  key: 'articleId',
   align: 'start',
   sortable: true,
-  value: 'creationDate',
+  value: 'articleId',
   //width: '70%' as unknown as number
 },
 
@@ -311,10 +329,8 @@ h1{
 }
 
 .thumbnail {
-  min-width: 60px;
-  max-width: 120px;
   margin:2px;
-  height: 90px;
+  height: 160px;
 }
 
 
@@ -348,6 +364,10 @@ h1{
 
 }
 
+.topinfo{
+  margin: 5px 0;
+  font-size: 0.8em ;
+}
 
 
 </style>
