@@ -32,6 +32,11 @@ const messages = {
       about: 'About',
       calendar: 'Calendar',
       hometxt: 'This site is for searching articles of Houdini Advent Calendar.',
+      searchconfig:{
+        tags: 'Tags',
+        summary: 'Summary',
+        author: 'Author'
+      },
       calendartxt: 'What is an advent calendar?',
       abouttxt: 'What is the advent calendar?',
       history: [
@@ -69,7 +74,7 @@ const messages = {
     },
     search: "Search",
     thumbnail: "",
-    summary: "Summary",
+    summary: "",
     author: ""
   
   },
@@ -78,7 +83,12 @@ const messages = {
       home: '記事検索',
       about: '概要',
       calendar: 'カレンダー',
-      hometxt: 'このサイトは、Houdini Advent Calendarの記事を検索するためのサイトです。',
+      hometxt: 'Houdini Advent Calendarの記事を検索するためのサイトです。',
+      searchconfig:{
+        tags: 'タグ',
+        summary: '概要',
+        author: '著者'
+      },
       calendartxt: 'アドベントカレンダーとは？',
       abouttxt: 'アドベントカレンダーとは？',
       history: [
@@ -115,7 +125,7 @@ const messages = {
     },
     search: "検索",
     thumbnail: "",
-    summary: "概要",
+    summary: "",
     author: ""
 
   }/*,
