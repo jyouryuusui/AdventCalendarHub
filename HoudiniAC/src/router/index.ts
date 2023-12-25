@@ -2,7 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../components/Home.vue'
 import About from '../components/About.vue';
 import Calendar from '../components/Calendar.vue';
-
+import store from '../store';  // Vuex ストアをインポート
 
 const baseRoutes: Array<RouteRecordRaw> = [
   {
@@ -46,6 +46,13 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   const redirectPath = sessionStorage.redirect;
   delete sessionStorage.redirect;
+
+  const languageCode = to.path.split('/')[1];
+  if (supportedLanguages.includes(languageCode)) {
+    store.commit('setLanguage', languageCode);
+  } else {
+    store.commit('setLanguage', 'en');
+  }
 
   if (redirectPath && to.fullPath !== redirectPath) {
     next(redirectPath);

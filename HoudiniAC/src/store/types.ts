@@ -39,4 +39,5 @@ export interface Article {
     articles: Article[];
     config: Config;
     user: any | null;  // Firebase ユーザー情報または null
+    language: string;
   }
