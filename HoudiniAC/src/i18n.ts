@@ -33,7 +33,7 @@ const messages = {
       calendar: 'Calendar',
       hometxt: 'This site is for searching articles of Houdini Advent Calendar.',
       calendartxt: 'What is an advent calendar?',
-      abouttxt: 'What is an advent calendar?',
+      abouttxt: 'What is the advent calendar?',
       history: [
         'The advent calendar in the Japanese technical community comes from the traditional calendar that counts down the days until Christmas. In this calendar, the days until Christmas are counted by opening one calendar window each day. In Japan, this tradition has evolved in its own way into a culture of publishing an article or blog post every day from December 1 to 25, especially in the technical community. This culture is developed through web services such as Qiita Advent Calendar and Adventar.' ,
         'This custom was reportedly started by the Perl community in 2000 and began spreading in Japan around 2008. In the Japanese technical community, this culture spread through X (Twitter) and spread to various technical fields.' ,

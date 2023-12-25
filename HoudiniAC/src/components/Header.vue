@@ -69,6 +69,14 @@
       </v-list-item>
 
 
+      <v-list-item v-if="display.smAndDown&&locale!='en'" @click="changeLanguage('en')">
+        <v-list-item-title>{{languageOptions[0].name}}</v-list-item-title>
+      </v-list-item>
+
+      <v-list-item v-if="display.smAndDown&&locale!='ja'" @click="changeLanguage('ja')">
+        <v-list-item-title>{{languageOptions[1].name}}</v-list-item-title> 
+      </v-list-item>
+
     </v-list>
     </v-navigation-drawer>
 </template>
@@ -148,13 +156,7 @@ const goHome = () => {
 };
 
 function navigateToOption(optionTitle: string) {
-  // ここで optionTitle に基づいたナビゲーション処理を行います
-  // 例えば、タイトルに応じた URL にリダイレクトする等
-  // console.log("Navigating to option: " + optionTitle);
-  // router.push({ name: 'OptionPage', params: { option: optionTitle } });
-  // homeUrl にナビゲートし、検索クエリに optionTitle を追加
   router.push({ path: homeUrl.value, query: { search: optionTitle } });
 }
-
 
 </script>

@@ -241,7 +241,7 @@ const loadArticles = async () => {
 };
 
 // 検索関連の処理
-const itemsPerPage = 10;
+const itemsPerPage = 5;
 const isFooterHidden = computed(() => {
   return filteredArticles.value.length <= itemsPerPage;
 });

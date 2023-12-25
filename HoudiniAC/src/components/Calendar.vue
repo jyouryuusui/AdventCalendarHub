@@ -1,8 +1,7 @@
 <template>
   <v-container>
-    <h1>Calendar</h1>
-    <a href="/">launch about</a>
-    <p>{{ t('message.calendar') }}</p>
+    <h1>{{ t('message.calendar') }}</h1>
+    <p>{{ t('message.calendartxt') }}</p>
   </v-container>
 </template>
 
