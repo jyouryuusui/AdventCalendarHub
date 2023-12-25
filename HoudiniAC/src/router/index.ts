@@ -5,10 +5,10 @@ import Calendar from '../components/Calendar.vue';
 
 
 const baseRoutes: Array<RouteRecordRaw> = [
-  //{
-  //  path: '/',
-  //  redirect: '/home'  // リダイレクトを追加
-  //},
+  {
+    path: '/',
+    redirect: '/home'  // リダイレクトを追加
+  },
   {
     path: '/home',  // ホームコンポーネントのパスを変更
     component: Home
