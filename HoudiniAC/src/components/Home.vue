@@ -165,7 +165,7 @@
 
         <div class="my-2">
           
-          <v-avatar  style="cursor: pointer;margin-right: 4px;margin-top:-1px;" size="18">
+          <v-avatar  style="cursor: pointer;margin-right: 4px;" size="18">
           <v-img v-if="locale=='en'" :src="'icon/'+item.raw.author.icon"></v-img>
           <v-img v-else="locale=='en'" :src="'../icon/'+item.raw.author.icon"></v-img>
         </v-avatar>
