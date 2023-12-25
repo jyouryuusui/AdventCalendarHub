@@ -43,4 +43,15 @@ const router = createRouter({
   routes
 })
 
+router.beforeEach((to, from, next) => {
+  const redirectPath = sessionStorage.redirect;
+  delete sessionStorage.redirect;
+  if (redirectPath && to.path === '/') {
+    next(redirectPath);
+  } else {
+    next();
+  }
+});
+
+
 export default router;
