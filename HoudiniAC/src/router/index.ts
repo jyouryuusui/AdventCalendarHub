@@ -50,7 +50,7 @@ router.beforeEach((to, from, next) => {
   // '/' へのアクセスかどうかではなく、redirectPathが存在するかどうかで判断
   if (redirectPath) {
     // ベースパスを考慮した完全なパスに修正
-    const fullPath = `/AdventCalendarHub${redirectPath}`;
+    const fullPath = `/AdventCalendarHub/${redirectPath}`;
     next(fullPath);
   } else {
     next();
