@@ -2,10 +2,19 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Redirecting to index.html</title>
+  <title>Redirecting...</title>
   <script>
-    sessionStorage.redirect = location.href;
-    location.href = '/AdventCalendarHub/';
+    // リポジトリのベースパス
+    const basePath = '/AdventCalendarHub/';
+
+    // 現在のURLからサブパスを取得（リポジトリ名以降）
+    const subPath = location.pathname.replace(basePath, '');
+
+    // sessionStorageにリダイレクト先のサブパスを保存
+    sessionStorage.redirect = subPath || '/';
+
+    // ベースURLにリダイレクト
+    location.href = location.origin + basePath;
   </script>
 </head>
 <body>
