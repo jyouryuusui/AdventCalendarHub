@@ -47,13 +47,13 @@ router.beforeEach((to, from, next) => {
   const redirectPath = sessionStorage.redirect;
   delete sessionStorage.redirect;
 
-  // リダイレクトパスが存在し、現在のフルパスと異なる場合にのみリダイレクト
   if (redirectPath && to.fullPath !== redirectPath) {
     next(redirectPath);
   } else {
     next();
   }
 });
+
 
 
 
