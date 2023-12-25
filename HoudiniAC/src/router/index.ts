@@ -6,6 +6,10 @@ import Calendar from '../components/Calendar.vue';
 const baseRoutes: Array<RouteRecordRaw> = [
   {
     path: '/',
+    redirect: '/home'  // リダイレクトを追加
+  },
+  {
+    path: '/home',  // ホームコンポーネントのパスを変更
     component: Home
   },
   {
@@ -18,10 +22,8 @@ const baseRoutes: Array<RouteRecordRaw> = [
   }
 ]
 
-const supportedLanguages = ['ja']; // ここにサポートする言語コードを追加
-
-//const supportedLanguages = ['ja', 'fr']; // ここにサポートする言語コードを追加
-
+// 以下の部分はそのままでOK
+const supportedLanguages = ['ja'];
 const localizedRoutes = supportedLanguages.flatMap(lang => {
   return baseRoutes.map(route => ({
     ...route,
@@ -34,13 +36,9 @@ const routes: Array<RouteRecordRaw> = [
   ...localizedRoutes
 ];
 
-
-
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory('/AdventCalendarHub/'), // GitHub PagesのベースURLを設定
   routes
 })
 
-
-
-export default router
+export default router;

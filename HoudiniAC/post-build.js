@@ -9,7 +9,6 @@ function postBuild() {
       console.error('Error copying files', err);
     } else {
         console.log('Files copied successfully');
-
     }
   });
 }
