@@ -4,16 +4,19 @@
   <meta charset="utf-8">
   <title>Redirecting...</title>
   <script>
-    // リポジトリのベースパス
+    // GitHub Pagesのリポジトリベースパス
     const basePath = '/AdventCalendarHub/';
 
-    // 現在のURLからリポジトリ名を取り除いたパスを取得
-    const pathAfterBase = location.pathname.split(basePath)[1] || '';
+    // ベースパスを除いた現在のパスを取得
+    let pathAfterBase = location.pathname;
+    if (pathAfterBase.startsWith(basePath)) {
+      pathAfterBase = pathAfterBase.substr(basePath.length);
+    }
 
-    // sessionStorageにリダイレクト先のパスを保存
-    sessionStorage.redirect = '/' + pathAfterBase;
+    // ベースパスを除いたパスをsessionStorageに保存
+    sessionStorage.redirect = pathAfterBase || '/';
 
-    // ルートURL（ベースURL）にリダイレクト
+    // リポジトリのルートにリダイレクト
     location.href = location.origin + basePath;
   </script>
 </head>
