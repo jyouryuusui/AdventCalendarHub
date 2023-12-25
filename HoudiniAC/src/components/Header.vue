@@ -121,7 +121,7 @@ const generateUrl = (path: string): string => {
   return `${prefix}${path}`;
 };
 
-const homeUrl = computed(() => generateUrl('/'));
+const homeUrl = computed(() => generateUrl('/home'));
 const aboutUrl = computed(() => generateUrl('/about'));
 const calendarUrl = computed(() => generateUrl('/calendar'));
 
