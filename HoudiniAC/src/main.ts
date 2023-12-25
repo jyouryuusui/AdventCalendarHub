@@ -6,17 +6,24 @@ import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
 import i18n from './i18n';
 
+import VCalendar from 'v-calendar';
+
+
+import {initializeApp} from 'firebase/app';
+//import {getAnalytics} from "firebase/analytics";
+
+import firebaseConfig from './firebaseConfig';
+
 loadFonts()
 
 const app = createApp(App)
 
-type LanguageCode = 'en' | 'ja' | 'fr' ; // 利用可能な言語コードを列挙
+type LanguageCode = 'en' | 'ja' ; // 利用可能な言語コードを列挙
 
 // 言語オプションとURLプレフィックスのマッピング
 const languageToPath: Record<LanguageCode, string> = {
   en: '',
-  ja: '/ja',
-  fr: '/fr'
+  ja: '/ja'
   // 他の言語を追加
 };
 
@@ -32,12 +39,15 @@ router.beforeEach((to, from, next) => {
   next();
 });
 
+const firebaseApp = initializeApp(firebaseConfig);
+//const analytics = getAnalytics(firebaseApp);
 
 app
-  .use(router)
   .use(store)
   .use(vuetify)
+  .use(router)
   .use(i18n)
+  .use(VCalendar) 
   .mount('#app')
 
 

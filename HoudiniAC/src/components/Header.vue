@@ -2,9 +2,9 @@
     <v-app-bar app color="black" dark>
       <!-- Advent Calendar  -->
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title @click="goHome" style="cursor: pointer;">Houdini Advent Calendar Hub</v-toolbar-title>
+      <v-toolbar-title @click="goHome" style="cursor: pointer; min-width: fit-content;">Houdini Advent Calendar Hub</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-tabs v-show="display.mdAndUp">
+      <v-tabs v-if="display.mdAndUp">
         <v-tab :to="homeUrl">{{ t('message.home') }}</v-tab>
         <v-tab :to="calendarUrl">{{ t('message.calendar') }}</v-tab>
         <v-tab :to="aboutUrl">{{ t('message.about') }}</v-tab>
@@ -32,17 +32,17 @@
     <v-navigation-drawer v-model="drawer" app>
       <v-list>
       <!-- モバイル用のタブをここに配置 -->
-      <v-list-item v-if="display.smAndDown" :to="homeUrl">
+      <v-list-item v-if="!display.mdAndUp" :to="homeUrl">
         <v-list-item-title>{{ t('message.home') }}</v-list-item-title>
       </v-list-item>
-      <v-list-item v-if="display.smAndDown" :to="calendarUrl">
+      <v-list-item v-if="!display.mdAndUp" :to="calendarUrl">
         <v-list-item-title>{{ t('message.calendar') }}</v-list-item-title>
       </v-list-item>
-      <v-list-item v-if="display.smAndDown" :to="aboutUrl">
+      <v-list-item v-if="!display.mdAndUp" :to="aboutUrl">
         <v-list-item-title>{{ t('message.about') }}</v-list-item-title>
       </v-list-item>
 
-      <!-- PC用の追加オプション -->
+      <!-- AdventCalendarLog -->
       <v-list-item  @click="navigateToOption('2023')">
         <v-list-item-title>2023</v-list-item-title>
       </v-list-item>
@@ -69,11 +69,11 @@
       </v-list-item>
 
 
-      <v-list-item v-if="display.smAndDown&&locale!='en'" @click="changeLanguage('en')">
+      <v-list-item v-if="!display.mdAndUp&&locale!='en'" @click="changeLanguage('en')">
         <v-list-item-title>{{languageOptions[0].name}}</v-list-item-title>
       </v-list-item>
 
-      <v-list-item v-if="display.smAndDown&&locale!='ja'" @click="changeLanguage('ja')">
+      <v-list-item v-if="!display.mdAndUp&&locale!='ja'" @click="changeLanguage('ja')">
         <v-list-item-title>{{languageOptions[1].name}}</v-list-item-title> 
       </v-list-item>
 
@@ -160,3 +160,7 @@ function navigateToOption(optionTitle: string) {
 }
 
 </script>
+<style>
+
+
+</style>

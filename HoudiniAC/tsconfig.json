@@ -27,10 +27,12 @@
       "scripthost"
     ]
   },
+  "types": ["vue"],
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
+    "src/**/*.d.ts",
     "tests/**/*.ts",
     "tests/**/*.tsx"
   ],

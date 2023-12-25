@@ -41,8 +41,34 @@ const messages = {
         'The advent calendar is also used as a means of learning and output, and especially for young engineers, it is an opportunity to share their knowledge and experience and contribute to the community. It is also a very attractive event for readers, as they can gain new information on topics of interest to them.'
       ],
     },
+    dialog:{
+      dialogtitle: "Register Aricle Link",
+      author: "Author",
+      title: "Article Title",
+      url: "Article URL",
+      summary: "Summary",
+
+      close: "Close",
+      register: "Register",
+
+      edit: "Edit",
+      cancel: "Cancel",
+      update: "Update",
+      delete: "Delete",
+      
+      launch: "Link Button",
+      login: "Login",
+      logout: "Logout",
+      message: "Sign in with your Google account to register and edit link to article",
+      whoMessage: "Editable : ",
+      loginMessage: "Login : ",
+      deleteTitle: "Confirmation of deletion",
+      deleteMessage: "Are you sure you want to delete this article link?",
+
+      
+    },
     search: "Search",
-    title: "",
+    thumbnail: "",
     summary: "Summary",
     author: ""
   
@@ -62,8 +88,33 @@ const messages = {
         'アドベントカレンダーは学習やアウトプットの手段としても利用されており、特に若手技術者にとっては、自分の知識や経験を共有し、コミュニティに貢献する機会となっています。また、読者にとっても、興味のあるテーマについての新しい情報を得ることができるため、非常に魅力的なイベントとなっています​​​​。'
       ],
     },
+    dialog:{
+      dialogtitle: "記事のリンクを登録する",
+      author: "ユーザー名",
+      title: "記事タイトル",
+      url: "記事URL",
+      summary: "概要",
+
+      close: "閉じる",
+      register: "登録",
+
+      edit: "編集",
+      cancel: "キャンセル",
+      update: "更新",
+      delete: "削除",
+
+      launch: "リンク先に遷移する",
+      login: "ログイン",
+      logout: "ログアウト",
+      message: "Googleアカウントでログインすると記事へのリンクを登録・編集できます",
+      whoMessage: "編集可能 : ",
+      loginMessage: "ログイン中 : ",
+      deleteTitle: "削除の確認",
+      deleteMessage: "この記事リンクを本当に削除しますか？",
+
+    },
     search: "検索",
-    title: "",
+    thumbnail: "",
     summary: "概要",
     author: ""
 

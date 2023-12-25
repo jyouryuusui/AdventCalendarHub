@@ -15,30 +15,12 @@ const baseRoutes: Array<RouteRecordRaw> = [
   {
     path: '/calendar',
     component: Calendar
-  }/*,
-  {
-    path: '/about2',
-    component: About
-  },
-  {
-    path: '/ja/',
-    component: Home
-  },
-  {
-    path: '/ja/about',
-    component: About
-  },
-  {
-    path: '/fr/',
-    component: Home
-  },
-  {
-    path: '/fr/about',
-    component: About
-  }*/
+  }
 ]
 
-const supportedLanguages = ['ja', 'fr']; // ここにサポートする言語コードを追加
+const supportedLanguages = ['ja']; // ここにサポートする言語コードを追加
+
+//const supportedLanguages = ['ja', 'fr']; // ここにサポートする言語コードを追加
 
 const localizedRoutes = supportedLanguages.flatMap(lang => {
   return baseRoutes.map(route => ({
