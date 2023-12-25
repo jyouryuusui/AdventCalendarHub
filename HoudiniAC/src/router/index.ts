@@ -3,6 +3,7 @@ import Home from '../components/Home.vue'
 import About from '../components/About.vue';
 import Calendar from '../components/Calendar.vue';
 
+
 const baseRoutes: Array<RouteRecordRaw> = [
   {
     path: '/',
@@ -37,7 +38,8 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHistory('/AdventCalendarHub/'), // GitHub PagesのベースURLを設定
+  //history: createWebHistory(process.env.BASE_URL), // GitHub PagesのベースURLを設定
+  history: createWebHistory('/AdventCalendarHub/'),
   routes
 })
 

@@ -38,7 +38,7 @@ const store = createStore<State>({
   actions: {
     async fetchArticles({ commit }) {
       try {
-        const response = await fetch('/articles.json');
+        const response = await fetch('./articles.json');
         const data = await response.json();
         commit('setArticles', data.data);
         commit('setConfig', {title: data.title, tags: data.tags , calendarTags:data.calendarTags});
