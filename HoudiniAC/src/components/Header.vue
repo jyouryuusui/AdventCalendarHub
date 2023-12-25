@@ -77,6 +77,10 @@
         <v-list-item-title>{{languageOptions[1].name}}</v-list-item-title> 
       </v-list-item>
 
+      <v-list-item href="https://github.com/jyouryuusui/AdventCalendarHub" >
+        <v-list-item-title>GitHub</v-list-item-title>
+      </v-list-item>
+
     </v-list>
     </v-navigation-drawer>
 </template>
@@ -151,7 +155,7 @@ function changeLanguage(newLang: string) {
 
 
 const goHome = () => {
-  const homePath = locale.value === 'en' ? '/' : `/${locale.value}/`;
+  const homePath = locale.value === 'en' ? '/home' : `/${locale.value}/home`;
   router.push(homePath);
 };
 
