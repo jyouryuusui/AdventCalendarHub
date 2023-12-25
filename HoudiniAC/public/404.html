@@ -5,16 +5,16 @@
   <title>Redirecting...</title>
   <script>
     // リポジトリのベースパス
-    const basePath = '/AdventCalendarHub/';
+    const basePath = '/AdventCalendarHub';
 
-    // 現在のURLからサブパスを取得（リポジトリ名以降）
-    const subPath = location.pathname.replace(basePath, '');
+    // 現在のURLからサブパスを取得
+    const subPath = location.pathname.replace(new RegExp(`^${basePath}`), '');
 
     // sessionStorageにリダイレクト先のサブパスを保存
     sessionStorage.redirect = subPath || '/';
 
-    // ベースURLにリダイレクト
-    location.href = location.origin + basePath;
+    // ベースURLにリダイレクト（重複を避ける）
+    location.href = location.origin + basePath + '/';
   </script>
 </head>
 <body>
