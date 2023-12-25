@@ -6,7 +6,7 @@ const path = require('path')
 
 // https://vitejs.dev/config/
 export default defineConfig({
- 
+  base: '/AdventCalendarHub/',
   build: {
     outDir: '../docs',
     // 他のビルド設定...
