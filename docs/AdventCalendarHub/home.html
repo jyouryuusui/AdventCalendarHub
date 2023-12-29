@@ -18,7 +18,7 @@
   <title>Houdini Advent Calendar Hub</title>
   <script>
     // リポジトリのベースパス
-    const basePath = '/AdventCalendarHub/index.html';
+    const basePath = '/AdventCalendarHub/';
 
     // 現在のURLからリポジトリ名を取り除いたパスを取得
     const pathAfterBase = location.pathname.split(basePath)[1] || '';
@@ -27,7 +27,7 @@
     sessionStorage.redirect = '/' + pathAfterBase;
 
     // ルートURL（ベースURL）にリダイレクト
-    location.href = location.origin + basePath;
+    location.href = location.origin + basePath + 'index.html';
   </script>
 </head>
 <body>
