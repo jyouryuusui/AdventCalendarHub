@@ -7020,6 +7020,28 @@
             "en": "This article describes the recommended setup for hair grooming modeling using Houdini. The author details each step of hair modeling, including setting up a dedicated styling project, creating a mask to show where hair will grow, using the GroomBear tool, how to style each hair bundle, and using clamps and senning to enhance detail."
         }
     },
+    {
+        "thumbnailUrl": "2023122501.jpg",
+        "creationDate": "2023-12-25",
+        "author": {
+            "name": "@ijiVFX",
+            "icon": "ijiVFX.jpg",
+            "qiitaUrl": "https://qiita.com/ijiVFX",
+            "twitterUrl": "https://twitter.com/ijiVFX"
+        },
+        "title": {
+            "ja": "Houdini Engine For Unreal Engine で遊ぼう",
+            "en": "Play with Houdini Engine For Unreal Engine"
+        },
+        "articleUrl": "https://qiita.com/ijiVFX/items/6380701def92c9290ce4",
+        "categories": "Houdini",
+        "tags": "UnrealEngine HoudiniEngine HDA",
+        "articleId": 2023122501,
+        "summary": {
+            "ja": "この記事は、Houdini Engine for Unreal Engine（HEUE）の利用方法について解説しています。主に、Houdiniの機能をパッケージ化したもの（HDA）がUnreal Engineで動作する仕組み、HEUEのインストール方法、そして実際にHDAを作成してUnreal Engine上で動かす手順が紹介されています。記事では、ジャンプして登る地形の生成などの例を通じて、HEUEの使い方とその可能性が説明されています。",
+            "en": "This article explains how to use Houdini Engine for Unreal Engine (HEUE). It mainly explains how Houdini packaged features (HDA) work with Unreal Engine, how to install HEUE, and how to actually create an HDA and run it on Unreal Engine. The article explains the use of HEUE and its possibilities through examples such as generating terrain that jumps and climbs."
+        }
+    },
     
     
     
@@ -7101,6 +7123,28 @@
         }
     },
     {
+        "thumbnailUrl": "2023120302.jpg",
+        "creationDate": "2023-12-03",
+        "author": {
+            "name": "@godofsuama",
+            "icon": "godofsuama.jpg",
+            "qiitaUrl": "https://qiita.com/godofsuama",
+            "twitterUrl": "https://twitter.com/godofsuama"
+        },
+        "title": {
+            "ja": "Solaris上でRBDをTransform Piecesをする",
+            "en": "Transform Pieces RBD on Solaris"
+        },
+        "articleUrl": "https://godofsuama.hatenablog.com/entry/2023/12/03/advent",
+        "categories": "Houdini",
+        "tags": "SOP Solaris USD TOP RBD",
+        "articleId": 2023120302,
+        "summary": {
+            "ja": "この記事は、HoudiniのSolarisでTransform Piecesを実行する方法について詳細に説明しています。特に、ジオメトリと移動、回転、スケールを別々のUSDファイルとして書き出し、それをSolarisで統合する手法に焦点を当てています。記事では、パスの作成、ジオメトリの書き出し、読み込み、変換の復元などのプロセスが段階的に解説されており、効率的なデータ管理と美しい結果を得る方法を提供しています。",
+            "en": "This article details how to run Transform Pieces in Solaris in Houdini. In particular, it focuses on the technique of exporting geometry, translation, rotation, and scale as separate USD files and integrating them in Solaris. The article describes step-by-step processes for creating paths, exporting geometry, importing, and restoring transformations, providing an efficient way to manage data and achieve beautiful results."
+        }
+    },
+    {
         "thumbnailUrl": "2023120402.jpg",
         "creationDate": "2023-12-04",
         "author": {
@@ -7142,6 +7186,28 @@
         "summary": {
             "ja": "この記事では、Houdiniを使用してゲームエフェクトでよく使われるメッシュの作り方について解説しています。著者は、Sweepノードを用いた基本的な形状の作成、Resampleノードを使用したジオメトリの分割数の調整、そしてVertex Colorの設定方法について詳しく説明しています。これらの技術を利用することで、ゲームエンジン内で透明度に影響を与えるVertex Colorを制作し、よりリアルなエフェクトを作成することが可能になります。",
             "en": "This article explains how to use Houdini to create meshes commonly used in game effects. The author details how to create basic shapes using the Sweep node, adjust the number of geometry divisions using the Resample node, and how to set Vertex Color. Using these techniques, it is possible to create Vertex Color, which affects transparency, within the game engine to create more realistic effects."
+        }
+    },
+    {
+        "thumbnailUrl": "2023120702.jpg",
+        "creationDate": "2023-12-07",
+        "author": {
+            "name": "@Borndigital_Yoshida",
+            "icon": "Borndigital_Yoshida.jpg",
+            "qiitaUrl": "https://qiita.com/Borndigital_Yoshida",
+            "twitterUrl": "https://twitter.com/hiromi_y2022"
+        },
+        "title": {
+            "ja": "Topo Transferを使ってみる",
+            "en": "Try Topo Transfer"
+        },
+        "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/26635935405465",
+        "categories": "Houdini",
+        "tags": "Lumio3D TopoTransfer",
+        "articleId": 2023120702,
+        "summary": {
+            "ja": "この記事は、HoudiniのTopo Transfer機能を使用してスキャンした顔のデータをニュートラルな表情のテンプレートメッシュに変換する方法について説明しています。特に、Lumio3Dの「H3 Face Scanner」を使用して取得した顔データの処理方法、参照ポイントの設置と調整、Topo Transferでのリターゲティング手順が紹介されています。",
+            "en": "This article describes how to use Houdini's Topo Transfer feature to convert scanned facial data into a neutral facial expression template mesh. In particular, it shows how to process facial data acquired using Lumio3D's H3 Face Scanner, how to place and adjust reference points, and the retargeting procedure with Topo Transfer."
         }
     },
     {
@@ -7494,6 +7560,28 @@
         "summary": {
             "ja": "この記事は、Houdiniを使用してVRChat用のアバターの衣装の位置合わせを自動化する手法について紹介しています。具体的には、異なるアバターの体型に合わせて衣装を調整するためのPoint Deform SOPを使ったプロセスと、そのために開発されたHDAの詳細を解説しています。この方法により、異なる体型のアバターに合わせた衣装の調整が容易になります。",
             "en": "This article introduces a method for automating the positioning of avatar costumes for VRChat using Houdini. Specifically, it describes the process of using Point Deform SOPs to adjust costumes for different avatar body shapes and details the HDA developed for this purpose. This method facilitates the adjustment of costumes to fit avatars of different body types."
+        }
+    },
+    {
+        "thumbnailUrl": "2023122502.jpg",
+        "creationDate": "2023-12-25",
+        "author": {
+            "name": "@jyouryuusui",
+            "icon": "jyouryuusui.jpg",
+            "qiitaUrl": "https://qiita.com/jyouryuusui",
+            "twitterUrl": "https://twitter.com/jyouryuusui"
+        },
+        "title": {
+            "ja": "MixamoからOpenPoseに変換する",
+            "en": "Convert from Mixamo to OpenPose"
+        },
+        "articleUrl": "https://qiita.com/jyouryuusui/items/2a26f80fddadd44fa6d2",
+        "categories": "Houdini",
+        "tags": "Mixamo KineFX Rigging ROP",
+        "articleId": 2023122502,
+        "summary": {
+            "ja": "この記事では、Houdiniを使用してMixamoのアニメーションデータをOpenPose形式に変換する方法を紹介しています。具体的には、Mixamoからアニメーションデータをダウンロードし、HoudiniのKineFXを介してリターゲットするプロセスが説明されています。また、リターゲットしたアニメーションを高速に連番静止画としてレンダリングするためのOpenGL ROPの利用方法も解説されています。",
+            "en": "This article shows how to convert Mixamo animation data to OpenPose format using Houdini. Specifically, it describes the process of downloading animation data from Mixamo and retargeting it via Houdini's KineFX. It also explains how to use OpenGL ROP to render the retargeted animation as a fast sequential still image."
         }
     }
   
