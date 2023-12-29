@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta property="og:title" content="Houdini Advent Calendar Hub">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jyouryuusui.github.io/AdventCalendarHub/">
+  <meta property="og:image" content="https://jyouryuusui.github.io/AdventCalendarHub/ogp.jpg">
+  <meta property="og:description" content="Houdini Advent Calendarの記事を検索するためのサイトです。">
+  <meta property="og:site_name" content="Houdini Advent Calendar Hub">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Houdini Advent Calendar Hub">
+  <meta name="twitter:description" content="Houdini Advent Calendarの記事を検索するためのサイトです。">
+  <meta name="twitter:image" content="https://jyouryuusui.github.io/AdventCalendarHub/ogp.jpg">  
+
+
+  <title>Houdini Advent Calendar Hub ...</title>
+  <script>
+    // リポジトリのベースパス
+    const basePath = '/AdventCalendarHub/';
+
+    // 現在のURLからリポジトリ名を取り除いたパスを取得
+    const pathAfterBase = location.pathname.split(basePath)[1] || '';
+
+    // sessionStorageにリダイレクト先のパスを保存
+    sessionStorage.redirect = '/' + pathAfterBase;
+
+    // ルートURL（ベースURL）にリダイレクト
+    location.href = location.origin + basePath;
+  </script>
+</head>
+<body>
+</body>
+</html>
