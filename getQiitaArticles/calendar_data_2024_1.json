@@ -1,0 +1,552 @@
+[
+    {
+        "thumbnailUrl": "2024120101.jpg",
+        "creationDate": "2024-12-01",
+        "author": {
+            "name": "@jyouryuusui",
+            "icon": "jyouryuusui.jpg",
+            "qiitaUrl": "https://qiita.com/jyouryuusui",
+            "twitterUrl": "https://twitter.com/jyouryuusui"
+        },
+        "title": {
+            "ja": "APEX超入門：Houdiniの新しいキャラクターリギング",
+            "en": "APEX Beginner's Guide: New Character Rigging in Houdini"
+        },
+        "articleUrl": "https://qiita.com/jyouryuusui/items/e897a239921f4bf9a6cd",
+        "categories": "Houdini",
+        "tags": "APEX KineFX rigging",
+        "articleId": 2024120101,
+        "summary": {
+            "ja": "この記事では、Houdini 20から導入された新しいキャラクターリギングシステム「APEX」について、その背景と基本的な仕組みを解説しています。従来のKineFXシステムが抱えていた評価の分断や操作の煩雑さといった課題を解決するため、APEXではすべての処理を一つのグラフ内で管理し、SOPのジオメトリにアニメーション関連データを埋め込む新しいアプローチを採用しています。記事では、具体的なFKリギングの例を通じて、APEXの基本的な使い方とその特徴的なデータ構造について、初心者にもわかりやすく説明しています。",
+            "en": "This article explains the background and basic mechanisms of APEX, the new character rigging system introduced in Houdini 20. In order to solve the problems of the conventional KineFX system, such as the divided evaluation and complicated operation, APEX adopts a new approach that manages all processing within a single graph and embeds animation-related data in SOP geometry. The article explains the basic usage of APEX and its unique data structure through a specific FK rigging example in a way that is easy to understand even for beginners."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120201.jpg",
+        "creationDate": "2024-12-02",
+        "author": {
+            "name": "@PontaYamazato",
+            "icon": "PontaYamazato.jpg",
+            "qiitaUrl": "https://qiita.com/PontaYamazato",
+            "twitterUrl": "https://twitter.com/PontaYamazato"
+        },
+        "title": {
+            "ja": "Karmaを使って気付いたこと",
+            "en": "Things I Noticed While Using Karma"
+        },
+        "articleUrl": "https://note.com/pontayamazato/n/n643d25d9fd63",
+        "categories": "Houdini",
+        "tags": "Mantra Karma",
+        "articleId": 2024120201,
+        "summary": {
+            "ja": "この記事では、Houdiniのレンダラー「Karma」を実際に使用して気付いた問題点や特徴について報告しています。従来のMantraと比較しながら、Karmaの仕上がりの風合いの違い、レンダリング速度の不安定さ、各種機能の制限などを具体的に指摘しています。特に深刻な問題として、ドット抜けの発生とジオメトリの破綻を挙げており、これらの致命的な問題により、著者は現在もMantraを使用し続けていることを述べています。また、SideFXのMantra廃止方針に対して、USDに対応したMantraの開発を要望しています。",
+            "en": "In this article, we report on the problems and features we noticed when actually using Houdini's Karma renderer. Comparing it with the previous Mantra, the article specifically points out the differences in the texture of the finished product, the instability of the rendering speed, and the limitations of various functions. In particular, it mentions the occurrence of dot defects and geometry failures as serious problems, and states that the author continues to use Mantra today due to these critical issues. In addition, it requests the development of Mantra compatible with USD in response to SideFX's policy of discontinuing Mantra."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120301.jpg",
+        "creationDate": "2024-12-03",
+        "author": {
+            "name": "@ijiVFX",
+            "icon": "ijiVFX.jpg",
+            "qiitaUrl": "https://qiita.com/ijiVFX",
+            "twitterUrl": "https://twitter.com/ijiVFX"
+        },
+        "title": {
+            "ja": "へ～、Pythonの中からSOPが呼べるんですね～",
+            "en": "Oh, You Can Call SOPs from Within Python!"
+        },
+        "articleUrl": "https://qiita.com/ijiVFX/items/e726237f7e2043fd59d3",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2024120301,
+        "summary": {
+            "ja": "この記事では、HoudiniのPythonSOPの新たな機能と活用方法について解説しています。特に、SOPのVerb機能を使うことで、実際のSOPノードを作成せずにPythonコード内でSOPの機能を実行できることを紹介しています。具体例として、CSVファイルからモデルリストを読み込み、それらをパック化して点群に割り当てる実践的な実装方法を示しており、PythonSOPが外部ファイルとの連携に適していることを説明しています。",
+            "en": "This article explains the new functions and usage of PythonSOP in Houdini. In particular, it introduces how the SOP Verb function can be used to execute SOP functions within Python code without actually creating SOP nodes. As a specific example, it shows a practical implementation method for reading a list of models from a CSV file, packing them, and assigning them to point clouds, and explains how PythonSOP is suitable for working with external files."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120401.jpg",
+        "creationDate": "2024-12-04",
+        "author": {
+            "name": "@70_cg_art",
+            "icon": "70_cg_art.jpg",
+            "qiitaUrl": "https://qiita.com/70_cg_art",
+            "twitterUrl": "https://twitter.com/70_cg_art"
+        },
+        "title": {
+            "ja": "Houdiniで作ったデータをUEにインポートする",
+            "en": "Importing Houdini Data into UE"
+        },
+        "articleUrl": "https://qiita.com/70_cg_art/items/da9147ac94bc173dd71b",
+        "categories": "Houdini",
+        "tags": "UnrealEngine FBX Alembic OpenVDB USD",
+        "articleId": 2024120401,
+        "summary": {
+            "ja": "この記事では、Houdiniで作成したデータをUnreal Engine（UE）にインポートする際の様々なファイル形式とその手順について解説しています。具体的に、FBX、Alembic、Wavefront OBJ、OpenVDB、USDの5つのフォーマットについて、Houdiniからの出力方法とUEへのインポート方法を詳しく説明しています。特にFBXでは単位の違い（HoudiniはメートルでUEはセンチメートル）やNormalアトリビュートの設定など、実践的な注意点も含めて紹介しています。",
+            "en": "This article explains the various file formats and procedures for importing data created in Houdini into Unreal Engine (UE). Specifically, we explain in detail how to output from Houdini and import into UE for the five formats of FBX, Alembic, Wavefront OBJ, OpenVDB, and USD. In particular, we also introduce practical points to note for FBX, such as the difference in units (Houdini uses meters, UE uses centimeters) and setting the Normal attribute."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120501.jpg",
+        "creationDate": "2024-12-05",
+        "author": {
+            "name": "@takavfx",
+            "icon": "takavfx.jpg",
+            "qiitaUrl": "https://qiita.com/takavfx",
+            "twitterUrl": "https://twitter.com/takavfx"
+        },
+        "title": {
+            "ja": "ネットで見つけた HDA や Python プラグインの不具合の直し方: ae_SVG 編",
+            "en": "How to Fix Issues with Online HDAs and Python Plugins: ae_SVG Edition"
+        },
+        "articleUrl": "https://qiita.com/takavfx/items/365edf51a8684266f99f",
+        "categories": "Houdini",
+        "tags": "SOP Python Recommend",
+        "articleId": 2024120501,
+        "summary": {
+            "ja": "この記事では、Houdiniのプラグインやツールで発生する不具合の修正方法について、具体的な事例を通じて解説しています。ae_SVGというSVGファイルを扱うHDAプラグインを題材に、エラーの読み方、環境設定の方法、問題の切り分け、そして解決までのステップを詳しく説明しています。特に、Pythonモジュールのインポートエラーやライブラリの互換性の問題に焦点を当て、実践的なトラブルシューティングの手順を示しています。",
+            "en": "This article explains how to fix problems that occur with Houdini plugins and tools, using specific examples. Using the HDA plugin that handles SVG files called ae_SVG as a subject, it explains in detail how to read errors, how to set up the environment, how to isolate the problem, and the steps to take to resolve it. In particular, it focuses on Python module import errors and library compatibility issues, and shows practical troubleshooting procedures."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120601.jpg",
+        "creationDate": "2024-12-06",
+        "author": {
+            "name": "@yu_kita",
+            "icon": "yu_kita.jpg",
+            "qiitaUrl": "https://qiita.com/yu_kita",
+            "twitterUrl": "https://twitter.com/yu_kita"
+        },
+        "title": {
+            "ja": "Multiparmのあれこれ [移動、コピー、複製、リファレンス]",
+            "en": "Multiparm's this and that [move, copy, duplicate, reference]"
+        },
+        "articleUrl": "https://qiita.com/yu_kita/items/0288dada86cf0361a70c",
+        "categories": "Houdini",
+        "tags": "HOM Python",
+        "articleId": 2024120601,
+        "summary": {
+            "ja": "この記事では、Houdini 20.5で追加された新しいHOM（Houdini Object Model）関数を使用して、Multiparmブロックの拡張機能の実装方法について解説しています。具体的に、Multiparmの移動、入れ替え、コピー、複製などの機能をPythonとQtを組み合わせて実装する方法を、実践的なコード例とともに説明しています。特に、QMenuを使用したカスタムメニューの作成方法や、新しく追加されたmultiParmInstancesAsData関数の活用方法について詳しく紹介しています。",
+            "en": "This article explains how to implement the extended functions of the Multiparm block using the new HOM (Houdini Object Model) functions added in Houdini 20.5. Specifically, it explains how to implement functions such as moving, swapping, copying and duplicating multiparms using a combination of Python and Qt, with practical code examples. In particular, it introduces in detail how to create custom menus using QMenu and how to make use of the newly added multiParmInstancesAsData function."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120701.jpg",
+        "creationDate": "2024-12-07",
+        "author": {
+            "name": "@tsuka0245",
+            "icon": "tsuka0245.jpg",
+            "qiitaUrl": "https://qiita.com/tsuka0245",
+            "twitterUrl": "https://twitter.com/tsuka0245"
+        },
+        "title": {
+            "ja": "HoudiniでLUT(.cube)ファイルを作る",
+            "en": "Creating a LUT (.cube) file in Houdini"
+        },
+        "articleUrl": "https://qiita.com/tsuka0245/items/5f757720058853cb0996",
+        "categories": "Houdini",
+        "tags": "Python LUT DaVinciResolve",
+        "articleId": 2024120701,
+        "summary": {
+            "ja": "この記事では、HoudiniでLUT（Look Up Table）の.cubeファイルを作成する方法について解説しています。特に3DLUTの作成に焦点を当て、Houdiniの3D空間操作機能を活用して、従来のカラーグレーディングツールでは難しい色調整を可能にする手法を紹介しています。具体的には、格子点の生成から座標の変形、Pythonを使用した.cubeファイルの書き出しまでの手順を説明し、作成したLUTをFusionで実際に適用して検証しています。ただし、リアルタイムでの色確認ができないなどの課題も指摘しています。",
+            "en": "This article explains how to create LUT (Look Up Table) .cube files in Houdini. With a particular focus on creating 3DLUTs, this article introduces a method that makes use of Houdini's 3D space manipulation functions to enable color adjustments that are difficult to achieve with conventional color grading tools. Specifically, it explains the steps from generating grid points to transforming coordinates and exporting .cube files using Python, and then actually applies and verifies the created LUTs in Fusion. However, it also points out issues such as the inability to check colors in real time."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120801.jpg",
+        "creationDate": "2024-12-08",
+        "author": {
+            "name": "@amateras",
+            "icon": "amateras.jpg",
+            "qiitaUrl": "https://qiita.com/amateras",
+            "twitterUrl": "https://twitter.com/amateras"
+        },
+        "title": {
+            "ja": "packageファイルを使って自前環境を整えよう！",
+            "en": "Let's set up our own environment using the package file!"
+        },
+        "articleUrl": "https://qiita.com/amateras/items/f9927d9fc6a7bcf8eaa2",
+        "categories": "Houdini",
+        "tags": "Python XML JSON",
+        "articleId": 2024120801,
+        "summary": {
+            "ja": "この記事では、Houdiniのpackage機能を活用して環境設定やツールを効率的に管理する方法について解説しています。具体的に、カスタムパッケージの作成方法から、自作HDA、デスクトップレイアウト、Pythonスクリプト、フォント設定などの管理方法を詳しく説明しています。また、VEXプリセット、エクスプレッション、メニューのカスタマイズなど、様々な設定ファイルの活用方法も紹介し、プロジェクトごとの環境管理を効率化する手法を提案しています。",
+            "en": "This article explains how to efficiently manage environment settings and tools using Houdini's package function. Specifically, it explains in detail how to create custom packages, and how to manage your own HDAs, desktop layouts, Python scripts, font settings, etc. It also introduces how to make use of various setting files, such as VEX presets, expressions, and menu customizations, and proposes methods for efficiently managing the environment for each project."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120901.jpg",
+        "creationDate": "2024-12-09",
+        "author": {
+            "name": "@takavfx",
+            "icon": "takavfx.jpg",
+            "qiitaUrl": "https://qiita.com/takavfx",
+            "twitterUrl": "https://twitter.com/takavfx"
+        },
+        "title": {
+            "ja": "SOP Volume Center Points をビルドして遊んでみる",
+            "en": "Let's build and play with SOP Volume Center Points!"
+        },
+        "articleUrl": "https://qiita.com/takavfx/items/5156df4248c386ae5166",
+        "categories": "Houdini",
+        "tags": "CMake HDK SOP Python",
+        "articleId": 2024120901,
+        "summary": {
+            "ja": "この記事では、Houdiniのカスタムノード「SOP Volume Center Points」のビルドと実装について解説しています。特に、Premake5からCMakeへの移行方法に焦点を当て、CMakeListsの作成方法とビルド手順を詳しく説明しています。また、完成したノードの機能を既存のPoint from Volumeと比較し、同様の機能が実現できることを示しながら、このような実装プロセスを通じた学習の意義についても言及しています。",
+            "en": "This article explains how to build and implement the custom Houdini node “SOP Volume Center Points”. In particular, it focuses on how to migrate from Premake5 to CMake, and explains in detail how to create CMakeLists and the build procedure. It also compares the functionality of the completed node with the existing Point from Volume, and shows that similar functionality can be achieved, while also mentioning the significance of learning through this implementation process."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121001.jpg",
+        "creationDate": "2024-12-10",
+        "author": {
+            "name": "@vxlxv54",
+            "icon": "vxlxv54.jpg",
+            "qiitaUrl": "https://qiita.com/vxlxv54",
+            "twitterUrl": "https://twitter.com/vxlxv54"
+        },
+        "title": {
+            "ja": "自己交差をなんとかしたい...という話",
+            "en": "I want to do something about self-intersection..."
+        },
+        "articleUrl": "https://qiita.com/vxlxv54/items/850c9347b0843cdddbac",
+        "categories": "Houdini",
+        "tags": "SOP Recommend",
+        "articleId": 2024121001,
+        "summary": {
+            "ja": "この記事では、Houdiniでジオメトリやカーブの自己交差を除去する様々な手法について詳細に解説しています。カーブの自己交差に対してはFind Shortest Path SOPを使用する方法と独自のアプローチを、ジオメトリの裏返りに対してはBoolean SOPやPoint Cloud Surface SOPを活用する方法を提案しています。各アプローチの利点や制限事項を具体的な例とともに説明し、トポロジの維持度合いや処理の安定性など、状況に応じた最適な手法の選択基準も示しています。",
+            "en": "This article provides a detailed explanation of the various methods for removing self-intersections of geometry and curves in Houdini. It proposes a method for using the Find Shortest Path SOP and a unique approach for dealing with self-intersections of curves, and a method for utilizing Boolean SOPs and Point Cloud Surface SOPs for geometry inversions. It explains the advantages and limitations of each approach with specific examples, and also provides criteria for selecting the optimal method for each situation, such as the degree of topology preservation and processing stability."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121101.jpg",
+        "creationDate": "2024-12-11",
+        "author": {
+            "name": "@kit2cuz",
+            "icon": "kit2cuz.jpg",
+            "qiitaUrl": "https://qiita.com/kit2cuz",
+            "twitterUrl": "https://twitter.com/kit2cuz"
+        },
+        "title": {
+            "ja": "Copernicusノードからカメラ情報を取得し、カメラ光線を求める",
+            "en": "Obtain camera information from the Copernicus node and calculate the camera ray"
+        },
+        "articleUrl": "https://qiita.com/kit2cuz/items/aea84a93ff1a4ab2f87f",
+        "categories": "Houdini",
+        "tags": "Copernicus COP Python Recommend",
+        "articleId": 2024121101,
+        "summary": {
+            "ja": "この記事では、HoudiniのCopernicusノードを使用してカメラ情報を取得し、カメラ光線を計算する方法について詳しく解説しています。具体的に、Camera Import COPからのカメラ情報の取得方法、PythonエクスプレッションによるカメラパラメータのSpareパラメータへの格納、そしてWrangle COPでのintersect関数を使用したカメラ光線の実装方法を説明しています。また、シーン平面をXY平面に配置した場合の光線計算の調整方法についても詳細に紹介しています。",
+            "en": "This article explains in detail how to use Houdini's Copernicus node to obtain camera information and calculate camera rays. Specifically, it explains how to obtain camera information from the Camera Import COP, how to store camera parameters in Spare parameters using Python expressions, and how to implement camera rays using the intersect function in the Wrangle COP. It also introduces in detail how to adjust ray calculations when the scene plane is placed in the XY plane."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121201.jpg",
+        "creationDate": "2024-12-12",
+        "author": {
+            "name": "@h_kishimoto",
+            "icon": "h_kishimoto.jpg",
+            "qiitaUrl": "https://qiita.com/h_kishimoto",
+            "twitterUrl": "https://twitter.com/h_kishimoto"
+        },
+        "title": {
+            "ja": "Maya/Houdiniで実践的なUSDワークフローを試したい",
+            "en": "I want to try a practical USD workflow using Maya/Houdini."
+        },
+        "articleUrl": "https://zenn.dev/h_kishimoto/articles/f8545dc57feabb",
+        "categories": "Houdini",
+        "tags": "Maya USD AYON",
+        "articleId": 2024121201,
+        "summary": {
+            "ja": "この記事では、オープンソースのパイプラインツール「AYON」を使用したUSDワークフローの実践について解説しています。特に、AYON USD Bookのドキュメントに基づき、Mayaでのアセットワークとhoudiniでのショットワークの具体的な手順を紹介しています。AYONの特徴として、アセットはリファレンス、ショットはサブレイヤーという使い分けや、パブリッシュ時のバリデーション機能、階層構造の管理方法などが説明されています。ただし、ドキュメントにはまだTODO箇所が多く、完全なワークフローの実践には至っていない点も指摘しています。",
+            "en": "This article explains how to use the open-source pipeline tool AYON in a USD workflow. In particular, it introduces the specific procedures for asset work in Maya and shot work in houdini, based on the AYON USD Book documentation. It explains the features of AYON, such as the distinction between assets and shots, with assets being referred to as references and shots as sublayers, the validation function when publishing, and how to manage hierarchical structures. However, it also points out that there are still many TODO items in the documentation, and that it has not yet reached the point of being able to implement a complete workflow."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121301.jpg",
+        "creationDate": "2024-12-13",
+        "author": {
+            "name": "@kickbase",
+            "icon": "kickbase.jpg",
+            "qiitaUrl": "https://qiita.com/kickbase",
+            "twitterUrl": "https://twitter.com/kickbase"
+        },
+        "title": {
+            "ja": "複数のジオメトリをロードするHDAの話をします",
+            "en": "We will talk about HDA, which loads multiple geometries."
+        },
+        "articleUrl": "https://zenn.dev/kickbase/articles/8cb3faabe53b7a",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2024121301,
+        "summary": {
+            "ja": "この記事では、Houdiniで複数のジオメトリを一括でロードするHDAの作成方法について解説しています。特に、再帰的なファイル取得、Packed Primitive形式での読み込み、連番アトリビュートの付与、ジオメトリの再読み込み機能など、実用的な機能の実装方法を詳しく説明しています。実装のポイントとして、PythonSOPでのnodeVerbの活用や、ジオメトリキャッシュの扱いに関する課題とその対処方法についても言及し、ソースコードと共に具体的な実装手順を紹介しています。",
+            "en": "This article explains how to create an HDA that loads multiple geometries in Houdini at once. In particular, it explains in detail how to implement practical functions such as recursive file acquisition, loading in Packed Primitive format, assigning sequential attributes, and the geometry reload function. As implementation points, it also mentions the use of nodeVerb in PythonSOP and the issues involved in handling geometry cache and how to deal with them, and introduces specific implementation procedures along with the source code."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121401.jpg",
+        "creationDate": "2024-12-14",
+        "author": {
+            "name": "@takavfx",
+            "icon": "takavfx.jpg",
+            "qiitaUrl": "https://qiita.com/takavfx",
+            "twitterUrl": "https://twitter.com/takavfx"
+        },
+        "title": {
+            "ja": "NeoVim 環境で C++ & CMake 環境を整えたい… for HDK",
+            "en": "I want to set up a C++ & CMake environment in the NeoVim environment... for HDK"
+        },
+        "articleUrl": "https://qiita.com/takavfx/items/08e8dbe528ac3cfac83c",
+        "categories": "Houdini",
+        "tags": "NeoVim LazyVim HDK CMake",
+        "articleId": 2024121401,
+        "summary": {
+            "ja": "この記事では、NeoVimでHoudini Development Kit（HDK）のC++とCMake環境を構築する際の問題点と解決への試みについて解説しています。LazyVimを使用したCMakeとClangdの設定方法から始まり、特にClangdがCMake環境でのコードリンクを正しく認識しない問題に焦点を当てています。解決策として`compile_commands.json`や`compile_flags.txt`の生成と活用を試みていますが、Visual Studioのジェネレーターでうまくいかない問題や、Ninjaを使用した場合の部分的な改善など、完全な解決には至っていない現状を報告しています。",
+            "en": "This article explains the problems encountered when setting up the C++ and CMake environment for the Houdini Development Kit (HDK) in NeoVim, and attempts to resolve them. Starting with how to set up CMake and Clangd using LazyVim, it focuses on the problem of Clangd not correctly recognizing code linking in the CMake environment. As a solution, we have attempted to generate and utilize `compile_commands.json` and `compile_flags.txt`, but we are reporting that we have not yet reached a complete solution, as there are problems with the Visual Studio generator not working properly, and partial improvements when using Ninja."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121501.jpg",
+        "creationDate": "2024-12-15",
+        "author": {
+            "name": "@fereria",
+            "icon": "fereria.jpg",
+            "qiitaUrl": "https://qiita.com/fereria",
+            "twitterUrl": "https://twitter.com/fereria"
+        },
+        "title": {
+            "ja": "TOPで他ツールと組み合わせてUSDのシーンを構築する",
+            "en": "Combine with other tools to create USD scenes at the top."
+        },
+        "articleUrl": "https://fereria.github.io/reincarnation_tech/houdini/pdg/usd",
+        "categories": "Houdini",
+        "tags": "USD TOP PDG Maya Python Alembic",
+        "articleId": 2024121501,
+        "summary": {
+            "ja": "この記事では、HoudiniのTOPノードを使用して、既存のMayaシーンやAlembicキャッシュからUSDシーンを構築する方法について詳しく解説しています。具体的に、PDGのWorkItem準備から始まり、Mayaからのインスタンス出力、Alembicファイルの取り扱い、そしてそれらを組み合わせた最終的なUSDシーンの構築までの一連のワークフローを説明しています。特に、レイヤーをアスキーで作成することや、要素追加時に中間レイヤーを挿入するなどの実践的なポイントも含めて紹介しています。",
+            "en": "This article explains in detail how to use Houdini's top node to build a USD scene from an existing Maya scene or Alembic cache. Specifically, it explains the workflow from preparing PDG work items, to outputting instances from Maya, to handling Alembic files, and finally building the final USD scene. It also includes practical points such as creating layers in ASCII and inserting intermediate layers when adding elements."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121601.jpg",
+        "creationDate": "2024-12-16",
+        "author": {
+            "name": "@kurosawa",
+            "icon": "kurosawa.jpg",
+            "qiitaUrl": "https://qiita.com/kurosawa",
+            "twitterUrl": "https://twitter.com/kurosawa"
+        },
+        "title": {
+            "ja": "Copernicusで動きの履歴データを作成する",
+            "en": "Creating motion history data with Copernicus"
+        },
+        "articleUrl": "https://note.com/thesaurus/n/naf287dc470b5",
+        "categories": "Houdini",
+        "tags": "UnrealEngine Copernicus COP Vellum",
+        "articleId": 2024121601,
+        "summary": {
+            "ja": "この記事では、HoudiniのCopernicusを使用して流体の動きを圧縮データとして記録し、Unreal Engineで再生する手法について解説しています。具体的に、Vellum Fluidで作成した流体シミュレーションを、COPノードを使って時間的な変化を8bit画像形式に変換し、その後Unreal Engineでデカールマテリアルとして再現する方法を説明しています。また、RGBAチャンネルの活用や16bit画像の使用による記録時間の拡張方法についても紹介しており、データサイズを抑えつつ効果的な流体表現を実現する手法を提案しています。",
+            "en": "This article explains how to use Houdini's Copernicus to record fluid movement as compressed data and then play it back in Unreal Engine. Specifically, it explains how to use the COP node to convert the temporal changes in a fluid simulation created with Vellum Fluid into an 8-bit image format, and then reproduce it as a decal material in Unreal Engine. It also introduces methods for extending recording time by using RGBA channels and 16-bit images, and proposes methods for achieving effective fluid expression while keeping data size down."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121701.jpg",
+        "creationDate": "2024-12-17",
+        "author": {
+            "name": "@towazumi",
+            "icon": "towazumi.jpg",
+            "qiitaUrl": "https://qiita.com/towazumi",
+            "twitterUrl": "https://twitter.com/towazumi"
+        },
+        "title": {
+            "ja": "BlenderからHoudiniのbgeoファイルを出力",
+            "en": "Output Houdini bgeo files from Blender"
+        },
+        "articleUrl": "https://qiita.com/towazumi/items/cf10864ae93bd0ecaf4f",
+        "categories": "Houdini",
+        "tags": "Blender bgeo Python",
+        "articleId": 2024121701,
+        "summary": {
+            "ja": "この記事では、BlenderからHoudiniへbgeoファイル形式でデータを受け渡すためのツールとその仕組みについて解説しています。具体的に、メッシュ、法線、UV、頂点カラー、頂点グループ、マテリアル名、エッジグループ、シェイプキー、Armature、カーブなど、様々なデータがどのようにHoudiniのアトリビュートとして変換されるかを詳しく説明しています。特に、Packed Geometryを活用してBlenderの各オブジェクトを効率的に管理する方法や、座標系の違いへの対応についても言及しています。",
+            "en": "This article explains the tools and mechanisms for transferring data from Blender to Houdini in the bgeo file format. In particular, it explains in detail how various data such as meshes, normals, UVs, vertex colors, vertex groups, material names, edge groups, shape keys, armatures, and curves are converted into Houdini attributes. It also discusses how to efficiently manage each object in Blender using packed geometry and how to deal with differences in coordinate systems."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121801.jpg",
+        "creationDate": "2024-12-18",
+        "author": {
+            "name": "@Kaito_Kachi",
+            "icon": "Kaito_Kachi.jpg",
+            "qiitaUrl": "https://qiita.com/Kaito_Kachi",
+            "twitterUrl": "https://twitter.com/Kaito_Kachi"
+        },
+        "title": {
+            "ja": "HoudiniでRAW現像 Part.1 プラグイン開発編",
+            "en": "Developing RAW images with Houdini Part 1: Plug-in development"
+        },
+        "articleUrl": "https://qiita.com/Kaito_Kachi/items/b90b9cbeb3b60fcb637f",
+        "categories": "Houdini",
+        "tags": "HDK Python CMake Copernicus COP LibRaw",
+        "articleId": 2024121801,
+        "summary": {
+            "ja": "この記事では、Houdiniで独自のRAWファイル読み込みプラグインを開発する方法について詳しく解説しています。具体的に、LibRawライブラリを活用したRAWファイルの読み取り、IMG_FormatとIMG_Fileクラスを継承したプラグインの実装、CMakeを使用したビルド環境の構築など、開発の全工程を説明しています。また、プラグインを使って実際のカメラRAWファイルを読み込み、ベイヤー配列やメタデータの確認までの検証結果も紹介し、Copernicusでの使用時の注意点にも言及しています。",
+            "en": "This article explains in detail how to develop your own RAW file loading plugin in Houdini. Specifically, it explains the entire development process, including reading RAW files using the LibRaw library, implementing a plugin that inherits from the IMG_Format and IMG_File classes, and building a development environment using CMake. It also introduces the results of using the plugin to read actual camera RAW files and check the Bayer array and metadata, and also mentions points to note when using it in Copernicus."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121901.jpg",
+        "creationDate": "2024-12-19",
+        "author": {
+            "name": "@kickbase",
+            "icon": "kickbase.jpg",
+            "qiitaUrl": "https://qiita.com/kickbase",
+            "twitterUrl": "https://twitter.com/kickbase"
+        },
+        "title": {
+            "ja": "フォントプレビュー機能がついたFontSOPを作った話をします",
+            "en": "I'll talk about how I made FontSOP, which has a font preview function."
+        },
+        "articleUrl": "https://zenn.dev/kickbase/articles/a0d541223610a3",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2024121901,
+        "summary": {
+            "ja": "この記事では、Houdiniのプレビュー機能付きFontSOPの開発について詳しく解説しています。ツールは、メニューリストからの手動フォント選択を改善し、プレビュー表示とクリック選択を可能にする機能を実装しています。具体的に、nodeVerbを使用した動的ノード生成、パラメータ制御、Viewer Stateによるビューポート操作など、Pythonを活用した実装方法を説明し、バウンディングボックスを利用したクリック領域の確保など、実践的な開発テクニックも紹介しています。",
+            "en": "This article explains in detail the development of FontSOP with Houdini's preview function. The tool improves manual font selection from the menu list and implements functions that enable preview display and click selection. Specifically, it explains how to implement using Python, such as dynamic node generation using nodeVerb, parameter control, and viewport manipulation using Viewer State, and also introduces practical development techniques, such as securing click areas using bounding boxes."
+        }
+    },
+    {
+        "thumbnailUrl": "2024122001.jpg",
+        "creationDate": "2024-12-20",
+        "author": {
+            "name": "@ichin0se",
+            "icon": "ichin0se.jpg",
+            "qiitaUrl": "https://qiita.com/ichin0se",
+            "twitterUrl": "https://twitter.com/ichin0se"
+        },
+        "title": {
+            "ja": "HDKのマイクロソルバのGasAddサンプルの解説",
+            "en": "Explanation of the GasAdd sample for HDK's MicroSolver"
+        },
+        "articleUrl": "https://qiita.com/ichin0se/items/9f86ba7eca4713902cc5",
+        "categories": "Houdini",
+        "tags": "C++ DOP MicroSolver HDK",
+        "articleId": 2024122001,
+        "summary": {
+            "ja": "この記事では、HoudiniのHDKサンプルとして提供されているGasAdd DOPマイクロソルバの実装について詳細に解説しています。特に、ヘッダファイルとソースファイルの両方を通して、マイクロソルバの基本構造、パラメータの実装、ノードの登録方法、そしてボクセルデータの効率的な処理方法について説明しています。また、UT_VoxelArrayIteratorを使用したタイル単位での処理方法や、マルチスレッド対応の実装など、実践的な開発テクニックも紹介しています。さらに、最後に関連する流体シミュレーション研究の紹介も含まれています。",
+            "en": "This article provides a detailed explanation of the implementation of the GasAdd DOP micro solver, which is provided as an Houdini HDK sample. In particular, it explains the basic structure of the micro-solver, the implementation of parameters, how to register nodes, and how to efficiently process voxel data, through both header files and source files. It also introduces practical development techniques, such as how to process tiles using UT_VoxelArrayIterator and how to implement multi-threading. In addition, it includes an introduction to related fluid simulation research at the end."
+        }
+    },
+    {
+        "thumbnailUrl": "2024122101.jpg",
+        "creationDate": "2024-12-21",
+        "author": {
+            "name": "@godimo_japan",
+            "icon": "godimo_japan.jpg",
+            "qiitaUrl": "https://qiita.com/godimo_japan",
+            "twitterUrl": "https://twitter.com/godimo_japan"
+        },
+        "title": {
+            "ja": "自作キャラクタースキニングツールについて",
+            "en": "About my original character skinning tool"
+        },
+        "articleUrl": "https://note.com/godimo/n/n63b427dbd864",
+        "categories": "Houdini",
+        "tags": "KineFX APEX HDA",
+        "articleId": 2024122101,
+        "summary": {
+            "ja": "この記事では、HoudiniでSOPレベルでのスキニング調整を行うためのカスタムツールの作成方法について詳しく解説しています。特にKineFXでのスキニング後の頂点単位でのウエイト調整や、ポーズを変えながらの調整を可能にする機能の実装方法を、VEXコードやUIの設定を含めて説明しています。また、boneCapture_dataやboneCapture_indexアトリビュートの扱い方、HDA化によるポーズ変更機能の実装など、実践的な開発テクニックも紹介し、キャラクター制作用途でのHoudini活用に向けた提案も行っています。",
+            "en": "This article explains in detail how to create a custom tool for adjusting skinning at the SOP level in Houdini. In particular, it explains how to implement functions that enable weight adjustment on a per-vertex basis after skinning in KineFX, and adjustment while changing poses, including VEX code and UI settings. It also introduces practical development techniques, such as how to handle the boneCapture_data and boneCapture_index attributes, and how to implement the pose change function by HDA, and makes proposals for using Houdini for character production."
+        }
+    },
+    {
+        "thumbnailUrl": "2024122201.jpg",
+        "creationDate": "2024-12-22",
+        "author": {
+            "name": "@procedural_design",
+            "icon": "procedural_design.jpg",
+            "qiitaUrl": "https://qiita.com/procedural_design",
+            "twitterUrl": "https://twitter.com/procedural_design"
+        },
+        "title": {
+            "ja": "Procedural Hard Surface Design With Copernicus",
+            "en": "Procedural Hard Surface Design With Copernicus"
+        },
+        "articleUrl": "https://note.com/proceduraldesign/n/n60c9fcccdee6?sub_rt=share_pb",
+        "categories": "Houdini",
+        "tags": "Copernicus Noise Wrangle Recommend",
+        "articleId": 2024122201,
+        "summary": {
+            "ja": "この記事では、Houdini 20.5のCopernicusを使用したメカニカルなテクスチャ生成について詳しく解説しています。特に、UV展開されたモデルのラスタライズとパディングの問題点とその改善方法、VEXを使用したWorley Noiseの実装、点群生成の手法など、実践的な開発テクニックを紹介しています。また、異なる距離計算方式（ユークリッド、マンハッタン、チェビシェフ）によるWorley Noiseの生成結果の比較や、Test Geometry: Electraを使用した具体的な作例も示し、Copernicusの可能性と現状の制限についても言及しています。",
+            "en": "This article provides a detailed explanation of mechanical texture generation using Copernicus in Houdini 20.5. In particular, it introduces practical development techniques, such as the problems and solutions for rasterizing and padding UV-unwrapped models, implementing Worley Noise using VEX, and point cloud generation methods. It also compares the results of generating Worley Noise using different distance calculation methods (Euclidean, Manhattan, and Chebyshev), and shows specific examples using Test Geometry: Electra, while also mentioning the possibilities and current limitations of Copernicus."
+        }
+    },
+    {
+        "thumbnailUrl": "2024122301.jpg",
+        "creationDate": "2024-12-23",
+        "author": {
+            "name": "@TF_siri",
+            "icon": "TF_siri.jpg",
+            "qiitaUrl": "https://qiita.com/TF_siri",
+            "twitterUrl": "https://twitter.com/TF_siri"
+        },
+        "title": {
+            "ja": "お茶を淹れよう",
+            "en": "Let's make some tea!"
+        },
+        "articleUrl": "https://qiita.com/TF_siri/items/8a77eca9503bf9a0f6d1",
+        "categories": "Houdini",
+        "tags": "SOP DOP Fluid Vellum",
+        "articleId": 2024122301,
+        "summary": {
+            "ja": "この記事では、Houdiniを使用して紅茶を淹れるシーンを作成する過程を詳しく解説しています。具体的に、流体シミュレーション、Vellumを使用したティーパックの布と紐、茶葉の動き、浮力の表現、色の滲み出しなど、複数の要素を組み合わせた高度な実装方法を説明しています。特に、Vellumでの貫通防止のテクニック、AttributeTransfarを使用した液体の混ざり具合の表現、浮力の実装など、実践的なテクニックも紹介し、最終的なレンダリング設定まで網羅的に解説しています。",
+            "en": "This article explains in detail the process of creating a scene of making tea using Houdini. In particular, it explains advanced implementation methods that combine multiple elements, such as fluid simulation, the cloth and string of the tea bag using Vellum, the movement of the tea leaves, the expression of buoyancy, and color bleeding. It also introduces practical techniques, such as the technique for preventing penetration in Vellum, the expression of the mixing of liquids using AttributeTransfar, and the implementation of buoyancy, and comprehensively explains the final rendering settings."
+        }
+    },
+    {
+        "thumbnailUrl": "2024122401.jpg",
+        "creationDate": "2024-12-24",
+        "author": {
+            "name": "@sugiggy",
+            "icon": "sugiggy.jpg",
+            "qiitaUrl": "https://qiita.com/sugiggy",
+            "twitterUrl": "https://twitter.com/sugiggy"
+        },
+        "title": {
+            "ja": "樹木からワイヤーを作る",
+            "en": "Making wire from trees"
+        },
+        "articleUrl": "hhttps://sugi-iggy.blogspot.com/2024/12/blog-post_25.html",
+        "categories": "Houdini",
+        "tags": "SOP Wrangle",
+        "articleId": 2024122401,
+        "summary": {
+            "ja": "この記事では、樹木データからワイヤーフレームを生成する手法について解説しています。Speed Treeなどの樹木生成ソフトで作られた木のデータは、枝や幹が円柱をベースとした一定の頂点番号の並びを持つという特徴があります。この特性を活かし、各枝から1本のエッジを抽出して中心に配置する処理をFor Loopで繰り返すことで、木全体のワイヤーフレームを自動生成できます。ただし、この手法は手動モデリングした木のデータには適用できず、樹木生成ソフト特有の規則的なデータ構造を前提としています。",
+            "en": "This article explains a method for generating wireframes from tree data. Tree data created using tree generation software such as Speed Tree has the characteristic that the branches and trunk have a fixed arrangement of vertex numbers based on a cylinder. By taking advantage of this characteristic, and repeating the process of extracting a single edge from each branch and placing it at the center using a for loop, it is possible to automatically generate the wireframe for the entire tree. However, this method cannot be applied to manually modeled tree data, and it is based on the assumption of a regular data structure specific to tree generation software."
+        }
+    },
+    {
+        "thumbnailUrl": "2024122501.jpg",
+        "creationDate": "2024-12-25",
+        "author": {
+            "name": "@sasaki_0222",
+            "icon": "sasaki_0222.jpg",
+            "qiitaUrl": "https://qiita.com/sasaki_0222",
+            "twitterUrl": "https://twitter.com/sasaki_0222"
+        },
+        "title": {
+            "ja": "ゲームエフェクトでの利用を想定したCopernicus検証備忘録",
+            "en": "Copernicus Testing Notes for Game Effect Implementation"
+        },
+        "articleUrl": "https://qiita.com/sasaki_0222/items/b6f4ac2e7b9f89d8bf9e",
+        "categories": "Houdini",
+        "tags": "Copernicus COP effect",
+        "articleId": 2024122501,
+        "summary": {
+            "ja": "この記事では、Copernicusをゲームエフェクト制作の観点から検証した内容をまとめています。Copernicusは、Houdini本来の特徴である高いデータ可読性やシーンファイルの軽さ、優れた互換性を継承しつつ、3DCGソフトの利点を活かしたテクスチャ作成が可能です。よく使用されるノードとしてFractalnoise、Transform2d、Channel Join、SDF Shapeなどが紹介されており、それぞれの特徴や活用法が解説されています。ただし、現時点でβ版であるため、将来的な仕様変更の可能性があることにも言及されています。",
+            "en": "This article summarizes the results of an examination of Copernicus from the perspective of game effect creation. Copernicus inherits the high data readability, light scene files, and excellent compatibility that are the original features of Houdini, and it is also possible to create textures that make use of the advantages of 3DCG software. The most commonly used nodes, such as Fractalnoise, Transform2d, Channel Join, and SDF Shape, are introduced, and their features and uses are explained. However, as it is currently in beta, it is also mentioned that there is a possibility of future specification changes."
+        }
+    }
+]

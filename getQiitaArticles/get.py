@@ -11,6 +11,7 @@ skipindex2020_1 = [] #Houdini Advent Calendar 2020
 skipindex2021_1 = [] #Houdini Advent Calendar 2021
 skipindex2022_1 = [] #Houdini Advent Calendar 2022
 skipindex2023_1 = [7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25] #Houdini Advent Calendar 2023
+skipindex2024_1 = [] #Houdini Advent Calendar 2024
 
 
 skipindex2018_2 = [1,8,13,17,19,20,23] #Houdini Apprentice Advent Calendar 2018
@@ -19,16 +20,17 @@ skipindex2020_2 = [7] #Houdini Apprentice Advent Calendar 2020
 skipindex2021_2 = [] #Houdini Apprentice Advent Calendar 2021
 skipindex2022_2 = [] #Houdini Apprentice Advent Calendar 2022
 skipindex2023_2 = [] #Houdini Apprentice Advent Calendar 2023
+skipindex2024_2 = [] #Houdini Apprentice Advent Calendar 2024
 
 noskipindex = [] #Houdini Apprentice Advent Calendar 2023
 
 monthAr = [i for i in range(1, 26)]
 
 ##### set yourself #####
-setyear = 2023
+setyear = 2024
 setmonth = 12
-setcalendarIndexNo = 1 # (1:Houdini Advent Calendar 2:Houdini Apprentice Advent Calendar)
-skipindex = skipindex2023_1
+setcalendarIndexNo = 2 # (1:Houdini Advent Calendar 2:Houdini Apprentice Advent Calendar)
+skipindex = skipindex2024_2
 ##### set yourself #####
 
 # skip date
@@ -129,7 +131,7 @@ def get_advent_calendar_data(url):
             
             if title and link and activeindex[countindex]:
                 creationDate = str(setyear)+'-'+str(setmonth)+'-'+str(activeindex[countindex]).zfill(2)
-                articles=({ 'thumbnailUrl':articleIdimg,'creationDate': creationDate,'author': {'name': author,'twitterIcon':img_save_name,'qiitaUrl':('https://qiita.com/'+authorname),'twitterUrl':('https://twitter.com/'+authorname)},'title': {'ja':title,'en':title}, 'articleUrl': link, 'categories': 'Houdini','tags': 'SOP Python','articleId': articleId ,'summary':  {'ja':'ダミー','en':'Dummy'} })
+                articles=({ 'thumbnailUrl':articleIdimg,'creationDate': creationDate,'author': {'name': author,'icon':img_save_name,'qiitaUrl':('https://qiita.com/'+authorname),'twitterUrl':('https://twitter.com/'+authorname)},'title': {'ja':title,'en':title}, 'articleUrl': link, 'categories': 'Houdini','tags': 'SOP Python','articleId': articleId ,'summary':  {'ja':'ダミー','en':'Dummy'} })
                 #print(articles)
                 calendar_data.append(articles)
 

@@ -1,0 +1,552 @@
+[
+    {
+        "thumbnailUrl": "2024120102.jpg",
+        "creationDate": "2024-12-01",
+        "author": {
+            "name": "@kickbase",
+            "icon": "kickbase.jpg",
+            "qiitaUrl": "https://qiita.com/kickbase",
+            "twitterUrl": "https://twitter.com/kickbase"
+        },
+        "title": {
+            "ja": "Houdini: FontSOP機能追加 - はじめてのPython",
+            "en": "Houdini: FontSOP Function Addition - First Steps with Python"
+        },
+        "articleUrl": "https://zenn.dev/kickbase/articles/9d003c9ce0e66c",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2024120102,
+        "summary": {
+            "ja": "この記事では、HoudiniのFontSOPに機能を追加するPythonプログラミングの手法について解説しています。FontSOPのフォント選択をより使いやすくするため、「前へ」「次へ」ボタンを実装し、メニューリストから順にフォントを切り替えられる機能を追加しています。実装にはPythonのコールバック関数を使用し、わずか6行のコードで実現できる点が特徴です。このツールは初心者向けの題材として適しており、HoudiniでのPythonプログラミングの基礎を学ぶ良い例として紹介されています。",
+            "en": "This article explains how to use Python programming to add functions to Houdini's FontSOP. In order to make FontSOP's font selection more user-friendly, the “Previous” and “Next” buttons have been implemented, and a function has been added that allows you to switch fonts in order from the menu list. The implementation uses Python callback functions, and the fact that it can be achieved with just six lines of code is a feature of this tool. This tool is suitable for beginners, and is introduced as a good example of learning the basics of Python programming in Houdini."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120202.jpg",
+        "creationDate": "2024-12-02",
+        "author": {
+            "name": "@Borndigital_Yoshida",
+            "icon": "Borndigital_Yoshida.jpg",
+            "qiitaUrl": "https://qiita.com/Borndigital_Yoshida",
+            "twitterUrl": "https://twitter.com/Borndigital_Yoshida"
+        },
+        "title": {
+            "ja": "ElectraにRagdollでアニメーションを作成する",
+            "en": "Creating Animations with Ragdolls in Electra"
+        },
+        "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/40184974957465",
+        "categories": "Houdini",
+        "tags": "KineFX Ragdoll APEX",
+        "articleId": 2024120202,
+        "summary": {
+            "ja": "この記事では、HoudiniのRagdoll機能を使用してキャラクターアニメーションを作成する方法を解説しています。特に、ElectraというキャラクターモデルにRagdollを適用し、階段を下りる途中で滑り落ちるようなアニメーションを作成する手順を詳しく説明しています。具体的には、Configure Ragdollの設定、コリジョンシェイプの調整、Match World Transformsの活用、そしてPosition StiffnessやOrientation Stiffnessの調整による自然な動きの実現方法が紹介されています。また、アニメーションの記録やレイヤー管理など、実践的なワークフローについても言及されています。",
+            "en": "This article explains how to create character animation using Houdini's Ragdoll feature. In particular, it explains in detail how to apply ragdolls to a character model called Electra and create an animation where she slips down a flight of stairs. Specifically, it introduces how to achieve natural movement by adjusting the Configure Ragdoll settings, adjusting the collision shape, making use of Match World Transforms, and adjusting Position Stiffness and Orientation Stiffness. It also mentions practical workflows such as recording animations and managing layers."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120302.jpg",
+        "creationDate": "2024-12-03",
+        "author": {
+            "name": "@Lethe_movie",
+            "icon": "Lethe_movie.jpg",
+            "qiitaUrl": "https://qiita.com/Lethe_movie",
+            "twitterUrl": "https://twitter.com/Lethe_movie"
+        },
+        "title": {
+            "ja": "[必携!?] Houdini 作業で必須級のshelfツール紹介！",
+            "en": "[A Must-Have!] Introduction to the Essential Shelf Tool for Houdini Work!"
+        },
+        "articleUrl": "https://qiita.com/Lethe_movie/items/6f61082d3deba24b5264",
+        "categories": "Houdini",
+        "tags": "SOP Shelf Python",
+        "articleId": 2024120302,
+        "summary": {
+            "ja": "この記事では、Houdiniの作業効率を向上させるための実用的なShelfツールの作成方法と活用例を紹介しています。Shelfツールのセットアップから、具体的な5つの便利なツールの実装方法まで解説しており、特に「任意ノードの選択ノード下への作成」「Inputの整列と再接続」「AutoUpdateの切り替え」「新規Geoの作成と参照」「Cache系ノードの自動セット」といった日常的な作業を自動化するPythonスクリプトが紹介されています。これらのツールは、Houdiniでの煩雑な作業を効率化し、ワークフローを大幅に改善することができます。",
+            "en": "This article introduces how to create and use practical Shelf tools to improve your Houdini workflow. It explains everything from setting up Shelf tools to implementing five specific useful tools, and in particular introduces Python scripts that automate everyday tasks such as “creating arbitrary nodes under the selected node”, “aligning and reconnecting inputs”, “switching AutoUpdate”, “creating and referencing new Geos”, and “automatically setting Cache nodes”. These tools can streamline complex tasks in Houdini and greatly improve your workflow."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120402.jpg",
+        "creationDate": "2024-12-04",
+        "author": {
+            "name": "@Lethe_movie",
+            "icon": "Lethe_movie.jpg",
+            "qiitaUrl": "https://qiita.com/Lethe_movie",
+            "twitterUrl": "https://twitter.com/Lethe_movie"
+        },
+        "title": {
+            "ja": "HDA製作のひっかかりポイント解説~Multi化への憧れ~",
+            "en": "Explanation of the HDA Production Catch Points ~Longing for Multi~"
+        },
+        "articleUrl": "https://qiita.com/Lethe_movie/items/ac7c61f430a469d1ce7a",
+        "categories": "Houdini",
+        "tags": "HDA SOP Python",
+        "articleId": 2024120402,
+        "summary": {
+            "ja": "この記事では、HoudiniのHDAを作成する際の複雑な実装手順と注意点について解説しています。特にマルチパラメータ（Multi化）の実装に焦点を当て、Input_GeometryからMask Geometryを使用して色付けを行うHDAの作成プロセスを詳しく説明しています。具体的には、Subnet化、パラメータのマルチ化対応、アクションボタンの設定、DisableWhenの対応など、HDA作成時によく遭遇する技術的な課題とその解決方法が紹介されています。また、パフォーマンス改善のためのヒントとして、ColorSOPをForloopの外側に配置する工夫についても言及しています。",
+            "en": "This article explains the complex implementation procedures and points to note when creating HDA for Houdini. In particular, it focuses on the implementation of multi-parameters (multi-parameterization), and explains in detail the process of creating an HDA that uses Mask Geometry to colorize from Input_Geometry. Specifically, it introduces technical issues that are often encountered when creating HDAs, such as subnet-ization, parameter multi-parameterization, action button settings, and DisableWhen support, as well as solutions to these issues. It also mentions the idea of placing ColorSOP outside of Forloop as a tip for improving performance."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120502.jpg",
+        "creationDate": "2024-12-05",
+        "author": {
+            "name": "@okada_takuya",
+            "icon": "okada_takuya.jpg",
+            "qiitaUrl": "https://qiita.com/okada_takuya",
+            "twitterUrl": "https://twitter.com/okada_takuya"
+        },
+        "title": {
+            "ja": "Vector Displacement Map を Copernicus 内で表現",
+            "en": "Representing Vector Displacement Maps in Copernicus"
+        },
+        "articleUrl": "https://qiita.com/okada_takuya/items/f303c8c442bec593360c",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2024120502,
+        "summary": {
+            "ja": "この記事では、Houdiniの新機能Copernicus内でVector Displacement Map（VDM）を実装する方法について解説しています。通常のDisplacement Mapが高さ情報のみを使用するのに対し、VDMは方向の情報も含む3次元ベクトルを使用することで、より複雑な凹凸表現を可能にします。具体的な実装方法として、MaterialXでの実装とCOP内のPreview Materialでの実装の2つのアプローチを紹介し、さらにOpacityを活用したジャギー（ギザギザ）の除去方法やノイズの追加方法についても説明しています。記事全体を通して、テクスチャのみを使用した効果的な3D表現の実現方法が示されています。",
+            "en": "This article explains how to implement Vector Displacement Map (VDM) in Copernicus, a new feature of Houdini. While a regular Displacement Map uses only height information, VDM uses 3D vectors that also include directional information, enabling more complex undulation expression. As specific implementation methods, we introduce two approaches: implementation in MaterialX and implementation in the Preview Material in COP, and we also explain how to remove jaggies (jagged edges) using Opacity and how to add noise. Throughout the article, we show how to achieve effective 3D expression using only textures."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120602.jpg",
+        "creationDate": "2024-12-06",
+        "author": {
+            "name": "@Kai0731200",
+            "icon": "Kai0731200.jpg",
+            "qiitaUrl": "https://qiita.com/Kai0731200",
+            "twitterUrl": "https://twitter.com/Kai0731200"
+        },
+        "title": {
+            "ja": "Instancer (Copy to Points) を使いつつテクスチャをランダムに！",
+            "en": "Using Instancer (Copy to Points) to randomize textures!"
+        },
+        "articleUrl": "https://qiita.com/Kai0731200/items/250fda77d93ba9aa9d81",
+        "categories": "Houdini",
+        "tags": "Solaris USD",
+        "articleId": 2024120602,
+        "summary": {
+            "ja": "この記事では、HoudiniのSolarisとUSDを使用して、Instancerノードでコピーされたオブジェクトのテクスチャをランダムに変化させる手法について解説しています。主な問題点として、通常のInstancer使用時にはコピーされたオブジェクトのテクスチャが全て同じパターンになってしまう点が挙げられ、これを解決するために「uv_offset」アトリビュートを活用する方法が提示されています。具体的には、コピー先のポイントにランダムなuv_offsetアトリビュートを作成し、Material LibraryでUV情報と組み合わせることで、各インスタンスのテクスチャにバリエーションを持たせる手法が詳しく説明されています。この手法は、テクスチャだけでなく、オブジェクトの回転などにも応用可能な基本的なテクニックとして紹介されています。",
+            "en": "This article explains how to use Houdini's Solaris and USD to randomly vary the textures of objects copied by Instancer nodes. The main problem is that when using Instancer normally, the textures of all the copied objects end up with the same pattern, and this article suggests using the “uv_offset” attribute to solve this problem. Specifically, the method of creating random uv_offset attributes at the point of copy and combining them with UV information in the Material Library to give each instance of the texture variation is explained in detail. This method is introduced as a basic technique that can be applied not only to textures but also to object rotation, etc."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120702.jpg",
+        "creationDate": "2024-12-07",
+        "author": {
+            "name": "@TaroOzaki",
+            "icon": "TaroOzaki.jpg",
+            "qiitaUrl": "https://qiita.com/TaroOzaki",
+            "twitterUrl": "https://twitter.com/TaroOzaki"
+        },
+        "title": {
+            "ja": "CopernicusでRicohTHETAのFisheye画像をEquirectangular画像に変換する",
+            "en": "Converting Ricoh THETA fisheye images to equirectangular images in Copernicus"
+        },
+        "articleUrl": "https://qiita.com/TaroOzaki/items/b50f595728782f502d35",
+        "categories": "Houdini",
+        "tags": "Copernicus COP OpenCL",
+        "articleId": 2024120702,
+        "summary": {
+            "ja": "この記事では、HoudiniのCopernicus機能を使用して、RicohTHETAのFisheye画像をEquirectangular形式に変換する実装方法について解説しています。主にOpenCLを使用して座標変換を行い、DualFisheyeをSingleFisheyeに分割してから処理する手法が詳しく説明されています。具体的には、極座標系から球面座標系への変換、適切な画像の向きの調整、ゼロ除算によるnanピクセルの回避など、実装における技術的な課題とその解決方法が示されています。また、VEXからOpenCLへの移行によるパフォーマンスの向上や、デバッグ過程での試行錯誤についても言及されています。",
+            "en": "This article explains how to implement the conversion of Ricoh THETA fisheye images to Equirectangular format using Houdini's Copernicus function. The article explains in detail how to perform coordinate conversion using OpenCL, and how to process the DualFisheye image by first splitting it into SingleFisheye images. Specifically, it shows the technical issues involved in implementation and how to solve them, such as converting from polar coordinates to spherical coordinates, adjusting the image orientation appropriately, and avoiding nan pixels caused by division by zero. It also discusses the performance improvements achieved by migrating from VEX to OpenCL, and the trial and error involved in the debugging process."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120802.jpg",
+        "creationDate": "2024-12-08",
+        "author": {
+            "name": "@amateras",
+            "icon": "amateras.jpg",
+            "qiitaUrl": "https://qiita.com/amateras",
+            "twitterUrl": "https://twitter.com/amateras"
+        },
+        "title": {
+            "ja": "難しく考えないShelf活用術",
+            "en": "Shelf utilization techniques that don't require you to think too hard"
+        },
+        "articleUrl": "https://qiita.com/amateras/items/79176fdcd77df29d82a0",
+        "categories": "Houdini",
+        "tags": "SOP Python Shelf",
+        "articleId": 2024120802,
+        "summary": {
+            "ja": "この記事では、Houdiniにおけるシンプルかつ実用的なShelfツールの活用方法について解説しています。主に、ノードのドラッグ＆ドロップによる基本的なプリセット作成から始まり、Pythonのkwargsを利用した条件分岐の実装まで、段階的な機能拡張の方法が紹介されています。具体的には、メッシュ属性の削除と色付けの基本プリセットの作成、タブメニューからの呼び出し設定、Ctrlキーによる色の切り替えなどが説明されています。また、実践的な例として「Old Mountain」や「Reset Viewport」といった実用的なツールの実装例も示されており、初心者でも取り組みやすい形でShelfのカスタマイズ方法が解説されています。",
+            "en": "This article explains how to use the simple and practical Shelf tool in Houdini. It introduces a method for gradually expanding functionality, starting with the basic preset creation using node drag and drop, and continuing with the implementation of conditional branching using Python kwargs. Specifically, it explains how to create basic presets for deleting mesh attributes and coloring, how to set up calls from the tab menu, and how to switch colors using the Ctrl key. In addition, practical examples of implementing practical tools such as “Old Mountain” and “Reset Viewport” are also shown, and the method of customizing Shelf is explained in a way that is easy for beginners to approach."
+        }
+    },
+    {
+        "thumbnailUrl": "2024120902.jpg",
+        "creationDate": "2024-12-09",
+        "author": {
+            "name": "@Borndigital_Yoshida",
+            "icon": "Borndigital_Yoshida.jpg",
+            "qiitaUrl": "https://qiita.com/Borndigital_Yoshida",
+            "twitterUrl": "https://twitter.com/Borndigital_Yoshida"
+        },
+        "title": {
+            "ja": "Houdini20.5　新しいレシピ機能を使ってみよう。",
+            "en": "Houdini 20.5 - Let's try using the new recipe function"
+        },
+        "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/40772486235289",
+        "categories": "Houdini",
+        "tags": "SOP Pyro HOM",
+        "articleId": 2024120902,
+        "summary": {
+            "ja": "この記事では、Houdini 20.5で導入された新しいレシピ機能について詳しく解説しています。レシピ機能は、ノードのパラメータ設定やネットワークセットアップを保存し、再利用するためのシステムで、三つの主要な機能（ノードプリセット、ツールレシピ、デコレーションレシピ）を提供します。ノードプリセットでは個別のパラメータ設定を、ツールレシピでは複数ノードのセットアップを、デコレーションレシピでは既存ノードを中心とした機能拡張を、それぞれ保存して再利用することができ、作業の効率化を実現します。",
+            "en": "This article provides a detailed explanation of the new recipe feature introduced in Houdini 20.5. The recipe system is a system for saving and reusing node parameter settings and network setups, and provides three main functions (Node Presets, Tool Recipes, and Decoration Recipes). Node Presets allow you to save and reuse individual parameter settings, Tool Recipes allow you to save and reuse multiple node setups, and Decoration Recipes allow you to save and reuse enhancements centered around existing nodes, making your work more efficient."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121002.jpg",
+        "creationDate": "2024-12-10",
+        "author": {
+            "name": "@godofsuama",
+            "icon": "godofsuama.jpg",
+            "qiitaUrl": "https://qiita.com/godofsuama",
+            "twitterUrl": "https://twitter.com/godofsuama"
+        },
+        "title": {
+            "ja": "Attribute VOPを使い回す",
+            "en": "Repurposing Attribute VOPs"
+        },
+        "articleUrl": "https://godofsuama.hatenablog.com/entry/adcal20241210",
+        "categories": "Houdini",
+        "tags": "SOP VOP",
+        "articleId": 2024121002,
+        "summary": {
+            "ja": "この記事では、HoudiniのAttribute VOPを効率的に再利用するための3つの手法について解説しています。まず、Attribute VOPを別のAttribute VOPから呼び出す方法として、Shop Pathの設定による親子関係の構築を紹介。次に、Compile BlockとInvokeを使用して処理を複数箇所で再利用する方法を説明。最後に、VOPをvflファイルとして保存し、コードベースでの共有を可能にする方法を紹介しています。これらの手法により、Attribute VOPの変更を複数箇所に反映させたり、複雑な処理を効率的に再利用したりすることが可能になります。",
+            "en": "This article explains three methods for efficiently reusing Houdini's Attribute VOPs. First, we will introduce the method of building a parent-child relationship using Shop Path settings as a way to call an Attribute VOP from another Attribute VOP. Next, we will explain how to reuse processes in multiple locations using Compile Block and Invoke. Finally, we will introduce a method of saving VOPs as vfl files to enable sharing in the code base. These methods make it possible to reflect changes to Attribute VOPs in multiple locations and to efficiently reuse complex processes."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121102.jpg",
+        "creationDate": "2024-12-11",
+        "author": {
+            "name": "@55hertz",
+            "icon": "55hertz.jpg",
+            "qiitaUrl": "https://qiita.com/55hertz",
+            "twitterUrl": "https://twitter.com/55hertz"
+        },
+        "title": {
+            "ja": "Siggraphのペーパー再現に挑戦してみた",
+            "en": "Trying to recreate a Siggraph paper"
+        },
+        "articleUrl": "https://qiita.com/55hertz/items/39bc9ee0ce5ac6ee54e5",
+        "categories": "Houdini",
+        "tags": "SOP Wrangle",
+        "articleId": 2024121102,
+        "summary": {
+            "ja": "この記事では、Siggraph Asia 2024で発表されたStripe Embedding論文の再現をHoudiniで試みた過程を解説しています。Stripe Embeddingは、UV展開の初期状態として利用可能な円形状を生成する手法で、境界線上の点から扇状に面を選択していく比較的シンプルな処理で実現できます。具体的な実装として、VEXを使用して境界線上のポイントから順次処理を行い、Stripeパターンを生成するコードが詳しく説明されています。この試みは、最新の研究成果を実践的に理解し、Houdiniで再現する良い学習機会となっています。",
+            "en": "This article explains three methods for efficiently reusing Houdini's Attribute VOPs. First, we will introduce the method of building a parent-child relationship using Shop Path settings as a way to call an Attribute VOP from another Attribute VOP. Next, we will explain how to reuse processes in multiple locations using Compile Block and Invoke. Finally, we will introduce a method of saving VOPs as vfl files to enable sharing in the code base. These methods make it possible to reflect changes to Attribute VOPs in multiple locations and to efficiently reuse complex processes."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121202.jpg",
+        "creationDate": "2024-12-12",
+        "author": {
+            "name": "@gennsounohato",
+            "icon": "gennsounohato.jpg",
+            "qiitaUrl": "https://qiita.com/gennsounohato",
+            "twitterUrl": "https://twitter.com/gennsounohato"
+        },
+        "title": {
+            "ja": "Houdiniでパーツ干渉チェッカーを作った話",
+            "en": "A story about making a part interference checker in Houdini"
+        },
+        "articleUrl": "https://qiita.com/gennsounohato/items/b3700a40a55d843ad43b",
+        "categories": "Houdini",
+        "tags": "SOP Wrangle VDB SDF",
+        "articleId": 2024121202,
+        "summary": {
+            "ja": "この記事では、フィギュア原型制作におけるパーツ干渉チェックをHoudiniで自動化する手法について解説しています。具体的には、STLファイルとして出力された分割済みのパーツデータを読み込み、ゼロクリアランス対策としての微小収縮処理、Intersection Analysisを用いた交差判定、そして判定結果の視覚化という一連の工程を実装。特に、単純な交差の有無を示す表示と、特定パーツに着目した詳細な交差状態を示す2種類の表示方式を開発し、実務での活用を目指した実践的なツールとなっています。",
+            "en": "This article explains how to automate the checking of part interference in figure prototype production using Houdini. Specifically, it implements a series of processes, including reading in the split part data output as an STL file, performing a micro-shrinkage process as a zero-clearance countermeasure, using Intersection Analysis to determine intersections, and visualizing the results of the determination. In particular, it has developed two types of display methods: one that simply indicates whether there are any intersections, and another that shows detailed intersection status focusing on specific parts, making it a practical tool that can be used in actual work."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121302.jpg",
+        "creationDate": "2024-12-13",
+        "author": {
+            "name": "@jhorikawa_err",
+            "icon": "jhorikawa_err.jpg",
+            "qiitaUrl": "https://qiita.com/jhorikawa_err",
+            "twitterUrl": "https://twitter.com/jhorikawa_err"
+        },
+        "title": {
+            "ja": "Digital Fabricationで使えるPointのソーティングTips",
+            "en": "Point sorting tips for use in Digital Fabrication"
+        },
+        "articleUrl": "https://qiita.com/jhorikawa_err/items/a41a7807ed4f56b27b3b",
+        "categories": "Houdini",
+        "tags": "SOP Wrangle",
+        "articleId": 2024121302,
+        "summary": {
+            "ja": "この記事では、Digital Fabricationにおけるポイントの並び替えテクニックをHoudiniで実装する方法について詳しく解説しています。特に、3Dプリンターやプロッターなどの出力順序を制御するためのG-Code生成に焦点を当て、Point WrangleノードとSortノードを組み合わせた様々な並び替え手法を紹介しています。平面上の点群を行単位で並び替える方法、再帰的な近接点の並び替え、曲線に沿った並び替え、スパイラル状やピンポン状の並び替えなど、実践的な事例とともにVEXコードの実装方法が示されています。",
+            "en": "This article explains in detail how to implement point reordering techniques in Digital Fabrication using Houdini. In particular, it focuses on G-Code generation for controlling the output order of 3D printers and plotters, and introduces various sorting methods that combine the Point Wrangle node and Sort node. It shows how to implement VEX code with practical examples, such as how to sort point groups on a plane by row, how to sort adjacent points recursively, how to sort along a curve, and how to sort in a spiral or ping-pong style."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121402.jpg",
+        "creationDate": "2024-12-14",
+        "author": {
+            "name": "@gupon",
+            "icon": "gupon.jpg",
+            "qiitaUrl": "https://qiita.com/gupon",
+            "twitterUrl": "https://twitter.com/gupon"
+        },
+        "title": {
+            "ja": "Houdiniで2D物理シミュレーション(RBD)",
+            "en": "2D physics simulation (RBD) in Houdini"
+        },
+        "articleUrl": "https://qiita.com/gupon/items/d470dc32b6e77a63ff01",
+        "categories": "Houdini",
+        "tags": "SOP RBD Wrangle",
+        "articleId": 2024121402,
+        "summary": {
+            "ja": "この記事では、Houdiniで2D的なモーショングラフィックスを作成するための物理シミュレーション（RBD）の実装方法について解説しています。3Dソフトウェアであるにも関わらず2D表現を実現するため、オブジェクトをXY平面上に拘束し、Z軸回転のみに制限する二つの手法（コンストレイントの作成とPost Solveの利用）を詳しく説明。さらに、自由落下、パーティクル生成、アニメーション追従という3つの基本的なセットアップ例を通じて、実践的な実装方法が紹介されています。",
+            "en": "This article explains how to implement a physical simulation (RBD) for creating 2D-like motion graphics in Houdini. In order to achieve 2D expression despite being a 3D software, it explains in detail two methods (creating constraints and using Post Solve) that restrict objects to the XY plane and only allow Z-axis rotation. In addition, practical implementation methods are introduced through three basic setup examples: free fall, particle generation, and animation tracking."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121502.jpg",
+        "creationDate": "2024-12-15",
+        "author": {
+            "name": "@okada_takuya",
+            "icon": "okada_takuya.jpg",
+            "qiitaUrl": "https://qiita.com/okada_takuya",
+            "twitterUrl": "https://twitter.com/okada_takuya"
+        },
+        "title": {
+            "ja": "Copernicus でスイカとレモンの断面",
+            "en": "Cross-section of watermelon and lemon in Copernicus"
+        },
+        "articleUrl": "https://qiita.com/okada_takuya/items/0ce2e247bceaac6ad08e",
+        "categories": "Houdini",
+        "tags": "SOP Copernicus COP VDB Recommend",
+        "articleId": 2024121502,
+        "summary": {
+            "ja": "この記事では、HoudiniのCopernicus機能を使用してスイカとレモンの断面テクスチャを作成する手法を詳しく解説しています。SOPでのモデリングからCopernicus内でのテクスチャ作成まで、特にスイカの皮と断面、レモンの複雑な果肉構造の表現方法に焦点を当てて説明されています。具体的には、SDFボリュームを利用した距離情報の活用、3Dノイズによる自然な質感の表現、種の周りのくぼみ表現のためのOpenCL活用など、リアルな断面表現を実現するための様々なテクニックが紹介されています。",
+            "en": "This article explains in detail how to create watermelon and lemon cross-section textures using Houdini's Copernicus feature. It covers everything from modeling in SOP to creating textures in Copernicus, with a particular focus on how to represent the watermelon skin and cross-section, and the complex flesh structure of the lemon. In particular, various techniques for achieving realistic cross-sectional representations are introduced, such as the use of distance information using SDF volumes, the expression of natural textures using 3D noise, and the use of OpenCL for expressing the indentations around the seeds."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121602.jpg",
+        "creationDate": "2024-12-16",
+        "author": {
+            "name": "@Gk1059",
+            "icon": "Gk1059.jpg",
+            "qiitaUrl": "https://qiita.com/Gk1059",
+            "twitterUrl": "https://twitter.com/Gk1059"
+        },
+        "title": {
+            "ja": "学生視点でのHoudini Copernicusについて",
+            "en": "Houdini Copernicus from a student's perspective"
+        },
+        "articleUrl": "https://qiita.com/Gk1059/items/da02b5ad6b7053473243",
+        "categories": "Houdini",
+        "tags": "Copernicus Study",
+        "articleId": 2024121602,
+        "summary": {
+            "ja": "この記事では、学生の視点からHoudiniのCopernicus機能の学習価値について考察しています。CGを学ぶ学生たちがテクスチャ作成やプロシージャルの概念で躓くことが多い中、Copernicusが初学者にとって有効な学習ツールとなる可能性を指摘しています。特に、他のソフトと比べて理論的な解説が充実している点、Apprentice版が無料である点、そして最新バージョンゆえの豊富な情報量と学習リソースの存在が、学生がプロシージャルワークフローを学ぶ上で大きなメリットになると論じています。また、同級生へのアンケートを通じて、プロシージャルに対する具体的な障壁も明らかにしています。",
+            "en": "In this article, we consider the learning value of Houdini's Copernicus feature from the perspective of students. While students learning CG often stumble over concepts such as texture creation and procedural workflows, we point out the possibility that Copernicus could be an effective learning tool for beginners. In particular, it is argued that the fact that the theoretical explanations are more extensive than those in other software, that the Apprentice version is free, and that there is a wealth of information and learning resources available due to the latest version, are all significant advantages for students learning procedural workflows. In addition, the specific barriers to procedural workflows are also clarified through a questionnaire of fellow students."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121702.jpg",
+        "creationDate": "2024-12-17",
+        "author": {
+            "name": "@kurosawa",
+            "icon": "kurosawa.jpg",
+            "qiitaUrl": "https://qiita.com/kurosawa",
+            "twitterUrl": "https://twitter.com/kurosawa"
+        },
+        "title": {
+            "ja": "Kine-FXでブレンドシェイプを使ってみる",
+            "en": "Using blendshapes in Kine-FX"
+        },
+        "articleUrl": "https://note.com/thesaurus/n/nc9d1f85562d0",
+        "categories": "Houdini",
+        "tags": "KineFX Wrangle",
+        "articleId": 2024121702,
+        "summary": {
+            "ja": "この記事では、HoudiniのKine-FXにおけるブレンドシェイプの実装方法と独自の活用法について解説しています。特に、Packed Primitive形式によるデータの軽量化や、トポロジーの異なるモデル間でのブレンドシェイプの移植という、Houdini特有の手法に焦点を当てています。具体的には、豚のモデルを使用して基本的なブレンドシェイプの作成から、VEXを利用した頂点移動量の計算、そしてattribute transferによる異なるトポロジーへの移植まで、実践的な手順が説明されています。また、アトリビュートの可視化機能を活用した効果的なデバッグ方法についても紹介されています。",
+            "en": "This article explains how to implement blendshapes in Houdini's Kine-FX and how to use them in your own work. In particular, it focuses on Houdini-specific techniques such as reducing data size using the packed primitive format and porting blendshapes between models with different topologies. Specifically, it explains practical procedures, from creating basic blendshapes using a pig model, to calculating vertex displacement using VEX, and porting to different topologies using attribute transfer. It also introduces effective debugging methods that utilize the attribute visualization function."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121802.jpg",
+        "creationDate": "2024-12-18",
+        "author": {
+            "name": "@yskzfjt",
+            "icon": "yskzfjt.jpg",
+            "qiitaUrl": "https://qiita.com/yskzfjt",
+            "twitterUrl": "https://twitter.com/yskzfjt"
+        },
+        "title": {
+            "ja": "KineFX/APEXをめぐる混乱を個人的に整理した記録",
+            "en": "A personal record of the confusion surrounding KineFX/APEX"
+        },
+        "articleUrl": "https://qiita.com/yskzfjt/items/4a752500db290ade1fdf",
+        "categories": "Houdini",
+        "tags": "APEX KineFX Rigging",
+        "articleId": 2024121802,
+        "summary": {
+            "ja": "この記事では、HoudiniのKineFX/APEXフレームワークにおける混乱しやすい概念や用語を、開発者視点で整理・解説しています。特に、KineFXリグからAPEXリグへの移行の背景、APEXGraph、APEXScript、リグ構築フェーズとリグ評価・計算フェーズの違いなど、ベータ版ならではの不明確な部分について詳細に分析。また、APEXが単なるリギングツールではなく、汎用的なグラフ評価フレームワークとして設計されている点や、アニメーション編集環境としての革新性についても言及し、初学者が陥りやすい誤解や混乱の解消を目指しています。",
+            "en": "This article explains and organizes the confusing concepts and terminology of Houdini's KineFX/APEX framework from a developer's perspective. In particular, it provides a detailed analysis of the unclear aspects of the beta version, such as the background to the transition from KineFX rigs to APEX rigs, the differences between APEXGraph, APEXScript, the rig construction phase and the rig evaluation/calculation phase, and so on. It also discusses the fact that APEX is designed not just as a rigging tool, but as a general-purpose graph evaluation framework, and its innovative nature as an animation editing environment, with the aim of eliminating the misunderstandings and confusion that beginners are prone to."
+        }
+    },
+    {
+        "thumbnailUrl": "2024121902.jpg",
+        "creationDate": "2024-12-19",
+        "author": {
+            "name": "@gusghost",
+            "icon": "gusghost.jpg",
+            "qiitaUrl": "https://qiita.com/gusghost",
+            "twitterUrl": "https://twitter.com/gusghost"
+        },
+        "title": {
+            "ja": "blenderを使ってHoudiniのようにモデリングしてみましょう",
+            "en": "Let's try modeling in Houdini-style using blender"
+        },
+        "articleUrl": "https://qiita.com/gusghost/items/f9c3676dadf5977104db",
+        "categories": "Houdini",
+        "tags": "SOP Blender",
+        "articleId": 2024121902,
+        "summary": {
+            "ja": "この記事では、BlenderのモディファイアとHoudiniのノードベースモデリングの類似性について、柵のモデリングを例に解説しています。同じ柵を両ソフトウェアで制作する過程を通じて、Blenderの配列モディファイアとHoudiniのcopy and transformノードの使い方や、それぞれのツールの特徴を比較しながら説明。特に、Houdiniの難しいイメージを払拭し、モディファイアのような段階的なアプローチでHoudiniのノードベースモデリングに親しめることを示しています。",
+            "en": "In this article, we will be looking at the similarities between Blender's modifier and Houdini's node-based modeling, using the modeling of a fence as an example. The article explains the use of the Array modifier in Blender and the copy and transform node in Houdini, comparing the features of each tool, through the process of creating the same fence in both software. In particular, it shows how to get rid of the difficult image of Houdini and become familiar with Houdini's node-based modeling through a gradual approach like the modifier."
+        }
+    },
+    {
+        "thumbnailUrl": "2024122002.jpg",
+        "creationDate": "2024-12-20",
+        "author": {
+            "name": "@ichin0se",
+            "icon": "ichin0se.jpg",
+            "qiitaUrl": "https://qiita.com/ichin0se",
+            "twitterUrl": "https://twitter.com/ichin0se"
+        },
+        "title": {
+            "ja": "TOPsでRustを動かす",
+            "en": "Running Rust in TOPs"
+        },
+        "articleUrl": "https://qiita.com/ichin0se/items/217e6e9dca25754fe75d",
+        "categories": "Houdini",
+        "tags": "TOP Rust Python",
+        "articleId": 2024122002,
+        "summary": {
+            "ja": "この記事では、HoudiniのTOPsでRustプログラムを実行する方法について解説しています。具体的には、パラメータに入力したRustコードを.rsファイルとして保存し、rustcでビルドして実行するまでの一連のプロセスをPythonスクリプトで実装。Out of Process cookingを利用してプロセス間通信を行い、ワークアイテムのアトリビュートを介してRustプログラムの実行結果を取得する手法が、実装例とともに詳しく説明されています。",
+            "en": "This article explains how to run a Rust program in Houdini's TOPs. Specifically, it implements a series of processes from saving the Rust code entered as parameters as a .rs file, building it with rustc, and executing it, using a Python script. It also explains in detail how to use Out of Process cooking to communicate between processes and obtain the execution results of the Rust program via the work item attributes, along with an example implementation."
+        }
+    },
+    {
+        "thumbnailUrl": "2024122102.jpg",
+        "creationDate": "2024-12-21",
+        "author": {
+            "name": "@towazumi",
+            "icon": "towazumi.jpg",
+            "qiitaUrl": "https://qiita.com/towazumi",
+            "twitterUrl": "https://twitter.com/towazumi"
+        },
+        "title": {
+            "ja": "アトリビュートに合わせてパラメータを用意してくれるHDA",
+            "en": "HDA, which prepares parameters according to attributes"
+        },
+        "articleUrl": "https://qiita.com/towazumi/items/5c95956649d745e58cba",
+        "categories": "Houdini",
+        "tags": "SOP HDA Wrangle",
+        "articleId": 2024122102,
+        "summary": {
+            "ja": "この記事では、Houdiniのデジタルアセット（HDA）で、入力ジオメトリのmaterial_nameアトリビュートに基づいて動的にパラメータを生成する機能の実装方法について解説しています。具体的には、Pythonモジュールを使用してアトリビュートの一覧を取得し、それに対応するマテリアル設定用のパラメータを自動生成する仕組みを紹介。標準のMaterial SOPと比べて機能を限定することで、より直感的で使いやすいインターフェースを実現する手法が詳しく説明されています。",
+            "en": "This article explains how to implement a function that dynamically generates parameters based on the material_name attribute of the input geometry in Houdini's digital assets (HDA). Specifically, it introduces a system that uses a Python module to obtain a list of attributes and automatically generates parameters for the corresponding material settings. It also explains in detail how to achieve a more intuitive and user-friendly interface by limiting the functionality compared to the standard Material SOP."
+        }
+    },
+    {
+        "thumbnailUrl": "2024122202.jpg",
+        "creationDate": "2024-12-22",
+        "author": {
+            "name": "@sugiggy",
+            "icon": "sugiggy.jpg",
+            "qiitaUrl": "https://qiita.com/sugiggy",
+            "twitterUrl": "https://twitter.com/sugiggy"
+        },
+        "title": {
+            "ja": "フェイクスキャッタリングラインティング",
+            "en": "Fake Scattering Lighting"
+        },
+        "articleUrl": "https://sugi-iggy.blogspot.com/2024/12/blog-post.html",
+        "categories": "Houdini",
+        "tags": "SOP Volume VOP",
+        "articleId": 2024122202,
+        "summary": {
+            "ja": "この記事では、Houdiniでボリュームのスキャッタリングライティングを高速に実現するフェイク手法について解説しています。通常のボリュームライティングでは処理が重くなりがちですが、SOPレベルでポイントクラウドを利用した距離計算と密度調整を行うことで、軽量かつリアルタイムな調整が可能な手法を紹介。具体的には、光源となる円柱にscatterしたポイントと雲のボクセル間の距離を計算し、その距離に応じて密度値を調整することで、スキャッタリング効果を擬似的に表現する方法が示されています。",
+            "en": "This article explains a fake method for achieving fast volume scattering lighting in Houdini. While normal volume lighting tends to be computationally intensive, this article introduces a method that enables lightweight, real-time adjustments by calculating distances and adjusting densities using point clouds at the SOP level. Specifically, it shows how to calculate the distance between the points scattered on the light source cylinder and the voxels of the cloud, and then adjust the density value according to the distance to achieve a pseudo-scattering effect."
+        }
+    },
+    {
+        "thumbnailUrl": "2024122302.jpg",
+        "creationDate": "2024-12-23",
+        "author": {
+            "name": "@kashibal",
+            "icon": "kashibal.jpg",
+            "qiitaUrl": "https://qiita.com/kashibal",
+            "twitterUrl": "https://twitter.com/kashibal"
+        },
+        "title": {
+            "ja": "物理法則を無視したビーダマンのワンシーンをHoudiniで作ってみた【メニーターゲット編】",
+            "en": "I tried making a scene of a Biedermann ignoring the laws of physics in Houdini [Many Target Edition]"
+        },
+        "articleUrl": "https://qiita.com/kashibal/items/a01b3f7fa1bfb9b8ac04",
+        "categories": "Houdini",
+        "tags": "SOP Copernicus COP Vellum",
+        "articleId": 2024122302,
+        "summary": {
+            "ja": "この記事では、漫画「爆球連発!!スーパービーダマン」のメニーターゲットのシーンをHoudiniで再現する過程を解説しています。具体的には、ビーダマンのシルエットをしたハリボテのモデリング、Copernicusを使用したテクスチャ作成、複数のハリボテの配置方法、そしてVellumを使用した破壊シミュレーションの実装について説明。特に、コピー機能を使った効率的なハリボテの配置方法や、Vellumの設定による物理法則を超えた誇張表現の実現方法が紹介されています。",
+            "en": "This article explains the process of recreating the many targets scene from the manga Bakugyū Renpatsu!! explains the process of recreating the many targets scene from the manga “Bakkyu Renpatsu!! Super Beidaman” using Houdini. Specifically, it explains the modeling of the papier-mâché Beidaman silhouettes, the creation of textures using Copernicus, the method of arranging multiple papier-mâché, and the implementation of destruction simulations using Vellum. In particular, it introduces the efficient method of arranging papier-mâché using the copy function and the method of achieving exaggerated expressions that transcend the laws of physics by setting Vellum."
+        }
+    },
+    {
+        "thumbnailUrl": "2024122402.jpg",
+        "creationDate": "2024-12-24",
+        "author": {
+            "name": "@ikatnek",
+            "icon": "ikatnek.jpg",
+            "qiitaUrl": "https://qiita.com/ikatnek",
+            "twitterUrl": "https://twitter.com/ikatnek"
+        },
+        "title": {
+            "ja": "Houdini のポップアップヘルプを日本語で表示する方法",
+            "en": "How to display Houdini's pop-up help in Japanese"
+        },
+        "articleUrl": "https://ikatnek.blogspot.com/2024/12/hhelp-2024.html",
+        "categories": "Houdini",
+        "tags": "Study Help",
+        "articleId": 2024122402,
+        "summary": {
+            "ja": "この記事では、Houdiniのドキュメントとポップアップヘルプを日本語化する方法について解説しています。具体的には、日本語ドキュメントファイルのダウンロードと適切なディレクトリへの配置手順を説明し、helpディレクトリとindex3.0ディレクトリの設定方法を詳しく紹介。また、トップページの一部が日本語にならない問題や検索機能の制限、ヘルプファイルの日付に関する注意点など、実装時の制限事項についても言及されています。",
+            "en": "This article explains how to localize Houdini's documentation and pop-up help. Specifically, it explains how to download the Japanese documentation files and place them in the appropriate directory, and it also provides detailed instructions on how to set up the help directory and index3.0 directory. It also mentions some of the limitations of the implementation, such as the problem of not being able to make part of the top page Japanese, the limitations of the search function, and the points to note about the date of the help files."
+        }
+    },
+    {
+        "thumbnailUrl": "2024122502.jpg",
+        "creationDate": "2024-12-25",
+        "author": {
+            "name": "@jyouryuusui",
+            "icon": "jyouryuusui.jpg",
+            "qiitaUrl": "https://qiita.com/jyouryuusui",
+            "twitterUrl": "https://twitter.com/jyouryuusui"
+        },
+        "title": {
+            "ja": "APEX Autorig Component 機能一覧",
+            "en": "APEX Autorig Component Function List"
+        },
+        "articleUrl": "https://qiita.com/jyouryuusui/items/8c9035478d53dc6f12d4",
+        "categories": "Houdini",
+        "tags": "APEX KineFX Rigging",
+        "articleId": 2024122502,
+        "summary": {
+            "ja": "この記事では、HoudiniのAPEX Autorig Componentの各機能について詳細に解説しています。特に、fktransform（基本的なリグ構築）、bonedeform（スキンメッシュ変形）、configurecontrols（コントロールの外観設定）、spine（背骨）、multiik（複数関節のIK）など、19種類のコンポーネントについて、それぞれの役割、主要パラメータ、APEXグラフでの実装方法を具体的に説明。まだベータ版であるAPEXの現状の機能を網羅的に整理し、実践的な活用方法を示しています。",
+            "en": "This article provides a detailed explanation of the various functions of Houdini's APEX Autorig Component. In particular, it explains in detail the roles, main parameters and implementation methods in APEX graphs for 19 components, including fktransform (basic rig construction), bonedeform (skin mesh deformation), configurecontrols (control appearance settings), spine (spine) and multiik (multiple joint IK). It comprehensively organizes the current functions of APEX, which is still in beta, and shows practical usage methods."
+        }
+    }
+]
