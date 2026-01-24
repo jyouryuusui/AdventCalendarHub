@@ -43,7 +43,13 @@
       </v-list-item>
 
       <!-- AdventCalendarLog -->
-      <v-list-item  @click="navigateToOption('2023')">
+      <v-list-item @click="navigateToOption('2025')">
+        <v-list-item-title>2025</v-list-item-title>
+      </v-list-item>
+      <v-list-item @click="navigateToOption('2024')">
+        <v-list-item-title>2024</v-list-item-title>
+      </v-list-item>
+      <v-list-item @click="navigateToOption('2023')">
         <v-list-item-title>2023</v-list-item-title>
       </v-list-item>
       <v-list-item  @click="navigateToOption('2022')">

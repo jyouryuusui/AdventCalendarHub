@@ -1,0 +1,134 @@
+[
+    {
+        "thumbnailUrl": "2025120103.jpg",
+        "creationDate": "2025-12-01",
+        "author": {
+            "name": "@Borndigital_Yoshida",
+            "icon": "Borndigital_Yoshida.jpg",
+            "qiitaUrl": "https://qiita.com/Borndigital_Yoshida",
+            "twitterUrl": "https://twitter.com/Borndigital_Yoshida"
+        },
+        "title": {
+            "ja": "大量のモデルも怖くない！メモリ節約＆高速化を実現する「パックプリミティブ」の仕組み",
+            "en": "大量のモデルも怖くない！メモリ節約＆高速化を実現する「パックプリミティブ」の仕組み"
+        },
+        "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/53141398396185",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2025120103,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2025120403.jpg",
+        "creationDate": "2025-12-04",
+        "author": {
+            "name": "@maxima_hikky",
+            "icon": "maxima_hikky.jpg",
+            "qiitaUrl": "https://qiita.com/maxima_hikky",
+            "twitterUrl": "https://twitter.com/maxima_hikky"
+        },
+        "title": {
+            "ja": "HDAのPython ModuleにEnumでパラメーターを作成して色々なところで使い回す",
+            "en": "HDAのPython ModuleにEnumでパラメーターを作成して色々なところで使い回す"
+        },
+        "articleUrl": "https://qiita.com/maxima_hikky/items/6d68eadd8fa0ab601064",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2025120403,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2025120803.jpg",
+        "creationDate": "2025-12-08",
+        "author": {
+            "name": "@maxima_hikky",
+            "icon": "maxima_hikky.jpg",
+            "qiitaUrl": "https://qiita.com/maxima_hikky",
+            "twitterUrl": "https://twitter.com/maxima_hikky"
+        },
+        "title": {
+            "ja": "グループを活用して途切れたカーブの間を繋ごう",
+            "en": "グループを活用して途切れたカーブの間を繋ごう"
+        },
+        "articleUrl": "https://qiita.com/maxima_hikky/items/72259d1725ebaa001d93",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2025120803,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2025120903.jpg",
+        "creationDate": "2025-12-09",
+        "author": {
+            "name": "@amateras",
+            "icon": "amateras.jpg",
+            "qiitaUrl": "https://qiita.com/amateras",
+            "twitterUrl": "https://twitter.com/amateras"
+        },
+        "title": {
+            "ja": "HoudiniでAfterEffectsのキーフレームを作る",
+            "en": "HoudiniでAfterEffectsのキーフレームを作る"
+        },
+        "articleUrl": "https://qiita.com/amateras/items/1ee6fad4c7486a48dbf8",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2025120903,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2025121503.jpg",
+        "creationDate": "2025-12-15",
+        "author": {
+            "name": "@d658t",
+            "icon": "d658t.jpg",
+            "qiitaUrl": "https://qiita.com/d658t",
+            "twitterUrl": "https://twitter.com/d658t"
+        },
+        "title": {
+            "ja": "Houdiniにおけるハードエッジの扱いについて",
+            "en": "Houdiniにおけるハードエッジの扱いについて"
+        },
+        "articleUrl": "https://qiita.com/d658t/items/2feb2f25d24f69c7088c",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2025121503,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    },
+    {
+        "thumbnailUrl": "2025122003.jpg",
+        "creationDate": "2025-12-20",
+        "author": {
+            "name": "@ijiVFX",
+            "icon": "ijiVFX.jpg",
+            "qiitaUrl": "https://qiita.com/ijiVFX",
+            "twitterUrl": "https://twitter.com/ijiVFX"
+        },
+        "title": {
+            "ja": "HoudiniのPythonのExpressionについて",
+            "en": "HoudiniのPythonのExpressionについて"
+        },
+        "articleUrl": "https://qiita.com/ijiVFX/items/ee95830e502c1411434b",
+        "categories": "Houdini",
+        "tags": "SOP Python",
+        "articleId": 2025122003,
+        "summary": {
+            "ja": "ダミー",
+            "en": "Dummy"
+        }
+    }
+]

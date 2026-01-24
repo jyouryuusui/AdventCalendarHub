@@ -12,7 +12,8 @@ skipindex2021_1 = [] #Houdini Advent Calendar 2021
 skipindex2022_1 = [] #Houdini Advent Calendar 2022
 skipindex2023_1 = [7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25] #Houdini Advent Calendar 2023
 skipindex2024_1 = [] #Houdini Advent Calendar 2024
-
+skipindex2025_1 = [] #Houdini Advent Calendar 2025
+skipindex2025_3 = [2,3,5,6,7,10,11,12,13,14,16,17,18,19,21,22,23,24,25] #Houdini Advent Calendar 2025 シリーズ2
 
 skipindex2018_2 = [1,8,13,17,19,20,23] #Houdini Apprentice Advent Calendar 2018
 skipindex2019_2 = [23] #Houdini Apprentice Advent Calendar 2019
@@ -21,17 +22,40 @@ skipindex2021_2 = [] #Houdini Apprentice Advent Calendar 2021
 skipindex2022_2 = [] #Houdini Apprentice Advent Calendar 2022
 skipindex2023_2 = [] #Houdini Apprentice Advent Calendar 2023
 skipindex2024_2 = [] #Houdini Apprentice Advent Calendar 2024
+skipindex2025_2 = [] #Houdini Apprentice Advent Calendar 2025
+skipindex2025_4 = [2,3,4,5,6,7,10,11,12,13,14,15,16,17,18,19,22,24] #Houdini Advent Calendar 2025 シリーズ2
+
 
 noskipindex = [] #Houdini Apprentice Advent Calendar 2023
 
 monthAr = [i for i in range(1, 26)]
 
 ##### set yourself #####
-setyear = 2024
+setyear = 2025
 setmonth = 12
-setcalendarIndexNo = 2 # (1:Houdini Advent Calendar 2:Houdini Apprentice Advent Calendar)
-skipindex = skipindex2024_2
+setcalendarIndexNo = 3 # (1:Houdini Advent Calendar 2:Houdini Apprentice Advent Calendar 3:Houdini Advent Calendar Part2 4:Houdini Apprentice Advent Calendar Part2)
 ##### set yourself #####
+
+# setcalendarIndexNoからsetseriesNoを自動決定
+setseriesNo = 1 # (1:シリーズ1 2:シリーズ2) - setcalendarIndexNoが3または4の場合は自動的に2に設定されます
+# 1,2 → シリーズ1 / 3,4 → シリーズ2
+if setcalendarIndexNo in [3, 4]:
+    setseriesNo = 2
+elif setcalendarIndexNo in [1, 2]:
+    setseriesNo = 1
+
+# skipindexを自動生成
+# skipindex{year}_{setcalendarIndexNo} の形式で変数名を生成
+# 例: skipindex2025_1, skipindex2025_2, skipindex2025_3, skipindex2025_4
+skipindex_var_name = f'skipindex{setyear}_{setcalendarIndexNo}'
+
+skipindex = globals().get(skipindex_var_name, [])
+if skipindex == [] and skipindex_var_name not in globals():
+    print(f'Warning: {skipindex_var_name} is not defined. Using empty list [] as default.')
+
+# articleId計算用のカレンダーインデックス
+# setcalendarIndexNoをそのまま使用（1→1, 2→2, 3→3, 4→4）
+actualCalendarIndexNo = setcalendarIndexNo
 
 # skip date
 activeindex = [x for x in monthAr if x not in skipindex]
@@ -65,7 +89,18 @@ def get_advent_calendar_data(url):
 
     countindex=0
 
-    for td in soup.find_all('td'):
+    # シリーズ番号に応じて特定のテーブル内のtd要素だけを取得
+    series_selector_id = f'seriesSelectorControl{setseriesNo}'
+    series_container = soup.find('div', id=series_selector_id)
+    
+    if series_container is None:
+        print(f'Warning: {series_selector_id} not found. Processing all td elements.')
+        td_elements = soup.find_all('td')
+    else:
+        # シリーズコンテナ内のテーブルからtd要素を取得
+        td_elements = series_container.find_all('td')
+
+    for td in td_elements:
         
         entries = td.find_all('a', href=True)
         
@@ -103,9 +138,9 @@ def get_advent_calendar_data(url):
                 # img tag check
                 img_tag = entry.find('img')
 
-                # 20xx / 12 / xx -01 (setcalendarIndexNo 1:Houdini Advent Calendar 2:Houdini Advent Calendar)
-                # sample: 2019120102
-                articleId = setyear *1000000 + setmonth *10000 + activeindex[countindex]*100 + setcalendarIndexNo
+                # 20xx / 12 / xx -01 (actualCalendarIndexNo 1:Houdini Advent Calendar 2:Houdini Apprentice Advent Calendar 3:Houdini Advent Calendar Part2 4:Houdini Apprentice Advent Calendar Part2)
+                # sample: 2019120101, 2019120102, 2019120103, 2019120104
+                articleId = setyear *1000000 + setmonth *10000 + activeindex[countindex]*100 + actualCalendarIndexNo
                 articleIdimg = str(articleId)+'.jpg'
 
 
@@ -150,6 +185,7 @@ def get_advent_calendar_data(url):
 
 def main():
     data = get_advent_calendar_data(url)
+    
     with open('calendar_data_'+str(setyear)+'_'+str(setcalendarIndexNo)+'.json', 'w', encoding='utf-8') as f:
         json.dump(data[0], f, ensure_ascii=False, indent=4)
     with open('url_data_'+str(setyear)+'_'+str(setcalendarIndexNo)+'.json', 'w', encoding='utf-8') as f:
