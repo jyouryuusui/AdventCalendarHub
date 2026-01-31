@@ -3,16 +3,16 @@
         "thumbnailUrl": "2025120103.jpg",
         "creationDate": "2025-12-01",
         "author": {
-            "name": "@Borndigital_Yoshida",
-            "icon": "Borndigital_Yoshida.jpg",
-            "qiitaUrl": "https://qiita.com/Borndigital_Yoshida",
-            "twitterUrl": "https://twitter.com/Borndigital_Yoshida"
+            "name": "@jyouryuusui",
+            "icon": "jyouryuusui.jpg",
+            "qiitaUrl": "https://qiita.com/jyouryuusui",
+            "twitterUrl": "https://twitter.com/jyouryuusui"
         },
         "title": {
-            "ja": "大量のモデルも怖くない！メモリ節約＆高速化を実現する「パックプリミティブ」の仕組み",
-            "en": "大量のモデルも怖くない！メモリ節約＆高速化を実現する「パックプリミティブ」の仕組み"
+            "ja": "【失敗談】MacでMIDIコントローラーをCHOPで読み込み、オブジェクトを動かしたかった",
+            "en": "【失敗談】MacでMIDIコントローラーをCHOPで読み込み、オブジェクトを動かしたかった"
         },
-        "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/53141398396185",
+        "articleUrl": "https://qiita.com/jyouryuusui/items/d7173259ee572d03bd68",
         "categories": "Houdini",
         "tags": "SOP Python",
         "articleId": 2025120103,
@@ -25,16 +25,16 @@
         "thumbnailUrl": "2025120403.jpg",
         "creationDate": "2025-12-04",
         "author": {
-            "name": "@maxima_hikky",
-            "icon": "maxima_hikky.jpg",
-            "qiitaUrl": "https://qiita.com/maxima_hikky",
-            "twitterUrl": "https://twitter.com/maxima_hikky"
+            "name": "@gupon",
+            "icon": "gupon.jpg",
+            "qiitaUrl": "https://qiita.com/gupon",
+            "twitterUrl": "https://twitter.com/gupon"
         },
         "title": {
-            "ja": "HDAのPython ModuleにEnumでパラメーターを作成して色々なところで使い回す",
-            "en": "HDAのPython ModuleにEnumでパラメーターを作成して色々なところで使い回す"
+            "ja": "TOPsで即席ProRes(&H264)書き出し君",
+            "en": "TOPsで即席ProRes(&H264)書き出し君"
         },
-        "articleUrl": "https://qiita.com/maxima_hikky/items/6d68eadd8fa0ab601064",
+        "articleUrl": "https://qiita.com/gupon/items/afeaf5930cd3de51ebc9",
         "categories": "Houdini",
         "tags": "SOP Python",
         "articleId": 2025120403,
@@ -47,16 +47,16 @@
         "thumbnailUrl": "2025120803.jpg",
         "creationDate": "2025-12-08",
         "author": {
-            "name": "@maxima_hikky",
-            "icon": "maxima_hikky.jpg",
-            "qiitaUrl": "https://qiita.com/maxima_hikky",
-            "twitterUrl": "https://twitter.com/maxima_hikky"
+            "name": "@godofsuama",
+            "icon": "godofsuama.jpg",
+            "qiitaUrl": "https://qiita.com/godofsuama",
+            "twitterUrl": "https://twitter.com/godofsuama"
         },
         "title": {
-            "ja": "グループを活用して途切れたカーブの間を繋ごう",
-            "en": "グループを活用して途切れたカーブの間を繋ごう"
+            "ja": "Namespace EditingとRelocatesのメモ",
+            "en": "Namespace EditingとRelocatesのメモ"
         },
-        "articleUrl": "https://qiita.com/maxima_hikky/items/72259d1725ebaa001d93",
+        "articleUrl": "https://godofsuama.hatenablog.com/entry/adcal20251209",
         "categories": "Houdini",
         "tags": "SOP Python",
         "articleId": 2025120803,
@@ -69,16 +69,16 @@
         "thumbnailUrl": "2025120903.jpg",
         "creationDate": "2025-12-09",
         "author": {
-            "name": "@amateras",
-            "icon": "amateras.jpg",
-            "qiitaUrl": "https://qiita.com/amateras",
-            "twitterUrl": "https://twitter.com/amateras"
+            "name": "@maxima_hikky",
+            "icon": "maxima_hikky.jpg",
+            "qiitaUrl": "https://qiita.com/maxima_hikky",
+            "twitterUrl": "https://twitter.com/maxima_hikky"
         },
         "title": {
-            "ja": "HoudiniでAfterEffectsのキーフレームを作る",
-            "en": "HoudiniでAfterEffectsのキーフレームを作る"
+            "ja": "Houdini  HDA開発入門：PythonでKey-Value Dictionaryを自動生成し、外部モジュールをPythonModule経由で連携する",
+            "en": "Houdini  HDA開発入門：PythonでKey-Value Dictionaryを自動生成し、外部モジュールをPythonModule経由で連携する"
         },
-        "articleUrl": "https://qiita.com/amateras/items/1ee6fad4c7486a48dbf8",
+        "articleUrl": "https://qiita.com/maxima_hikky/items/a7dd037a43be2d3c448e",
         "categories": "Houdini",
         "tags": "SOP Python",
         "articleId": 2025120903,
@@ -91,41 +91,19 @@
         "thumbnailUrl": "2025121503.jpg",
         "creationDate": "2025-12-15",
         "author": {
-            "name": "@d658t",
-            "icon": "d658t.jpg",
-            "qiitaUrl": "https://qiita.com/d658t",
-            "twitterUrl": "https://twitter.com/d658t"
+            "name": "@kit2cuz",
+            "icon": "kit2cuz.jpg",
+            "qiitaUrl": "https://qiita.com/kit2cuz",
+            "twitterUrl": "https://twitter.com/kit2cuz"
         },
         "title": {
-            "ja": "Houdiniにおけるハードエッジの扱いについて",
-            "en": "Houdiniにおけるハードエッジの扱いについて"
+            "ja": "KarmaでGlobal AOVシェーダグラフとSlapCompを使用してカスタムAOVを作成する方法",
+            "en": "KarmaでGlobal AOVシェーダグラフとSlapCompを使用してカスタムAOVを作成する方法"
         },
-        "articleUrl": "https://qiita.com/d658t/items/2feb2f25d24f69c7088c",
+        "articleUrl": "https://qiita.com/kit2cuz/items/cb969bea2c6755db9d9a",
         "categories": "Houdini",
         "tags": "SOP Python",
         "articleId": 2025121503,
-        "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
-        }
-    },
-    {
-        "thumbnailUrl": "2025122003.jpg",
-        "creationDate": "2025-12-20",
-        "author": {
-            "name": "@ijiVFX",
-            "icon": "ijiVFX.jpg",
-            "qiitaUrl": "https://qiita.com/ijiVFX",
-            "twitterUrl": "https://twitter.com/ijiVFX"
-        },
-        "title": {
-            "ja": "HoudiniのPythonのExpressionについて",
-            "en": "HoudiniのPythonのExpressionについて"
-        },
-        "articleUrl": "https://qiita.com/ijiVFX/items/ee95830e502c1411434b",
-        "categories": "Houdini",
-        "tags": "SOP Python",
-        "articleId": 2025122003,
         "summary": {
             "ja": "ダミー",
             "en": "Dummy"

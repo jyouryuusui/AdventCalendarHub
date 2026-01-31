@@ -64,7 +64,7 @@ print("activeindex")
 print(activeindex)
 
 # URL of the Qiita Advent Calendar page for Houdini
-if setcalendarIndexNo==1:
+if setcalendarIndexNo==1 or setcalendarIndexNo==3:
     url = 'https://qiita.com/advent-calendar/' + str(setyear) + '/houdini'
 else:
     url = 'https://qiita.com/advent-calendar/' + str(setyear) + '/happrentice'

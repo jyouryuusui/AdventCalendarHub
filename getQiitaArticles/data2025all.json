@@ -10,7 +10,7 @@
         },
         "title": {
             "ja": "はじめての筋肉 Houdiniマッスルシミュレーション",
-            "en": "はじめての筋肉 Houdiniマッスルシミュレーション"
+            "en": "First Steps with Muscles: Houdini Muscle Simulation"
         },
         "articleUrl": "https://qiita.com/jyouryuusui/items/4ede36ad38f8348d16db",
         "categories": "Houdini",
@@ -32,7 +32,7 @@
         },
         "title": {
             "ja": "糸ソルバを作った話",
-            "en": "糸ソルバを作った話"
+            "en": "Building a Thread Solver"
         },
         "articleUrl": "https://note.com/pontayamazato/n/n548ed2758d7a",
         "categories": "Houdini",
@@ -54,7 +54,7 @@
         },
         "title": {
             "ja": "カーブでランプを制御したい",
-            "en": "カーブでランプを制御したい"
+            "en": "Controlling Ramps with Curves"
         },
         "articleUrl": "https://qiita.com/tinybugbot/items/16217df465fa5356fab5",
         "categories": "Houdini",
@@ -76,7 +76,7 @@
         },
         "title": {
             "ja": "APEXで書き捨てのGraphを組むためのHDA",
-            "en": "APEXで書き捨てのGraphを組むためのHDA"
+            "en": "HDA for Building Throwaway Graphs in APEX"
         },
         "articleUrl": "https://qiita.com/torinos/items/693e7d78d7926b267c34",
         "categories": "Houdini",
@@ -98,7 +98,7 @@
         },
         "title": {
             "ja": "For-Each で 形状変化を全部並べて比較したい！",
-            "en": "For-Each で 形状変化を全部並べて比較したい！"
+            "en": "Comparing All Shape Variations Side-by-Side Using For-Each"
         },
         "articleUrl": "https://zenn.dev/unpyside/articles/e53908873c69f0/",
         "categories": "Houdini",
@@ -120,7 +120,7 @@
         },
         "title": {
             "ja": "無限ループ・リキッドアニメーション",
-            "en": "無限ループ・リキッドアニメーション"
+            "en": "Infinite Loop Liquid Animation"
         },
         "articleUrl": "https://zenn.dev/kickbase/articles/f2df6619636774",
         "categories": "Houdini",
@@ -142,7 +142,7 @@
         },
         "title": {
             "ja": "Houdiniで生命のパターンを自動生成してみる！ -反応拡散系-",
-            "en": "Houdiniで生命のパターンを自動生成してみる！ -反応拡散系-"
+            "en": "Generating Life Patterns in Houdini: Reaction-Diffusion Systems"
         },
         "articleUrl": "https://qiita.com/Lethe_movie/items/3466c6eb4d532e6e5c5f",
         "categories": "Houdini",
@@ -164,7 +164,7 @@
         },
         "title": {
             "ja": "チェックポイントを使って、シミュレーションのパターンを作成する！ [Hip有り]",
-            "en": "チェックポイントを使って、シミュレーションのパターンを作成する！ [Hip有り]"
+            "en": "Creating Simulation Patterns Using Checkpoints [Includes .hip File]"
         },
         "articleUrl": "https://qiita.com/yu_kita/items/e43e1bf9c15cf1fc1737",
         "categories": "Houdini",
@@ -186,7 +186,7 @@
         },
         "title": {
             "ja": "Houdiniで物理演算ベースのシーケンサーを作る",
-            "en": "Houdiniで物理演算ベースのシーケンサーを作る"
+            "en": "Creating a Physics-Based Sequencer in Houdini"
         },
         "articleUrl": "https://qiita.com/jhorikawa_err/items/a81903acd9c173f8d1dc",
         "categories": "Houdini",
@@ -208,7 +208,7 @@
         },
         "title": {
             "ja": "CopernicusとAPEXとVATでいろいろする",
-            "en": "CopernicusとAPEXとVATでいろいろする"
+            "en": "Exploring Copernicus, APEX, and VAT"
         },
         "articleUrl": "https://qiita.com/Kaito_Kachi/items/115230be7538e941fb46",
         "categories": "Houdini",
@@ -230,7 +230,7 @@
         },
         "title": {
             "ja": "VEXでCatmull-Clark Subdivision Surfaceを実装",
-            "en": "VEXでCatmull-Clark Subdivision Surfaceを実装"
+            "en": "Implementing Catmull-Clark Subdivision Surface in VEX"
         },
         "articleUrl": "https://qiita.com/Kaito_Kachi/items/73509c997e7314c984ca",
         "categories": "Houdini",
@@ -252,7 +252,7 @@
         },
         "title": {
             "ja": "Houdini60m対策Tips",
-            "en": "Houdini60m対策Tips"
+            "en": "Tips for Houdini 60m Challenge"
         },
         "articleUrl": "https://qiita.com/tsuka0245/items/866cb786cc18abed360e",
         "categories": "Houdini",
@@ -274,7 +274,7 @@
         },
         "title": {
             "ja": "SubstanceDesignerとCopernicus",
-            "en": "SubstanceDesignerとCopernicus"
+            "en": "Substance Designer and Copernicus"
         },
         "articleUrl": "https://note.com/thesaurus/n/n32e672cca02b",
         "categories": "Houdini",
@@ -296,7 +296,7 @@
         },
         "title": {
             "ja": "APEX アニメーションマスタークラス",
-            "en": "APEX アニメーションマスタークラス"
+            "en": "APEX Animation Masterclass"
         },
         "articleUrl": "https://youtu.be/0WUUmXYS7A0",
         "categories": "Houdini",
@@ -318,7 +318,7 @@
         },
         "title": {
             "ja": "今更人には聞けない回転のお話",
-            "en": "今更人には聞けない回転のお話"
+            "en": "Everything You Were Afraid to Ask About Rotations"
         },
         "articleUrl": "https://qiita.com/ijiVFX/items/81b60e429dca6e0df485",
         "categories": "Houdini",
@@ -340,7 +340,7 @@
         },
         "title": {
             "ja": "osd_limit VEX Function（Houdini 20.5 NEW）に触れてみた",
-            "en": "osd_limit VEX Function（Houdini 20.5 NEW）に触れてみた"
+            "en": "Exploring the osd_limit VEX Function (New in Houdini 20.5)"
         },
         "articleUrl": "https://qiita.com/55hertz/items/d7db361bb27a8eb0e368",
         "categories": "Houdini",
@@ -362,7 +362,7 @@
         },
         "title": {
             "ja": "SOPImportの使い方をちゃんと調べる",
-            "en": "SOPImportの使い方をちゃんと調べる"
+            "en": "Deep Dive into Using SOPImport"
         },
         "articleUrl": "https://fereria.github.io/reincarnation_tech/dcc/Houdini/SOLARIS/sopimport",
         "categories": "Houdini",
@@ -384,7 +384,7 @@
         },
         "title": {
             "ja": "【Houdini】「キャラに追従させたい！」からなぜかIntrinsic、3D変換行列、内積外積を理解することになったお話",
-            "en": "【Houdini】「キャラに追従させたい！」からなぜかIntrinsic、3D変換行列、内積外積を理解することになったお話"
+            "en": "[Houdini] How Wanting a Character to Follow Something Led Me to Understand Intrinsics, 3D Transformation Matrices, and Dot/Cross Products"
         },
         "articleUrl": "https://qiita.com/median_ky/items/21cf5b6104513f45708f",
         "categories": "Houdini",
@@ -406,7 +406,7 @@
         },
         "title": {
             "ja": "Copernicus入門したい！初心者がどう学ぶと良さそうか検証してみた【Houdini 21】",
-            "en": "Copernicus入門したい！初心者がどう学ぶと良さそうか検証してみた【Houdini 21】"
+            "en": "Getting Started with Copernicus: Best Learning Paths for Beginners [Houdini 21]"
         },
         "articleUrl": "https://note.com/fuji_houdini/n/n834917bdd5df",
         "categories": "Houdini",
@@ -428,7 +428,7 @@
         },
         "title": {
             "ja": "複数パッケージを使用する時の注意事項",
-            "en": "複数パッケージを使用する時の注意事項"
+            "en": "Precautions When Using Multiple Packages"
         },
         "articleUrl": "https://qiita.com/amateras/items/844f651645a4762bf301",
         "categories": "Houdini",
@@ -450,7 +450,7 @@
         },
         "title": {
             "ja": "Packしたものに回転を追加して動かす",
-            "en": "Packしたものに回転を追加して動かす"
+            "en": "Adding Rotation to Packed Primitives"
         },
         "articleUrl": "https://godofsuama.hatenablog.com/entry/adcal20251221",
         "categories": "Houdini",
@@ -472,7 +472,7 @@
         },
         "title": {
             "ja": "POP SolverのDragについて",
-            "en": "POP SolverのDragについて"
+            "en": "About Drag in the POP Solver"
         },
         "articleUrl": "https://qiita.com/ichin0se/items/6da6947cfc15cb4e0793",
         "categories": "Houdini",
@@ -494,7 +494,7 @@
         },
         "title": {
             "ja": "60分でピザを焼く方法",
-            "en": "60分でピザを焼く方法"
+            "en": "How to Bake a Pizza in 60 Minutes"
         },
         "articleUrl": "https://note.com/proceduraldesign/n/n73bd01f7d2c5",
         "categories": "Houdini",
@@ -516,7 +516,7 @@
         },
         "title": {
             "ja": "ラバランプを作る",
-            "en": "ラバランプを作る"
+            "en": "Creating a Lava Lamp"
         },
         "articleUrl": "https://qiita.com/TF_siri/items/749c1013640b74db655b",
         "categories": "Houdini",
@@ -538,7 +538,7 @@
         },
         "title": {
             "ja": "Viewport/Networkの単純作業を削る：Houdini自作“時短ツール”8つ（Shelfで即導入）",
-            "en": "Viewport/Networkの単純作業を削る：Houdini自作“時短ツール”8つ（Shelfで即導入）"
+            "en": "Cutting Repetitive Tasks: 8 Custom Houdini Productivity Tools for Viewport/Network"
         },
         "articleUrl": "https://qiita.com/neuh/items/0f3f373121487f6d4dc8",
         "categories": "Houdini",
@@ -549,31 +549,6 @@
             "en": "Dummy"
         }
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     {
         "thumbnailUrl": "2025120102.jpg",
         "creationDate": "2025-12-01",
@@ -585,7 +560,7 @@
         },
         "title": {
             "ja": "ヨールカの尖塔を作ろう",
-            "en": "ヨールカの尖塔を作ろう"
+            "en": "Let's Build the Yolka Spire"
         },
         "articleUrl": "https://nullnode.wixsite.com/houdinipsalm/post/%E3%83%A8%E3%83%BC%E3%83%AB%E3%82%AB%E3%81%AE%E5%B0%96%E5%A1%94%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86",
         "categories": "Houdini",
@@ -607,7 +582,7 @@
         },
         "title": {
             "ja": "【Houdini】ゲームエフェクトのメッシュ作成",
-            "en": "【Houdini】ゲームエフェクトのメッシュ作成"
+            "en": "[Houdini] Creating Meshes for Game Effects"
         },
         "articleUrl": "https://qiita.com/median_ky/items/9f1c1399a725950ba7cb",
         "categories": "Houdini",
@@ -629,7 +604,7 @@
         },
         "title": {
             "ja": "Houdini初心者の私から新規へ 2025",
-            "en": "Houdini初心者の私から新規へ 2025"
+            "en": "From a Houdini Beginner to Newcomers 2025"
         },
         "articleUrl": "https://note.com/kei_nozaki/n/n91e2f3986ec8?sub_rt=share_pw",
         "categories": "Houdini",
@@ -651,7 +626,7 @@
         },
         "title": {
             "ja": "読み込んだFBXにリグ用ジョイントポーズを設定する",
-            "en": "読み込んだFBXにリグ用ジョイントポーズを設定する"
+            "en": "Setting Joint Poses for Rigging on Imported FBX"
         },
         "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/52929500880025",
         "categories": "Houdini",
@@ -673,7 +648,7 @@
         },
         "title": {
             "ja": "ゲームエフェクトTips「法線方向にサイズup」",
-            "en": "ゲームエフェクトTips「法線方向にサイズup」"
+            "en": "Game Effect Tips: Scaling Up Along Normals"
         },
         "articleUrl": "https://qiita.com/median_ky/items/b1697a092f61e78d93c9",
         "categories": "Houdini",
@@ -695,7 +670,7 @@
         },
         "title": {
             "ja": "KineFX？APEX？何が違うの？",
-            "en": "KineFX？APEX？何が違うの？"
+            "en": "KineFX vs. APEX: What's the Difference?"
         },
         "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/53031388565785",
         "categories": "Houdini",
@@ -717,7 +692,7 @@
         },
         "title": {
             "ja": "パーティクルでビッグバン作ってみた",
-            "en": "パーティクルでビッグバン作ってみた"
+            "en": "Creating a Big Bang with Particles"
         },
         "articleUrl": "https://qiita.com/ryomasanpei/items/cc54a4e27302dd61af2a",
         "categories": "Houdini",
@@ -739,7 +714,7 @@
         },
         "title": {
             "ja": "はじめてのSolaris その１",
-            "en": "はじめてのSolaris その１"
+            "en": "Introduction to Solaris: Part 1"
         },
         "articleUrl": "https://qiita.com/hajimeCG/items/1d1981071c75d03aea55",
         "categories": "Houdini",
@@ -761,7 +736,7 @@
         },
         "title": {
             "ja": "アドベントカレンダーでカレンダーを作ろう",
-            "en": "アドベントカレンダーでカレンダーを作ろう"
+            "en": "Let's Make a Calendar for the Advent Calendar"
         },
         "articleUrl": "https://note.com/thesaurus/n/n63e777a15ce2",
         "categories": "Houdini",
@@ -783,7 +758,7 @@
         },
         "title": {
             "ja": "平面のサイズをベースに折り返し階段を作りたい",
-            "en": "平面のサイズをベースに折り返し階段を作りたい"
+            "en": "Building a Switchback Staircase Based on Plane Dimensions"
         },
         "articleUrl": "https://note.com/futafusa/n/nc5dd76deacb0",
         "categories": "Houdini",
@@ -805,7 +780,7 @@
         },
         "title": {
             "ja": "はじめてのSolaris その2",
-            "en": "はじめてのSolaris その2"
+            "en": "Introduction to Solaris: Part 2"
         },
         "articleUrl": "https://qiita.com/hajimeCG/items/d4cad773f337409a761e",
         "categories": "Houdini",
@@ -827,7 +802,7 @@
         },
         "title": {
             "ja": "Groom×COPsで板ポリヘアテクスチャを作成する",
-            "en": "Groom×COPsで板ポリヘアテクスチャを作成する"
+            "en": "Creating Card Hair Textures using Groom and COPs"
         },
         "articleUrl": "https://note.com/puramaike/n/n3656e0b9c7be",
         "categories": "Houdini",
@@ -849,7 +824,7 @@
         },
         "title": {
             "ja": "Houdini Panel Layoutを触ろう",
-            "en": "Houdini Panel Layoutを触ろう"
+            "en": "Exploring Houdini Panel Layouts"
         },
         "articleUrl": "https://qiita.com/amateras/items/94e86eb4ad0fb5c47c11",
         "categories": "Houdini",
@@ -871,7 +846,7 @@
         },
         "title": {
             "ja": "asDataメソッドを使おう",
-            "en": "asDataメソッドを使おう"
+            "en": "Let's Use the asData Method"
         },
         "articleUrl": "https://qiita.com/Kaito_Kachi/items/e413b2f73b22739d5457",
         "categories": "Houdini",
@@ -893,7 +868,7 @@
         },
         "title": {
             "ja": "Principal Component Analysis SOPを使ったバリアント作成",
-            "en": "Principal Component Analysis SOPを使ったバリアント作成"
+            "en": "Creating Variants Using the Principal Component Analysis SOP"
         },
         "articleUrl": "https://qiita.com/yskzfjt/items/178bbce08a3d885ed697",
         "categories": "Houdini",
@@ -915,7 +890,7 @@
         },
         "title": {
             "ja": "MayaからHoudiniへ：Alembicを書き出してそのまま読み込む仕組み",
-            "en": "MayaからHoudiniへ：Alembicを書き出してそのまま読み込む仕組み"
+            "en": "From Maya to Houdini: Workflow for Exporting and Importing Alembic"
         },
         "articleUrl": "https://qiita.com/11mako12/items/759a4953d74509f81184",
         "categories": "Houdini",
@@ -937,7 +912,7 @@
         },
         "title": {
             "ja": "APEX HDK入門",
-            "en": "APEX HDK入門"
+            "en": "Introduction to APEX HDK"
         },
         "articleUrl": "https://qiita.com/Kaito_Kachi/items/17039912946136ff2b72",
         "categories": "Houdini",
@@ -959,7 +934,7 @@
         },
         "title": {
             "ja": "CHOPsを使ってプリロールアニメーションを外挿する",
-            "en": "CHOPsを使ってプリロールアニメーションを外挿する"
+            "en": "Extrapolating Pre-roll Animation Using CHOPs"
         },
         "articleUrl": "https://qiita.com/ichin0se/items/e21cd17896b2ef3e0c82",
         "categories": "Houdini",
@@ -981,7 +956,7 @@
         },
         "title": {
             "ja": "Houdiniで観覧車のイルミネーションを作ってみた",
-            "en": "Houdiniで観覧車のイルミネーションを作ってみた"
+            "en": "Creating Ferris Wheel Illuminations in Houdini"
         },
         "articleUrl": "https://qiita.com/_mm_/items/4cbcb7ea7f5806ff34d6",
         "categories": "Houdini",
@@ -1003,7 +978,7 @@
         },
         "title": {
             "ja": "パーティクルコントロール基礎",
-            "en": "パーティクルコントロール基礎"
+            "en": "Particle Control Basics"
         },
         "articleUrl": "https://zenn.dev/kickbase/articles/66b4591cd39dd5",
         "categories": "Houdini",
@@ -1025,7 +1000,7 @@
         },
         "title": {
             "ja": "初学者向け学習の手引き2025",
-            "en": "初学者向け学習の手引き2025"
+            "en": "2025 Learning Guide for Beginners"
         },
         "articleUrl": "https://zenn.dev/kickbase/articles/ccc2af3dae7533",
         "categories": "Houdini",
@@ -1047,7 +1022,7 @@
         },
         "title": {
             "ja": "houdini初心者がapex auto rig builderを使ってセットアップしてみたお話",
-            "en": "houdini初心者がapex auto rig builderを使ってセットアップしてみたお話"
+            "en": "A Houdini Beginner's Experience with APEX Auto Rig Builder"
         },
         "articleUrl": "https://note.com/nightskymap/n/n522726579f91",
         "categories": "Houdini",
@@ -1069,7 +1044,7 @@
         },
         "title": {
             "ja": "Houdini CopernicusとSubstance Designerを点字ブロックで比較",
-            "en": "Houdini CopernicusとSubstance Designerを点字ブロックで比較"
+            "en": "Comparing Houdini Copernicus and Substance Designer using Tactile Paving"
         },
         "articleUrl": "https://note.com/pky3d/n/nb497d02ea096",
         "categories": "Houdini",
@@ -1091,7 +1066,7 @@
         },
         "title": {
             "ja": "HDA ファイル名への独自ルールの設定方法",
-            "en": "HDA ファイル名への独自ルールの設定方法"
+            "en": "How to Set Custom Naming Rules for HDA Files"
         },
         "articleUrl": "https://ikatnek.blogspot.com/2025/12/hda-filename-custom-pattern.html",
         "categories": "Houdini",
@@ -1113,7 +1088,7 @@
         },
         "title": {
             "ja": "Houdiniのキャラクターたち：テストモデルの歴史",
-            "en": "Houdiniのキャラクターたち：テストモデルの歴史"
+            "en": "Houdini Characters: A History of Test Models"
         },
         "articleUrl": "https://qiita.com/jyouryuusui/items/6ddac9a50126f6a74a0d",
         "categories": "Houdini",
@@ -1124,27 +1099,20 @@
             "en": "Dummy"
         }
     },
-
-
-
-
-
-
-    
     {
         "thumbnailUrl": "2025120103.jpg",
         "creationDate": "2025-12-01",
         "author": {
-            "name": "@Borndigital_Yoshida",
-            "icon": "Borndigital_Yoshida.jpg",
-            "qiitaUrl": "https://qiita.com/Borndigital_Yoshida",
-            "twitterUrl": "https://twitter.com/Borndigital_Yoshida"
+            "name": "@jyouryuusui",
+            "icon": "jyouryuusui.jpg",
+            "qiitaUrl": "https://qiita.com/jyouryuusui",
+            "twitterUrl": "https://twitter.com/jyouryuusui"
         },
         "title": {
-            "ja": "大量のモデルも怖くない！メモリ節約＆高速化を実現する「パックプリミティブ」の仕組み",
-            "en": "大量のモデルも怖くない！メモリ節約＆高速化を実現する「パックプリミティブ」の仕組み"
+            "ja": "【失敗談】MacでMIDIコントローラーをCHOPで読み込み、オブジェクトを動かしたかった",
+            "en": "[Failure Story] Attempting to Drive Objects by Reading MIDI Controllers via CHOPs on Mac"
         },
-        "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/53141398396185",
+        "articleUrl": "https://qiita.com/jyouryuusui/items/d7173259ee572d03bd68",
         "categories": "Houdini",
         "tags": "SOP Python",
         "articleId": 2025120103,
@@ -1157,16 +1125,16 @@
         "thumbnailUrl": "2025120403.jpg",
         "creationDate": "2025-12-04",
         "author": {
-            "name": "@maxima_hikky",
-            "icon": "maxima_hikky.jpg",
-            "qiitaUrl": "https://qiita.com/maxima_hikky",
-            "twitterUrl": "https://twitter.com/maxima_hikky"
+            "name": "@gupon",
+            "icon": "gupon.jpg",
+            "qiitaUrl": "https://qiita.com/gupon",
+            "twitterUrl": "https://twitter.com/gupon"
         },
         "title": {
-            "ja": "HDAのPython ModuleにEnumでパラメーターを作成して色々なところで使い回す",
-            "en": "HDAのPython ModuleにEnumでパラメーターを作成して色々なところで使い回す"
+            "ja": "TOPsで即席ProRes(&H264)書き出し君",
+            "en": "Instant ProRes (& H.264) Exporter Tool using TOPs"
         },
-        "articleUrl": "https://qiita.com/maxima_hikky/items/6d68eadd8fa0ab601064",
+        "articleUrl": "https://qiita.com/gupon/items/afeaf5930cd3de51ebc9",
         "categories": "Houdini",
         "tags": "SOP Python",
         "articleId": 2025120403,
@@ -1176,41 +1144,19 @@
         }
     },
     {
-        "thumbnailUrl": "2025120803.jpg",
-        "creationDate": "2025-12-08",
-        "author": {
-            "name": "@maxima_hikky",
-            "icon": "maxima_hikky.jpg",
-            "qiitaUrl": "https://qiita.com/maxima_hikky",
-            "twitterUrl": "https://twitter.com/maxima_hikky"
-        },
-        "title": {
-            "ja": "グループを活用して途切れたカーブの間を繋ごう",
-            "en": "グループを活用して途切れたカーブの間を繋ごう"
-        },
-        "articleUrl": "https://qiita.com/maxima_hikky/items/72259d1725ebaa001d93",
-        "categories": "Houdini",
-        "tags": "SOP Python",
-        "articleId": 2025120803,
-        "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
-        }
-    },
-    {
         "thumbnailUrl": "2025120903.jpg",
         "creationDate": "2025-12-09",
         "author": {
-            "name": "@amateras",
-            "icon": "amateras.jpg",
-            "qiitaUrl": "https://qiita.com/amateras",
-            "twitterUrl": "https://twitter.com/amateras"
+            "name": "@godofsuama",
+            "icon": "godofsuama.jpg",
+            "qiitaUrl": "https://qiita.com/godofsuama",
+            "twitterUrl": "https://twitter.com/godofsuama"
         },
         "title": {
-            "ja": "HoudiniでAfterEffectsのキーフレームを作る",
-            "en": "HoudiniでAfterEffectsのキーフレームを作る"
+            "ja": "Namespace EditingとRelocatesのメモ",
+            "en": "Notes on Namespace Editing and Relocates"
         },
-        "articleUrl": "https://qiita.com/amateras/items/1ee6fad4c7486a48dbf8",
+        "articleUrl": "https://godofsuama.hatenablog.com/entry/adcal20251209",
         "categories": "Houdini",
         "tags": "SOP Python",
         "articleId": 2025120903,
@@ -1223,16 +1169,16 @@
         "thumbnailUrl": "2025121503.jpg",
         "creationDate": "2025-12-15",
         "author": {
-            "name": "@d658t",
-            "icon": "d658t.jpg",
-            "qiitaUrl": "https://qiita.com/d658t",
-            "twitterUrl": "https://twitter.com/d658t"
+            "name": "@maxima_hikky",
+            "icon": "maxima_hikky.jpg",
+            "qiitaUrl": "https://qiita.com/maxima_hikky",
+            "twitterUrl": "https://twitter.com/maxima_hikky"
         },
         "title": {
-            "ja": "Houdiniにおけるハードエッジの扱いについて",
-            "en": "Houdiniにおけるハードエッジの扱いについて"
+            "ja": "Houdini  HDA開発入門：PythonでKey-Value Dictionaryを自動生成し、外部モジュールをPythonModule経由で連携する",
+            "en": "Houdini HDA Development: Auto-generating Key-Value Dictionaries in Python and Integrating External Modules via PythonModule"
         },
-        "articleUrl": "https://qiita.com/d658t/items/2feb2f25d24f69c7088c",
+        "articleUrl": "https://qiita.com/maxima_hikky/items/a7dd037a43be2d3c448e",
         "categories": "Houdini",
         "tags": "SOP Python",
         "articleId": 2025121503,
@@ -1245,16 +1191,16 @@
         "thumbnailUrl": "2025122003.jpg",
         "creationDate": "2025-12-20",
         "author": {
-            "name": "@ijiVFX",
-            "icon": "ijiVFX.jpg",
-            "qiitaUrl": "https://qiita.com/ijiVFX",
-            "twitterUrl": "https://twitter.com/ijiVFX"
+            "name": "@kit2cuz",
+            "icon": "kit2cuz.jpg",
+            "qiitaUrl": "https://qiita.com/kit2cuz",
+            "twitterUrl": "https://twitter.com/kit2cuz"
         },
         "title": {
-            "ja": "HoudiniのPythonのExpressionについて",
-            "en": "HoudiniのPythonのExpressionについて"
+            "ja": "KarmaでGlobal AOVシェーダグラフとSlapCompを使用してカスタムAOVを作成する方法",
+            "en": "How to Create Custom AOVs in Karma using Global AOV Shader Graphs and SlapComp"
         },
-        "articleUrl": "https://qiita.com/ijiVFX/items/ee95830e502c1411434b",
+        "articleUrl": "https://qiita.com/kit2cuz/items/cb969bea2c6755db9d9a",
         "categories": "Houdini",
         "tags": "SOP Python",
         "articleId": 2025122003,
@@ -1263,13 +1209,6 @@
             "en": "Dummy"
         }
     },
-
-
-
-
-
-
-    
     {
         "thumbnailUrl": "2025120104.jpg",
         "creationDate": "2025-12-01",
@@ -1281,7 +1220,7 @@
         },
         "title": {
             "ja": "大量のモデルも怖くない！メモリ節約＆高速化を実現する「パックプリミティブ」の仕組み",
-            "en": "大量のモデルも怖くない！メモリ節約＆高速化を実現する「パックプリミティブ」の仕組み"
+            "en": "Don't Fear Massive Models! How Packed Primitives Save Memory and Boost Speed"
         },
         "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/53141398396185",
         "categories": "Houdini",
@@ -1303,7 +1242,7 @@
         },
         "title": {
             "ja": "HDAのPython ModuleにEnumでパラメーターを作成して色々なところで使い回す",
-            "en": "HDAのPython ModuleにEnumでパラメーターを作成して色々なところで使い回す"
+            "en": "Creating Enum Parameters in HDA Python Modules for Reusability"
         },
         "articleUrl": "https://qiita.com/maxima_hikky/items/6d68eadd8fa0ab601064",
         "categories": "Houdini",
@@ -1325,7 +1264,7 @@
         },
         "title": {
             "ja": "グループを活用して途切れたカーブの間を繋ごう",
-            "en": "グループを活用して途切れたカーブの間を繋ごう"
+            "en": "Bridging Gaps in Curves Using Groups"
         },
         "articleUrl": "https://qiita.com/maxima_hikky/items/72259d1725ebaa001d93",
         "categories": "Houdini",
@@ -1347,7 +1286,7 @@
         },
         "title": {
             "ja": "HoudiniでAfterEffectsのキーフレームを作る",
-            "en": "HoudiniでAfterEffectsのキーフレームを作る"
+            "en": "Creating After Effects Keyframes in Houdini"
         },
         "articleUrl": "https://qiita.com/amateras/items/1ee6fad4c7486a48dbf8",
         "categories": "Houdini",
@@ -1369,7 +1308,7 @@
         },
         "title": {
             "ja": "Houdiniにおけるハードエッジの扱いについて",
-            "en": "Houdiniにおけるハードエッジの扱いについて"
+            "en": "Handling Hard Edges in Houdini"
         },
         "articleUrl": "https://qiita.com/d658t/items/2feb2f25d24f69c7088c",
         "categories": "Houdini",
@@ -1391,7 +1330,7 @@
         },
         "title": {
             "ja": "HoudiniのPythonのExpressionについて",
-            "en": "HoudiniのPythonのExpressionについて"
+            "en": "About Python Expressions in Houdini"
         },
         "articleUrl": "https://qiita.com/ijiVFX/items/ee95830e502c1411434b",
         "categories": "Houdini",
@@ -1413,7 +1352,7 @@
         },
         "title": {
             "ja": "COPでベイクしてサブスタンスライクにPBRテクスチャつくる",
-            "en": "COPでベイクしてサブスタンスライクにPBRテクスチャつくる"
+            "en": "Creating Substance-like PBR Textures by Baking in COP"
         },
         "articleUrl": "https://cg-journal.com/cop%e3%81%a7%e3%83%99%e3%82%a4%e3%82%af%e3%81%97%e3%81%a6%e3%82%b5%e3%83%96%e3%82%b9%e3%82%bf%e3%83%b3%e3%82%b9%e3%83%a9%e3%82%a4%e3%82%af%e3%81%abpbr%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3/",
         "categories": "Houdini",
@@ -1424,7 +1363,6 @@
             "en": "Dummy"
         }
     }
-]    
+  
 
-
-
+]

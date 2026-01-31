@@ -1,8 +1,7 @@
 [
-    "大量のモデルも怖くない！メモリ節約＆高速化を実現する「パックプリミティブ」の仕組み",
-    "HDAのPython ModuleにEnumでパラメーターを作成して色々なところで使い回す",
-    "グループを活用して途切れたカーブの間を繋ごう",
-    "HoudiniでAfterEffectsのキーフレームを作る",
-    "Houdiniにおけるハードエッジの扱いについて",
-    "HoudiniのPythonのExpressionについて"
+    "【失敗談】MacでMIDIコントローラーをCHOPで読み込み、オブジェクトを動かしたかった",
+    "TOPsで即席ProRes(&H264)書き出し君",
+    "Namespace EditingとRelocatesのメモ",
+    "Houdini  HDA開発入門：PythonでKey-Value Dictionaryを自動生成し、外部モジュールをPythonModule経由で連携する",
+    "KarmaでGlobal AOVシェーダグラフとSlapCompを使用してカスタムAOVを作成する方法"
 ]
