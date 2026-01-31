@@ -3,8 +3,8 @@
     "author": "jyouryuusui",
     "lastUpdated": "2024-12-31T12:34:56+09:00",
     "categorie": "Houdini",
-    "calendarTags":"2016 2017 2018 2019 2020 2021 2022 2023 2024",
-    "tags": "Recommend SOP VEX ROP DOP Math HoudiniEngine HScript Python",
+    "calendarTags":"2016 2017 2018 2019 2020 2021 2022 2023 2024 2025",
+    "tags": "Recommend SOP VEX ROP DOP COP CHOP Math HoudiniEngine HScript Python",
     "data": [
       {
         "thumbnailUrl": "2016120101.jpg",
@@ -8703,11 +8703,11 @@
         },
         "articleUrl": "https://qiita.com/jyouryuusui/items/4ede36ad38f8348d16db",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP Vellum Muscle",
         "articleId": 2025120101,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、HoudiniにおけるVellumベースのマッスル・ティシューシミュレーションの基礎概念とワークフローを解説しています。従来のFEM方式から進化した現行システムの構造を「筋肉・組織・皮膚」の3層パスで紐解き、カピバラのモデルを用いた具体的なセットアップ手順を紹介しています。さらに、筋肉作成を簡略化するフランケンマッスルや、Houdini 21で登場した機械学習デフォーマー「Otis」などの最新機能についても触れ、プロシージャルな筋肉表現への入門ガイドとなっています。",
+            "en": "This article explains the fundamental concepts and workflow of Vellum-based muscle and tissue simulation in Houdini. It breaks down the current system—which evolved from the traditional FEM approach—into a three-pass structure (Muscle, Tissue, and Skin) and introduces a practical setup using a capybara model. Additionally, it covers modern features such as Franken Muscles for simplified creation and the machine learning-based \"Otis\" deformer introduced in Houdini 21, serving as an introductory guide to procedural muscle representation."      
         }
     },
     {
@@ -8725,11 +8725,11 @@
         },
         "articleUrl": "https://note.com/pontayamazato/n/n548ed2758d7a",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP Solver",
         "articleId": 2025120201,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、マシンパワーやメモリの制約、DOPのブラックボックス性を解消するために、SOP上で動作する独自の「糸ソルバ」を開発した事例を紹介しています。このソルバは、重力による垂れ下がりや風の影響、一端を引く動作などのシミュレーションを軽量に実現します。現状ではコリジョンや伸縮の概念はないものの、布や髪への応用が可能であり、自由な発想を形にするHoudiniの拡張性とSOP活用の利点を示しています。",
+            "en": "This article introduces a case study where a custom \"thread solver\" was developed to run on SOPs, overcoming hardware limitations and the black-box nature of DOPs. The solver provides lightweight simulations for effects like gravity-induced sagging, wind forces, and pulling motions. Although it currently lacks collisions and elasticity, it can be applied to represent cloth or hair, demonstrating the extensibility of Houdini and the practical advantages of using SOPs to bring creative ideas to life."
         }
     },
     {
@@ -8747,11 +8747,11 @@
         },
         "articleUrl": "https://qiita.com/tinybugbot/items/16217df465fa5356fab5",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP VEX",
         "articleId": 2025120301,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、VEXのprimuv関数やCurve Attribute Mapperを使用して、カーブの形状でランプパラメータを直感的に制御する方法を解説しています。直線のランプUIでは難しい非線形な変化や部分的な調整を、カーブのポイント位置で定義する手法が紹介されています。形状がそのままデータの変化として視覚化されるため、絵作りに集中しやすいワークフローとなっており、中級者へのステップアップに最適な内容です。",
+            "en": "This article explains how to intuitively control ramp parameters using curve geometry via the VEX primuv function and Curve Attribute Mapper. It introduces a technique to define non-linear changes and local adjustments by mapping curve point positions, which is often difficult with standard ramp UIs. Since the curve shape directly visualizes the data variation, this workflow allows artists to focus on the look, making it an excellent guide for intermediate users."
         }
     },
     {
@@ -8769,11 +8769,11 @@
         },
         "articleUrl": "https://qiita.com/torinos/items/693e7d78d7926b267c34",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP APEX",
         "articleId": 2025120401,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdini 21のAPEXにおいて、複雑なリグ構築を介さず「書き捨て」感覚でグラフを組める便利なHDAの活用術を提案しています。通常のノードベースのワークフローを簡略化し、特定のロジックをコードのように素早く検証することに特化しています。大規模なリギングの前段階や、ちょっとしたツール作成においてAPEXの強力な処理能力を気軽に引き出すための、実践的なヒントが詰まっています。",
+            "en": "This article proposes a workflow using a convenient HDA in Houdini 21's APEX that allows for 'disposable' graph building without the need for complex rig construction. It focuses on simplifying the standard node-based workflow to quickly verify specific logic, similar to writing a script. The piece is packed with practical tips for easily leveraging APEX's powerful processing capabilities for preliminary rigging stages or creating small utility tools."
         }
     },
     {
@@ -8791,11 +8791,11 @@
         },
         "articleUrl": "https://zenn.dev/unpyside/articles/e53908873c69f0/",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP Layout",
         "articleId": 2025120501,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、For-Eachループを用いてパラメトリックな形状変化をグリッド状に自動整列させ、視覚的に比較検討する手法について説明しています。IterationメタデータとTransformノードを組み合わせ、各ループのインデックスに応じたオフセットを適用する仕組みが解説されています。複数のデザイン案やシミュレーションのバリエーションを一度に俯瞰できるため、効率的なルックデヴや意思決定をサポートする実用的なTipsです。",
+            "en": "This article describes a method for using For-Each loops to automatically align parametric shape variations in a grid for visual comparison. It explains how to combine Iteration metadata with Transform nodes to apply offsets based on the loop index. This practical tip supports efficient look dev and decision-making by allowing users to survey multiple design iterations or simulation variations at a single glance."
         }
     },
     {
@@ -8813,11 +8813,11 @@
         },
         "articleUrl": "https://zenn.dev/kickbase/articles/f2df6619636774",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP Effect DOP Loop",
         "articleId": 2025120601,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、FLIPシミュレーションやプロシージャルなノイズを駆使して、違和感のない無限ループ・リキッドアニメーションを作成するテクニックを詳述しています。時間の経過に伴うジオメトリの変位をクロスフェードさせる手法や、ループ用の時間軸設定のコツが具体的に示されています。SNS投稿や背景素材として需要の高い、シームレスに繋がり続ける液体表現を効率よく構築したいユーザーにとって非常に有益な情報です。",
+            "en": "This article details techniques for creating seamless infinite loop liquid animations using FLIP simulations and procedural noise. It demonstrates methods for crossfading geometry displacements over time and provides specific tips for setting up time axes for looping. This is highly valuable information for users looking to efficiently build seamless liquid effects, which are in high demand for social media posts and background assets."      
         }
     },
     {
@@ -8835,11 +8835,11 @@
         },
         "articleUrl": "https://qiita.com/Lethe_movie/items/3466c6eb4d532e6e5c5f",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP VEX Math Solver Recommend",
         "articleId": 2025120701,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Gray-Scottモデルに基づいた反応拡散系をHoudiniのSolver SOPで実装し、複雑な自然界のパターンを自動生成する工程を紹介しています。VEXを用いた拡散係数の制御や、ポイント間での数値交換によるパターン形成のロジックが丁寧に解説されています。生物の斑点模様やサンゴのような有機的なテクスチャを、シミュレーションを通じてプロシージャルに作り出したい場合に最適なガイドとなっています。",
+            "en": "This article introduces the process of implementing a reaction-diffusion system based on the Gray-Scott model using Houdini's Solver SOP to generate complex natural patterns. It carefully explains the logic of pattern formation through diffusion coefficient control using VEX and value exchange between points. It serves as an ideal guide for anyone wanting to procedurally create organic textures, such as biological spots or coral patterns, through simulation."
         }
     },
     {
@@ -8857,11 +8857,11 @@
         },
         "articleUrl": "https://qiita.com/yu_kita/items/e43e1bf9c15cf1fc1737",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "DOP ROP Checkpoint",
         "articleId": 2025120801,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、大規模なシミュレーションにおいて、特定のフレームから計算を再開したり分岐させたりするための「チェックポイント」機能の自作方法を解説しています。キャッシュファイルを条件付きで読み書きするロジックを組むことで、計算時間の短縮と試行錯誤の効率化を両立させています。DOP内の複雑なセットアップを整理し、必要な部分だけをやり直すための現場に即したワークフローが提案されています。",
+            "en": "This article explains how to build a custom 'checkpoint' feature for large-scale simulations, allowing users to resume or branch calculations from specific frames. By setting up logic to conditionally read and write cache files, it achieves both reduced calculation times and improved iteration efficiency. The author proposes a production-ready workflow for organizing complex DOP setups and re-running only the necessary parts."
         }
     },
     {
@@ -8879,11 +8879,11 @@
         },
         "articleUrl": "https://qiita.com/jhorikawa_err/items/a81903acd9c173f8d1dc",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "DOP CHOP Effect Audio",
         "articleId": 2025120901,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、DOPの衝突判定をトリガーにしてサウンドを生成する、物理演算ベースのミュージックシーケンサーの構築手順を解説しています。剛体シミュレーションの結果をCHOPへと転送し、MIDI信号や波形として出力するネットワークの仕組みが紹介されています。視覚的な動きと音が完全に同期したオーディオビジュアル作品を、Houdini単体でロジカルに構築するためのユニークなアプローチを学べます。",
+            "en": "This article explains the steps for building a physics-based music sequencer that uses DOP collision detection as a trigger to generate sound. It introduces the network structure for transferring rigid body simulation results to CHOPs and outputting them as MIDI signals or waveforms. It offers a unique approach for logically constructing audiovisual works where visual movement and sound are perfectly synchronized within Houdini."
         }
     },
     {
@@ -8901,11 +8901,11 @@
         },
         "articleUrl": "https://qiita.com/Kaito_Kachi/items/115230be7538e941fb46",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "COP APEX ROP Copernicus",
         "articleId": 2025121001,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdini 21の新機能Copernicusを中心に、APEXによるリグ制御とVAT書き出しを連携させる高度なワークフローを検証しています。画像コンテキスト内での柔軟なデータ処理と、リアルタイムエンジン向けのアニメーション変換プロセスが具体的に示されています。次世代のツール開発や、DCCツール間を跨ぐ効率的なパイプライン構築を目指す上での強力な武器となるテクニックが紹介されています。",
+            "en": "This article examines an advanced workflow centering on Houdini 21's new Copernicus feature, integrating APEX rig control with VAT (Vertex Animation Texture) export. It provides concrete examples of flexible data processing within the image context and the animation conversion process for real-time engines. The techniques introduced serve as a powerful asset for next-generation tool development and building efficient pipelines across DCC tools."
         }
     },
     {
@@ -8923,11 +8923,11 @@
         },
         "articleUrl": "https://qiita.com/Kaito_Kachi/items/73509c997e7314c984ca",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Math SOP Catmull-Clark Recommend",
         "articleId": 2025121101,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、既存のノードに頼らず、Catmull-Clark法によるサブディビジョンサーフェスのアルゴリズムをVEXのみでフル実装する過程を詳解しています。面・辺・頂点の各ポイントを算出する数学的ロジックを紐解き、コードとして再現する手法が記述されています。CGエンジニアリングの深層に触れる内容であり、形状生成の背後にある原理を数学的に深く理解したいユーザーに強く推奨されます。",
+            "en": "This article provides a detailed explanation of fully implementing the Catmull-Clark subdivision surface algorithm using only VEX, without relying on existing nodes. It describes the method for reproducing the mathematical logic for calculating face, edge, and vertex points within code. Touching on the depths of CG engineering, it is highly recommended for users who want a deep mathematical understanding of the principles behind geometry generation."
         }
     },
     {
@@ -8945,11 +8945,11 @@
         },
         "articleUrl": "https://qiita.com/tsuka0245/items/866cb786cc18abed360e",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP Python Recommend",
         "articleId": 2025121201,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、60分で作品を制作するイベント「Houdini 60m」に向けて準備された、制作速度を向上させるためのTipsを紹介しています。モデリング時の選択ショートカットやRadial Menusの活用、Quick Shapesなどのシェルフツールによる効率化、インスタンス配置の手法、そしてAIとPythonを用いたアセット持ち込みの裏技など、短時間で成果物を出すためのノウハウがまとめられています。",
+            "en": "In this article, tips for improving production speed prepared for the \"Houdini 60m\" challenge are introduced. It summarizes practical know-how for quick content creation, including modeling shortcuts and Radial Menus usage, efficiency using shelf tools like Quick Shapes, instancing methods, and a trick for importing assets using AI and Python."     
         }
     },
     {
@@ -8967,11 +8967,11 @@
         },
         "articleUrl": "https://note.com/thesaurus/n/n32e672cca02b",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "COP SOP Copernicus",
         "articleId": 2025121301,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdini 21で正式リリースされたCopernicusとSubstance Designerの考え方の違いについて解説しています。パターンの生成方法やテクスチャの処理フローを具体的に比較し、SOPとの密接な連携といったCopernicusならではの特徴を整理しています。従来の2Dテクスチャ制作ツールとの差異を理解し、Houdini内での効率的なマテリアル制作を目指すユーザーに役立つ内容です。",
+            "en": "This article explains the conceptual differences between Copernicus, officially released in Houdini 21, and Substance Designer. It compares pattern generation and texture processing workflows, highlighting Copernicus's unique strengths such as its close integration with SOPs. It serves as a resource for users looking to understand the differences from traditional 2D texture tools for efficient material creation."
         }
     },
     {
@@ -8989,11 +8989,11 @@
         },
         "articleUrl": "https://youtu.be/0WUUmXYS7A0",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "APEX KineFX Animation",
         "articleId": 2025121401,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この動画では、Houdini 20以降で導入されたAPEXによる最新のアニメーションワークフローを徹底解説しています。基本的なリグ操作から、アニメーションレイヤー、各種コンストレイント、ポーズ管理カタログ、物理ベースのラグドール、そして複数の動きを統合するモーションミキサーまで幅広く網羅しています。外部データの入出力やリターゲティング手法についても詳しく触れており、次世代の制作環境を学べる内容です。",
+            "en": "This movie provides an in-depth explanation of the latest animation workflow using APEX introduced in Houdini 20. It covers a wide range of topics, from basic rig operations and animation layers to various constraints, the Animation Catalog, physics-based ragdolls, and the Motion Mixer. It also details file I/O for external data and retargeting techniques, offering insights into next-generation production environments."
         }
     },
     {
@@ -9011,11 +9011,11 @@
         },
         "articleUrl": "https://qiita.com/ijiVFX/items/81b60e429dca6e0df485",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "VEX Math SOP",
         "articleId": 2025121501,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdiniにおける様々な回転制御の手法について、敢えてTransform SOPを使わずにVEXを用いて解説しています。クォータニオンやdihedral関数、qrotate関数を使った具体的な計算方法を、初心者にも分かりやすいコード例と共に紹介しています。回転の仕組みを基礎から論理的に理解し、より高度なジオメトリ操作やリギングに応用したい方に最適な入門ガイドです。",
+            "en": "This article explains various rotation control methods in Houdini using VEX instead of the Transform SOP to deepen logical understanding. It introduces practical calculation methods using quaternions, the dihedral function, and the qrotate function, accompanied by code examples for beginners. It serves as an introductory guide for those wanting to understand rotation from the ground up for advanced geometry manipulation."
         }
     },
     {
@@ -9033,11 +9033,11 @@
         },
         "articleUrl": "https://qiita.com/55hertz/items/d7db361bb27a8eb0e368",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "VEX SOP Math",
         "articleId": 2025121601,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdini 20.5で追加されたVEX関数「osd_limitsurface」の機能と具体的な使用例について紹介しています。OpenSubdivを利用してサブディビジョンサーフェスの極限面上での座標評価を行うこの関数の仕組みを解説し、ジオメトリの変形や詳細な配置への応用可能性を検証しています。新機能の挙動をいち早く把握し、最新のVEXワークフローを取り入れたいユーザーに向けた技術解説です。",
+            "en": "This article introduces the functionality and practical use cases of the 'osd_limitsurface' VEX function added in Houdini 20.5. It explains how this function evaluates coordinates on the limit surface of a subdivision surface using OpenSubdiv and examines its potential applications for geometry deformation. It provides technical commentary for users looking to incorporate the latest VEX workflows into their projects."
         }
     },
     {
@@ -9055,11 +9055,11 @@
         },
         "articleUrl": "https://fereria.github.io/reincarnation_tech/dcc/Houdini/SOLARIS/sopimport",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Solaris USD",
         "articleId": 2025121701,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、SolarisにおいてSOPデータをUSD形式に変換・読み込むための重要ノード「SOP Import」の仕様と詳細設定について解説しています。基本設定からアトリビュートのマッピング、ジオメトリのパス指定まで、挙動を確認しながら正しくデータを扱うためのポイントを整理しています。USDワークフローにおけるSOPとLOPの連携を最適化し、効率的なパイプラインを構築したいユーザーにとって必須の知識です。",
+            "en": "This article explains the specifications and detailed settings of the 'SOP Import' node, crucial for importing SOP data into USD within Solaris. It outlines the key points for correctly handling data, from basic settings to attribute mapping and geometry path specification. It provides essential knowledge for users looking to optimize the connection between SOPs and LOPs to build efficient pipelines."
         }
     },
     {
@@ -9077,11 +9077,11 @@
         },
         "articleUrl": "https://qiita.com/median_ky/items/21cf5b6104513f45708f",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP VEX Math",
         "articleId": 2025121801,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、キャラクターの動きにオブジェクトを完全に追従（位置と回転の両立）させるための数学的アプローチを解説しています 。単なる位置情報の取得から一歩進み、Intrinsicアトリビュートや3D変換行列、内積・外積を用いた論理的な姿勢制御の手順を詳述しています 。リギングやエフェクトの配置において、理論に基づいた正確なオブジェクト配置を実現するための実践的なヒントが満載です 。",
+            "en": "This article explains a mathematical approach for making objects perfectly follow a character's movement, including both position and orientation. Moving beyond simple position acquisition, it details logical posture control using intrinsic attributes, 3D transformation matrices, and dot/cross products. It provides practical tips for achieving precise object placement based on theory in rigging and effect placement."
         }
     },
     {
@@ -9099,11 +9099,11 @@
         },
         "articleUrl": "https://note.com/fuji_houdini/n/n834917bdd5df",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "COP SOP Copernicus",
         "articleId": 2025121901,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdini 21の目玉機能であるCopernicusについて、初心者の視点から学習方法と使い勝手を検証しています 。ノードベースでの画像処理やマテリアル制作の基本を、他のDCCツールの経験を交えながら分かりやすく解説し、導入のハードルを下げる工夫がなされています 。これからCopernicusを学びたいユーザーに向けて、最初の一歩と理解の深め方を示した入門ガイドです 。",
+            "en": "This article examines learning methods and usability for Copernicus, a highlight feature of Houdini 21, from a beginner's perspective. It provides an easy-to-understand explanation of node-based image processing and material creation, incorporating experiences from other DCC tools. It serves as an introductory guide for users wanting to start learning Copernicus and shows how to deepen their understanding."
         }
     },
     {
@@ -9121,11 +9121,11 @@
         },
         "articleUrl": "https://qiita.com/amateras/items/844f651645a4762bf301",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Python Package",
         "articleId": 2025122001,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+          "ja": "この記事では、Houdiniの環境設定を管理する「Package」機能を複数併用する際の実践的な注意事項を解説しています。JSONファイルによるパス指定の仕組みや、読み込み順序を制御するprocess_orderパラメータの重要性、同一名称のスクリプトが競合した場合の挙動について具体例を挙げて紹介しています。大規模なプロジェクトやチーム開発において、柔軟かつ安定したパイプライン環境を構築するための必須知識がまとめられています。",
+          "en": "This article explains practical precautions when using multiple 'Package' features to manage Houdini's environment. It introduces the mechanism of path specification via JSON files, the importance of the process_order parameter for controlling load order, and how the system behaves when script names conflict. It summarizes essential knowledge for building flexible and stable pipeline environments in large-scale projects or team development."
         }
     },
     {
@@ -9143,11 +9143,11 @@
         },
         "articleUrl": "https://godofsuama.hatenablog.com/entry/adcal20251221",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP VEX Math",
         "articleId": 2025122101,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+          "ja": "この記事では、Houdiniでパック（Pack）されたジオメトリに対して、任意のポイントを軸とした回転アニメーションを追加する手法を解説しています。Extract Transformによる情報取得や、IntrinsicアトリビュートのpivotをVEXで書き換えて回転の中心をオフセットする具体的な手順が紹介されています。外部ツールから読み込んだモデルやプロシージャルなアニメーションにおいて、柔軟な動きを制御するための高度なTipsです。",
+          "en": "This article explains techniques for adding rotation animation centered on arbitrary points to packed geometry in Houdini. It introduces specific procedures for obtaining information via Extract Transform and rewriting the pivot intrinsic attribute using VEX to offset the center of rotation. These advanced tips are useful for controlling flexible motions in models imported from external tools or in procedural animations."
         }
     },
     {
@@ -9165,11 +9165,11 @@
         },
         "articleUrl": "https://qiita.com/ichin0se/items/6da6947cfc15cb4e0793",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "DOP VEX Math",
         "articleId": 2025122201,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+          "ja": "この記事では、HoudiniのPOP Solverにおける空気抵抗（Drag）の物理的挙動と、その計算式を数学的な視点から詳細に解説しています。POP Drag DOPが内部でどのように速度を減衰させているのか、相対速度や係数が計算にどう影響するかを数式を紐解きながら検証しています。シミュレーションの挙動を単なるパラメータ調整ではなく、理論的に理解することでより精緻なエフェクト制作を目指すユーザー向けの技術的な内容です。",
+          "en": "This article provides a detailed mathematical explanation of the physical behavior and calculation formulas for air resistance (Drag) in Houdini's POP Solver. It examines how the POP Drag DOP internally attenuates velocity and how relative speed and coefficients affect calculations by deconstructing the underlying equations. This technical piece is aimed at users who want to move beyond simple parameter adjustments to a theoretical understanding for more precise effect creation."
         }
     },
     {
@@ -9187,11 +9187,11 @@
         },
         "articleUrl": "https://note.com/proceduraldesign/n/n73bd01f7d2c5",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP Copernicus",
         "articleId": 2025122301,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+          "ja": "この記事では、60分でお題に沿った作品を制作する競技イベント「Houdini 60 minutes」の参加レポートとして、ピザをモデリング・レンダリングする工程を解説しています。限られた時間内でVDBを活用したチーズの融合表現や、プロシージャルな具材配置を行う戦略的なワークフローが紹介されています。技術的なTipsだけでなく、瞬発力が求められる競技ならではの判断基準や面白さを伝える、臨場感あふれる内容となっています。",
+          "en": "This article is a report on the 'Houdini 60 Minutes' competition, where participants must create a work based on a theme within one hour, specifically detailing the process of modeling and rendering a pizza. It introduces a strategic workflow using VDBs for realistic cheese fusion and procedural topping placement under a tight deadline. Beyond technical tips, it captures the excitement and decision-making criteria unique to a high-speed competition format."
         }
     },
     {
@@ -9209,11 +9209,11 @@
         },
         "articleUrl": "https://qiita.com/TF_siri/items/749c1013640b74db655b",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP DOP VEX Solver",
         "articleId": 2025122401,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+          "ja": "この記事では、熱によって重力の向きが変化するロジックを用いた、ラバランプ（溶岩ランプ）のシミュレーション作成手法を解説しています。温度アトリビュートを独自に定義し、Solver SOP内で位置に応じた加熱と冷却を計算することで、有機的な浮き沈みの動きを実現しています。物理的に正確な流体計算の難しさを、VEXによる疑似的な重力制御でシンプルかつ効果的に解決する、プロシージャルな発想が光るガイドです。",
+          "en": "This article explains a technique for creating a lava lamp simulation using logic where gravity's direction changes based on heat. By defining a custom temperature attribute and calculating heating and cooling within a Solver SOP based on position, it achieves organic rising and sinking motions. It is a guide showcasing procedural creativity, solving the complexity of physically accurate fluid simulation through simple and effective pseudo-gravity control via VEX."
         }
     },
     {
@@ -9231,11 +9231,11 @@
         },
         "articleUrl": "https://qiita.com/neuh/items/0f3f373121487f6d4dc8",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Python Recommend Shelf",
         "articleId": 2025122501,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+          "ja": "この記事では、Houdiniのビューポート操作やネットワーク構築における単純作業を効率化するための、自作のPython時短ツール8選を紹介しています。カメラのワンクリック切り替えや、ノードをObject Mergeとしてペーストする機能など、実務で頻出する操作をシェルフツール化する具体例が挙げられています。日々の細かな時間を削り、本来のクリエイティブな作業に集中するための、即戦力となる自動化Tipsが凝縮されています。",
+          "en": "This article introduces eight custom Python productivity tools designed to streamline repetitive tasks in Houdini's viewport and network view. It provides specific examples of shelf tools for common operations, such as one-click camera switching and pasting nodes as Object Merges. It is a collection of immediately applicable automation tips aimed at cutting down on daily micro-tasks, allowing artists to focus more on their creative work."
         }
     },
     {
@@ -9253,11 +9253,11 @@
         },
         "articleUrl": "https://nullnode.wixsite.com/houdinipsalm/post/%E3%83%A8%E3%83%BC%E3%83%AB%E3%82%AB%E3%81%AE%E5%B0%96%E5%A1%94%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP VEX",
         "articleId": 2025120102,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdiniを使用して「ヨールカの尖塔」を作成する手順を解説しています。Line SOPから生成したポイントをAttribute WrangleとVEXのchramp関数で制御して曲線を作り、Revolve SOPで回転体を構築します。さらにAttribute PaintやScatterを活用して、塔の表面に大量のBoxを配置する装飾プロセスを紹介しており、初心者でも形状構築からディテールアップまでの流れを学べる内容となっています。",
+            "en": "This article explains the process of creating the \"Spire of Yolka\" using Houdini. It demonstrates how to create a curve from points generated by a Line SOP, controlled via Attribute Wrangle and the VEX chramp function, and then build a revolved surface using the Revolve SOP. It also introduces a decorative process using Attribute Paint and Scatter to distribute numerous boxes across the surface, providing a comprehensive workflow from basic modeling to detailing for beginners."
         }
     },
     {
@@ -9275,11 +9275,11 @@
         },
         "articleUrl": "https://qiita.com/median_ky/items/9f1c1399a725950ba7cb",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP Effect Recommend UV",
         "articleId": 2025120202,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、ゲームエフェクト制作に不可欠な各種メッシュをHoudiniで作成する手法を、要点を絞って解説しています。スラッシュ、雷、竜巻、トレイルなど7種類のエフェクト用形状を例に、UV展開が容易なSweep SOPを軸としたワークフローを紹介しています。マテリアル設定に役立つアトリビュートの割り当てや、ゲームエンジンへの持ち出しを想定した効率的なメッシュ構築のコツを学べる実践的な内容です。",
+            "en": "This article provides a focused explanation of techniques for creating various meshes essential for game effect production using Houdini. Using seven types of effects—including slashes, lightning, tornadoes, and trails—as examples, it introduces a workflow centered on the Sweep SOP for easy UV mapping. It offers practical insights into attribute assignment for material settings and tips for efficient mesh construction intended for export to game engines."
         }
     },
     {
@@ -9297,11 +9297,11 @@
         },
         "articleUrl": "https://note.com/kei_nozaki/n/n91e2f3986ec8?sub_rt=share_pw",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Learning",
         "articleId": 2025120302,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdiniに興味を持つ初心者に向けて、学習の難易度やツール選び、必要なPCスペックなどをQ&A形式で親しみやすく解説しています。Blenderとの違いやプロシージャルなアプローチの魅力に触れつつ、まずは無料版をインストールして触れてみることの大切さを説いています。学習リソースの探し方にも言及しており、これからHoudiniの世界に飛び込もうとする方の背中を押してくれる励ましの一冊です。",
+            "en": "This article provides a friendly Q&A-style guide for Houdini beginners, addressing topics such as learning difficulty, tool selection, and required PC specifications. While discussing the differences from Blender and the appeal of procedural approaches, it emphasizes the importance of simply installing the free version and getting started. It also mentions how to find learning resources, serving as an encouraging guide for those about to dive into the world of Houdini."
         }
     },
     {
@@ -9319,11 +9319,11 @@
         },
         "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/52929500880025",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "KineFX APEX",
         "articleId": 2025120402,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、外部DCCツールからインポートしたFBXキャラクターに対し、Houdini 21でリグ構築を行うためのポーズ修正手順を解説しています。FBX Character Importで読み込んだデータにJoint DeformとRig Poseを適用し、IKソルバーが正しく動作するように関節へ僅かな角度（ヒント）を与える手法を紹介しています。APEXシステムへの橋渡しとなるパッキング工程も含まれており、既存アセットを有効活用するための実践的なヒントがまとめられています。",
+            "en": "This article explains the procedures for adjusting poses to build rigs in Houdini 21 for FBX characters imported from external DCC tools. It demonstrates applying Joint Deform and Rig Pose to data loaded via FBX Character Import, focusing on providing \"hints\" to IK solvers by slightly bending joints. Including the packing process for the APEX system, it summarizes practical tips for effectively utilizing existing assets within Houdini's rigging environment."
         }
     },
     {
@@ -9341,11 +9341,11 @@
         },
         "articleUrl": "https://qiita.com/median_ky/items/b1697a092f61e78d93c9",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP VEX Effect",
         "articleId": 2025120502,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、ゲームエフェクト制作においてキャラクターや武器を覆うオーラ等を作る際、通常の拡大ではなく「法線方向へのサイズアップ」を行う利点と手法を解説しています。原点中心の拡大で生じるモデルの突き抜けを防ぎ、綺麗に重ねるためのVEXやNormal SOPの活用法を詳しく紹介しています。単純な座標移動の積み重ねが視覚的なクオリティ向上に直結することを示しており、現場で即座に役立つテクニックが凝縮されています。",
+            "en": "This article explains the benefits and methods of \"sizing up along normals\" rather than using standard scaling when creating effects like auras for characters or weapons. It provides detailed instructions on using VEX and the Normal SOP to prevent model clipping caused by origin-based scaling, ensuring clean layering. By showing how simple coordinate manipulation directly improves visual quality, it offers a highly practical technique for real-world production."
         }
     },
     {
@@ -9363,11 +9363,11 @@
         },
         "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/53031388565785",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "KineFX APEX",
         "articleId": 2025120602,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdiniのリギング環境を支える「KineFX」と「APEX」の違いと補完関係について分かりやすく解説しています。リグをジオメトリとして構築するKineFXの利点と、その評価コストを解消するために導入された高速な実行エンジンAPEXの仕組みを比較しています。両者の役割を「設計（構築）」と「実行（パフォーマンス）」として整理しており、次世代のリギングシステムを正しく理解し使い分けるための基礎知識を提供しています。",
+            "en": "This article provides an easy-to-understand explanation of the differences and complementary relationship between KineFX and APEX, the pillars of Houdini's rigging environment. It compares the advantages of KineFX, which builds rigs as geometry, with the mechanism of APEX, a high-speed execution engine introduced to overcome evaluation overhead. By framing their roles as \"design (construction)\" and \"execution (performance),\" it offers fundamental knowledge for correctly understanding and utilizing next-generation rigging systems."
         }
     },
     {
@@ -9385,11 +9385,11 @@
         },
         "articleUrl": "https://qiita.com/ryomasanpei/items/cc54a4e27302dd61af2a",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "DOP SOP Effect",
         "articleId": 2025120702,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、パーティクルシミュレーションとパスデフォームを組み合わせて、簡易的な「ビッグバン」のエフェクトを作成する工程を解説しています。DOPで飛ばしたノイジーなパーティクルを、Copy to Pointsで配置・変形させたベースカーブに沿わせることで、ダイナミックな形状を作り出す手法を紹介しています。アトリビュートを活用した色味やスケールの調整にも触れており、手軽にスケール感のあるビジュアルを構築するための実践的なアプローチを学べます。",
+            "en": "This article explains the process of creating a simple \"Big Bang\" effect by combining particle simulation with path deformation. It introduces a method for shaping dynamic visuals by taking noisy particles simulated in DOPs and aligning them along base curves manipulated via Copy to Points. By also covering attribute-based adjustments for color and scale, it provides a practical approach to easily constructing high-impact visual effects."
         }
     },
     {
@@ -9407,11 +9407,11 @@
         },
         "articleUrl": "https://qiita.com/hajimeCG/items/1d1981071c75d03aea55",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Solaris USD",
         "articleId": 2025120802,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、HoudiniにおけるUSDワークフローの入り口として、Solarisの基本概念と利点を初心者向けに噛み砕いて解説しています。複数ソフト間での高い互換性や、メモリ消費を抑えた効率的なレンダリング、ファイルの可読性など、USDを採用するメリットを具体的に紹介しています。Solarisを「USDを司る国（コンテクスト）」として定義し、従来の制作パイプラインからの移行に不安を感じるユーザーに対して、その利便性と将来性を提示する入門ガイドです。",
+            "en": "This article provides a beginner-friendly breakdown of the fundamental concepts and advantages of Solaris as an entry point into the USD workflow in Houdini. It specifically highlights the benefits of adopting USD, such as cross-software compatibility, memory-efficient rendering, and file readability. By defining Solaris as the \"context\" for USD, it serves as an introductory guide that demonstrates the convenience and future potential of the system for users hesitant about migrating from traditional pipelines."
         }
     },
     {
@@ -9429,11 +9429,11 @@
         },
         "articleUrl": "https://note.com/thesaurus/n/n63e777a15ce2",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP Math",
         "articleId": 2025120902,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、規則性と変化が混在する「カレンダー」を題材に、Houdiniのプロシージャルな強みを活かした構築手法を解説しています。Copy Transformでのグリッド作成、Sort SOPによる開始曜日のオフセット、そしてFor EachループとFont SOPを組み合わせた日付の自動生成プロセスを紹介しています。手作業での数字入力を排除し、パラメータ一つで月ごとの日数を制御できる仕組みは、Houdiniの柔軟なロジック構築を学ぶのに最適な作例となっています。",
+            "en": "This article demonstrates Houdini's procedural strengths by explaining how to build a calendar, a subject that blends regularity with variation. It introduces a process involving grid creation via Copy Transform, offsetting the start day with the Sort SOP, and automatically generating dates using a combination of For Each loops and the Font SOP. By eliminating manual input and controlling monthly days with a single parameter, this project serves as an excellent example for learning Houdini's flexible logic construction."
         }
     },
     {
@@ -9451,11 +9451,11 @@
         },
         "articleUrl": "https://note.com/futafusa/n/nc5dd76deacb0",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP",
         "articleId": 2025121002,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、平面のサイズを基準にして、折り返し構造を持つ階段をプロシージャルに作成する手法を解説しています。平面を半分にカットし、ミラーやポリスプリットで階段と踊り場の基本ラインを構築した後、Copy and Transformで180度回転させながら積み上げるロジックを紹介しています。最後にSweep SOPで厚みを持たせることで、形状変更に柔軟に対応できる階段モデリングの基礎を学べる内容となっています。",
+            "en": "This article explains a procedural method for creating U-shaped folding stairs based on an initial plane's dimensions. It demonstrates building the basic lines for steps and landings using Clip, Mirror, and Poly Split nodes, followed by stacking them using the Copy and Transform node with 180-degree rotations. By applying the Sweep SOP for thickness, it provides a foundation for stair modeling that flexibly adapts to dimension changes."
         }
     },
     {
@@ -9473,11 +9473,11 @@
         },
         "articleUrl": "https://qiita.com/hajimeCG/items/d4cad773f337409a761e",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Solaris USD",
         "articleId": 2025121102,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Blenderのサンプルシーンを題材に、HoudiniのSolaris上でライティングとレンダリングを行う一連の流れを解説しています。USD形式でのアセット書き出しから、Solarisでのリファレンス読み込み、Dome LightやDistant Lightを使用したライティング、そしてKarmaでのレンダリング設定までを初心者向けに紹介しています。Mayaユーザーにも分かりやすい対比を交え、Solarisの直感的な操作性を提示しています。",
+            "en": "This article explains the workflow for lighting and rendering a Blender sample scene within Houdini's Solaris context. Aimed at beginners, it covers exporting assets as USD, referencing them in Solaris, using Dome and Distant lights, and configuring Karma render settings. By including comparisons familiar to Maya users, it demonstrates the intuitive operability of Solaris for look development and rendering tasks."
         }
     },
     {
@@ -9495,11 +9495,11 @@
         },
         "articleUrl": "https://note.com/puramaike/n/n3656e0b9c7be",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "COP Groom",
         "articleId": 2025121202,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、HoudiniのGroom機能と新機能Copernicus（COPs）を連携させ、ゲームエンジン向けの板ポリヘア用テクスチャを作成するワークフローを解説しています。ノードベースで修正が容易なグルーム作成から、COPsを用いたベイクとテクスチャ処理、そしてUEへのセットアップまでをシームレスに行う利点を紹介しています。DCCツールとテクスチャソフトを往復せず、Houdini内で完結させる効率的な手法がまとめられています。",
+            "en": "This article explains a workflow for creating hair card textures for game engines by integrating Houdini's Groom features with the new Copernicus (COPs) framework. It highlights the advantages of a seamless process—from building easily modifiable node-based grooms to baking and texture processing in COPs, followed by UE setup. The guide demonstrates an efficient method that stays within Houdini, eliminating the need to cycle between DCC and external texturing software."
         }
     },
     {
@@ -9517,11 +9517,11 @@
         },
         "articleUrl": "https://qiita.com/amateras/items/94e86eb4ad0fb5c47c11",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "UI",
         "articleId": 2025121302,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdiniのパネルレイアウトをカスタマイズして、学習や作業の効率を向上させるTipsを紹介しています。複数のScene ViewやGeometry Spreadsheetを配置し、リンクパネル機能を活用して、1つのHoudini内で既存のHIPファイルと自分の作業画面を並べて比較・写経する環境構築を提案しています。Parameter Diffを活用したノード間の差分確認など、入門者がHoudiniの複雑な機能を効率よく学ぶための実践的な工夫が解説されています。",
+            "en": "This article provides tips for customizing Houdini's panel layouts to improve learning and workflow efficiency. It suggests building an environment where users can compare and transcribe existing HIP files by arranging multiple Scene Views and Geometry Spreadsheets side-by-side using the link panel feature. It also covers practical techniques for beginners to study complex features effectively, such as using Parameter Diff to identify differences between nodes."
         }
     },
     {
@@ -9539,11 +9539,11 @@
         },
         "articleUrl": "https://qiita.com/Kaito_Kachi/items/e413b2f73b22739d5457",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Python JSON",
         "articleId": 2025121402,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdini 20.5で追加されたhou.NodeクラスのasDataおよびchildrenAsDataメソッドについて解説しています。これらのメソッドは、ノードのパラメータ、フラグ、接続状態などをJSON形式の辞書として出力するもので、レシピ機能の内部でも利用されています。Pythonを用いてノードネットワークの状態をデータ化し、JSONファイル経由で別の環境へ受け渡したり再構築したりする具体的な活用例と、その構造の詳細が紹介されています。",
+            "en": "This article explains the asData and childrenAsData methods added to the hou.Node class in Houdini 20.5. These methods export node parameters, flags, and connection states as JSON dictionaries, a mechanism used internally by the Recipe feature. It provides specific examples and structural details for using Python to digitize node network states, allowing for data transfer or reconstruction across different environments via JSON files."
         }
     },
     {
@@ -9561,11 +9561,11 @@
         },
         "articleUrl": "https://qiita.com/yskzfjt/items/178bbce08a3d885ed697",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP Math",
         "articleId": 2025121502,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、主成分分析（PCA）を行うPCA SOPを活用し、ジオメトリのバリエーション（バリアント）を生成する高度なワークフローを解説しています。多数のモデルを「Analyze」モードで解析して低次元のウェイト空間に圧縮し、「Project」と「Reconstruct」モードを使い分けて新しい形状を再構築する手順を詳述しています。機械学習の数学的アプローチをジオメトリ生成に応用し、論理的に多様な形状を作り出す手法を学べる内容です。",
+            "en": "This article explains an advanced workflow for generating geometry variants using the Principal Component Analysis (PCA) SOP. It details the steps of analyzing numerous models to compress them into a low-dimensional weight space using 'Analyze' mode, then reconstructing new shapes via 'Project' and 'Reconstruct' modes. It offers insights into applying mathematical machine learning approaches to geometry generation to logically produce diverse shape variations."
         }
     },
     {
@@ -9583,11 +9583,11 @@
         },
         "articleUrl": "https://qiita.com/11mako12/items/759a4953d74509f81184",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Alembic Python Maya",
         "articleId": 2025121602,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Mayaから書き出した複数のAlembicファイルを、Houdiniの起動時に自動で一括読み込みするパイプラインの構築方法を解説しています。Maya側でオブジェクトごとに日時スタンプ付きで出力するPythonスクリプトと、Houdini側で「456.py」を利用して起動時にそれらを自動インポートする仕組みを紹介しています。ツール間のデータ移行に伴う単純作業を自動化し、日々の業務時間を短縮するための実践的なアプローチが提案されています。",
+            "en": "This article explains how to build a pipeline for automatically batch-importing multiple Alembic files exported from Maya into Houdini upon startup. It introduces a Python script for Maya that exports individual objects with timestamps and a mechanism in Houdini using '456.py' to auto-import those files. The author proposes a practical approach to automating repetitive tasks during cross-tool data transfer, aimed at saving daily production time."
         }
     },
     {
@@ -9605,11 +9605,11 @@
         },
         "articleUrl": "https://qiita.com/Kaito_Kachi/items/17039912946136ff2b72",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "C++ HDK APEX",
         "articleId": 2025121702,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdini 21のHDK（Houdini Development Kit）を使用して、カスタムのAPEXコールバックをC++で作成するための入門知識を解説しています。サンプルコードを基に、APEXの評価エンジンで動作する独自の処理を追加する構造やビルド手順を紐解いています。特に、ポート名の接頭辞「*」によるIn-Place Port（新規生成か上書き出力か）の区別など、APEXシステムの核心的な仕様を技術的な視点から理解できる内容となっています。",
+            "en": "This article provides an introduction to creating custom APEX callbacks in C++ using the Houdini Development Kit (HDK) in Houdini 21. Based on sample code, it breaks down the structure and build process for adding custom logic to the APEX evaluation engine. It offers a technical look into core APEX specifications, such as using the '*' prefix in port names to distinguish In-Place Ports (determining whether to generate new data or overwrite existing data)."
         }
     },
     {
@@ -9627,11 +9627,11 @@
         },
         "articleUrl": "https://qiita.com/ichin0se/items/e21cd17896b2ef3e0c82",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "CHOP Animation",
         "articleId": 2025121802,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、CHOPs（Channel Operators）を活用して、アニメーション付きモデルに「プリロール（前振り）」の動きを自動で外挿する手法を解説しています。Extract Transform SOPで抽出したトランスフォーム行列を移動・回転の数値に変換し、Channel CHOPの傾斜（Slope）補完を利用して開始フレーム以前の動きを自然に延長するロジックを紹介しています。マッチムーヴやエフェクトの下準備において、手作業を介さず整合性のある動きを作る実用的なTipsです。",
+            "en": "This article explains a method for automatically extrapolating 'pre-roll' motion for animated models using CHOPs (Channel Operators). It introduces a logic that takes transform matrices extracted via the Extract Transform SOP, converts them into translation and rotation values, and uses the Channel CHOP's slope extension to naturally project motion before the start frame. This practical tip helps create consistent pre-roll motion for match-moving and effects without manual keyframing."
         }
     },
     {
@@ -9649,11 +9649,11 @@
         },
         "articleUrl": "https://qiita.com/_mm_/items/4cbcb7ea7f5806ff34d6",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP VEX Math Recommend",
         "articleId": 2025121902,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、観覧車のイルミネーションをHoudiniで作成する手法を解説しています。ベースとなるモデル構築からライトの配置、VEXやGroupノードを用いた点灯パターンの論理的な制御までを工程ごとに紹介しています。単にノードを繋ぐだけでなく、数学的知識を活用して多様な発光パターンを作り出すHoudiniの面白さと、エンジニア的なアプローチによる作品制作の醍醐味を伝える内容となっています。",
+            "en": "This article explains techniques for creating Ferris wheel illumination in Houdini. It introduces each step of the process, from base modeling and light placement to the logical control of lighting patterns using VEX and Group nodes. The piece highlights the appeal of Houdini—where mathematical knowledge can be used to generate diverse lighting effects—and showcases the enjoyment of creating works through an engineering approach."
         }
     },
     {
@@ -9671,11 +9671,11 @@
         },
         "articleUrl": "https://zenn.dev/kickbase/articles/66b4591cd39dd5",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP Effect Particle",
         "articleId": 2025122002,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、パーティクルの制御を通じてHoudiniの基本的な考え方を解説しています。任意のタイミングで特定のポイントを消去したり、条件によって挙動を切り替えたりするロジックを、初心者にも理解しやすいシンプルなネットワーク構造で紹介しています。「ポイントを消す」という操作を「ジオメトリを切り替える」という発想で捉えるなど、Houdini特有の柔軟な思考プロセスを学べる実用的な内容です。",
+            "en": "This article explains fundamental Houdini concepts through particle control. It introduces logic for deleting specific points at arbitrary times and switching behaviors based on conditions using a simple network structure easy for beginners. It provides practical insights into Houdini's flexible thinking process, such as framing the act of \"deleting a point\" as \"switching geometry.\""
         }
     },
     {
@@ -9693,11 +9693,11 @@
         },
         "articleUrl": "https://zenn.dev/kickbase/articles/ccc2af3dae7533",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Learning",
         "articleId": 2025122102,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、初学者が複雑なHoudiniネットワークを効率的に理解するための「AIを活用した学習法」を提案しています。理解が難しいノードのパラメータ画面をキャプチャし、AIにその意味や役割を解説させることで、独学のハードルを大幅に下げる実践的な手順を紹介しています。情報の断片化を防ぎ、一枚絵として整理してAIに問いかける工夫など、最新のツールを味方につけた新しい学び方を提示しています。",
+            "en": "This article proposes an \"AI-assisted learning method\" for beginners to efficiently understand complex Houdini networks. It introduces practical procedures for significantly lowering the barriers to self-study by capturing parameter screens of difficult nodes and having an AI explain their meanings and roles. It presents a modern way of learning by leveraging the latest tools, including tips on organizing information into single images for AI queries."
         }
     },
     {
@@ -9715,11 +9715,11 @@
         },
         "articleUrl": "https://note.com/nightskymap/n/n522726579f91",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP KineFX APEX",
         "articleId": 2025122202,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdini 21の新機能であるApex Auto Rig Builderを使用したキャラクターセットアップの体験記をまとめています。初心者の視点から、スケルトンの構築、ウェイト付け、そしてリグ生成に至る一連のワークフローを追いながら、実際に躓いたポイントや解決策を詳しく紹介しています。Vellumシミュレーションとの連携や、最新のリギングシステムをまずは「触ってみる」ための等身大のガイドとなっています。",
+            "en": "This article summarizes an experience report on setting up a character using the new Apex Auto Rig Builder in Houdini 21. From a beginner's perspective, it details the workflow from skeleton construction and weighting to rig generation, while highlighting specific challenges and solutions. It serves as a down-to-earth guide for those wanting to try the latest rigging system, including integration with Vellum simulations."
         }
     },
     {
@@ -9737,11 +9737,11 @@
         },
         "articleUrl": "https://note.com/pky3d/n/nb497d02ea096",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "COP Copernicus",
         "articleId": 2025122302,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、新機能CopernicusとSubstance Designerを、点字ブロックの作成を通じて具体的に比較解説しています。解像度やビット数の扱いの違い、シェイプ生成のロジック、ハイトマップからノーマル・カラーを作成する一連の工程を整理しています。SDユーザーがCOPに移行する際に戸惑いやすいポイントや、COPならではのSOPとの親和性にも触れており、次世代の画像処理フレームワークを学ぶための指針を提供しています。",
+            "en": "This article provides a comparative explanation of the new Copernicus feature and Substance Designer through the creation of a tactile paving block. It organizes the differences in resolution and bit-depth handling, shape generation logic, and the process of creating normals and colors from height maps. By touching on points where SD users might feel confused and COP's unique affinity with SOPs, it offers a guide for learning the next-generation image processing framework."
         }
     },
     {
@@ -9759,11 +9759,11 @@
         },
         "articleUrl": "https://ikatnek.blogspot.com/2025/12/hda-filename-custom-pattern.html",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "HDA",
         "articleId": 2025122402,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdini 20.5以降で導入されたHDA（Digital Asset）ファイル名のカスタム命名規則を設定する方法を解説しています。プロジェクトごとに統一性のあるファイル名を持たせるための環境変数の活用法や、具体的なパターンの設定手順を紹介しています。ネームスペースやバージョン管理をファイル名に自動反映させる仕組みを構築することで、パイプラインの安定性を向上させたい管理者に役立つ実用的なTipsです。",
+            "en": "This article explains how to set custom naming conventions for HDA (Digital Asset) filenames, introduced in Houdini 20.5 and later. It introduces how to use environment variables to ensure consistent filenames across projects and provides specific setup procedures. This is a practical tip for administrators looking to improve pipeline stability by implementing a system that automatically reflects namespaces and versioning in filenames."
         }
     },
     {
@@ -9781,11 +9781,11 @@
         },
         "articleUrl": "https://qiita.com/jyouryuusui/items/6ddac9a50126f6a74a0d",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "History Learning",
         "articleId": 2025122502,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdiniに搭載されている歴代のテストジオメトリやキャラクターたちの歴史を網羅的に紹介しています。初期のティーポットから、Pig Headなどの人気キャラ、そして最新のOttoやElectraまで、各キャラクターの登場時期や用途、背景にある技術的な進化を振り返っています。普段何気なく使っている「彼ら」の成り立ちを知ることで、Houdiniというツールの進化の軌跡を楽しく学べる内容となっています。",
+            "en": "This article provides a comprehensive overview of the history of Houdini's built-in test geometries and characters. It looks back at the timing of appearance, purpose, and technical evolution behind each character, from the early Utah Teapot to the popular Pig Head and the latest Otto and Electra. By understanding the origins of the \"characters\" we use every day, readers can enjoyably learn about the trajectory of Houdini's evolution as a tool."
         }
     },
     {
@@ -9803,11 +9803,11 @@
         },
         "articleUrl": "https://qiita.com/jyouryuusui/items/d7173259ee572d03bd68",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "CHOP",
         "articleId": 2025120103,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Mac環境のHoudiniにおいてMIDIコントローラーをCHOPで直接読み込もうとした際の失敗談と、その原因について解説しています。macOS版HoudiniではMidi InノードがMIDIデバイスを認識しないという技術的な制限をSideFXサポートの回答を交えて紹介し、回避策としてTouchDesignerの利用やWindows環境、OSC経由での連携といった可能性を提示しています。",
+            "en": "This article shares a personal failure account regarding attempts to load MIDI controllers via CHOP on the Mac version of Houdini. It explains the technical limitation where the Midi In node does not recognize MIDI devices on macOS (as confirmed by SideFX support) and suggests potential workarounds such as using TouchDesigner, a Windows environment, or communicating via OSC."
         }
     },
     {
@@ -9825,11 +9825,11 @@
         },
         "articleUrl": "https://qiita.com/gupon/items/afeaf5930cd3de51ebc9",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "ROP TOP",
         "articleId": 2025120403,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、ジオメトリ階層から最速でProResやH.264形式の動画を書き出すための、TOPsを活用したツールとそのワークフローを紹介しています。OpenGL ROPやFlipbookによるレンダリングと、連番ファイルの動画変換を自動化する仕組みを構築しており、ノード単位での素早いパターン確認やMacユーザーの中間ファイル作成に最適な、実務に即した時短テクニックがまとめられています。",
+            "en": "This article introduces a TOPs-based tool and workflow designed for the fastest possible export of ProRes and H.264 movies directly from geometry nodes. It details a system that automates rendering via OpenGL ROP or Flipbook and concatenates image sequences into video files, offering a practical time-saving technique for quick pattern verification and intermediate file creation for Mac users."
         }
     },
     {
@@ -9847,11 +9847,11 @@
         },
         "articleUrl": "https://godofsuama.hatenablog.com/entry/adcal20251209",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Solaris USD",
         "articleId": 2025120903,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdini 21で利用可能なUSDのコンポジション機能「Relocates」および「Namespace Editing」に関する技術的なメモをまとめています。LIVRPSからLIVeRPSへの変更点や、Pythonを用いたプリムの移動・リネーム処理、そしてHoudiniノードとしての実装状況について検証しており、Solarisにおける高度な階層管理やアセットワークフローの構築を目指すユーザーに役立つ情報です。",
+            "en": "This article summarizes technical notes on USD's 'Relocates' and 'Namespace Editing' composition features available in Houdini 21. It examines the transition from LIVRPS to LIVeRPS, the process of moving or renaming prims using Python, and the current state of implementation within Houdini nodes, providing valuable information for users aiming to build advanced hierarchy management and asset workflows in Solaris."
         }
     },
     {
@@ -9869,11 +9869,11 @@
         },
         "articleUrl": "https://qiita.com/maxima_hikky/items/a7dd037a43be2d3c448e",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "HDA Python",
         "articleId": 2025121503,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、HDA開発において外部Pythonモジュールを安全に連携させ、Key-Value Dictionaryパラメータを自動生成する効率的な手法を解説しています。PYTHONPATHを用いた外部環境の構築やPythonModule内でのリロード処理、さらにDetailアトリビュートの辞書データをボタン一つでパラメータに反映させる具体的なコードを紹介しており、複雑なツールの管理と拡張性を両立させる入門ガイドです。",
+            "en": "This article explains efficient methods for safely linking external Python modules and automatically generating Key-Value Dictionary parameters in HDA development. It introduces an external environment setup using PYTHONPATH, reload handling within the PythonModule, and specific code to reflect dictionary-type detail attributes into parameters with a single button, serving as a guide for balancing tool management with extensibility."
         }
     },
     {
@@ -9891,11 +9891,11 @@
         },
         "articleUrl": "https://qiita.com/kit2cuz/items/cb969bea2c6755db9d9a",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Solaris Recommend Karma",
         "articleId": 2025122003,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Karmaレンダラーにおいて全オブジェクトに共通のカスタムAOVを効率的に適用する「Global AOVシェーダグラフ」のセットアップと、Slap Compの活用法について詳述しています。MaterialXベースのシェーダ構築手順に加え、Houdini 21で非表示となったノードの復元コマンドなど、アンビエントオクルージョンの個別制御やレンダリング工程の高度な自動化を目指すユーザー向けの内容です。",
+            "en": "This article details the setup of 'Global AOV Shader Graphs' for efficiently applying custom AOVs to all objects in the Karma renderer, alongside the use of Slap Comp. Including MaterialX-based shader construction steps and commands to restore hidden nodes in Houdini 21, it is aimed at users seeking granular control over effects like Ambient Occlusion and higher automation in their rendering pipelines."
         }
     },
     {
@@ -9913,11 +9913,11 @@
         },
         "articleUrl": "https://support.borndigital.co.jp/hc/ja/articles/53141398396185",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP PackedPrimitive",
         "articleId": 2025120104,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、大量のオブジェクトを効率的に扱うための「パックプリミティブ」の仕組みと活用法を解説しています。通常のコピーと異なり、データをメモリ内に実体化せず参照として扱うことで、メモリ節約と描画の高速化を両立するメリットを紹介しています。さらに、Houdini内で完結する標準パック、ディスク上のファイルを参照するPacked Diskなど、用途に応じた3つの型を使い分ける実践的な手法を学べる内容です。",
+            "en": "This article explains the mechanism and practical use of 'Packed Primitives' for efficiently handling large numbers of objects. It introduces the benefits of saving memory and speeding up viewport display by treating data as references rather than duplicating geometry. It also covers three specific types—Standard Packed for internal workflows, Packed Disk for referencing external files, and Packed Fragment—to help users choose the right approach for their needs."
         }
     },
     {
@@ -9935,11 +9935,11 @@
         },
         "articleUrl": "https://qiita.com/maxima_hikky/items/6d68eadd8fa0ab601064",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "HDA Python",
         "articleId": 2025120804,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、HDA（デジタルアセット）開発において、PythonのEnum（列挙型）を用いてパラメータ管理を効率化する手法を解説しています。パラメータ名をEnumで定義することで、タイプミスを防止し、Python ModuleやViewer State間で安全に名前を共有するメリットを紹介しています。パラメータの自動生成や、Viewer Stateでの描画制御など、大規模なツール開発における保守性と安全性を高めるための実践的なTipsです。",
+            "en": "This article explains how to streamline parameter management in HDA development using Python Enums. By defining parameter names as Enums, developers can prevent typos and safely share names between Python Modules and Viewer States. It provides practical tips for enhancing maintainability and safety in large-scale tool development, including techniques for automatic parameter generation and controlling Viewer State visualizations."
         }
     },
     {
@@ -9957,11 +9957,11 @@
         },
         "articleUrl": "https://qiita.com/maxima_hikky/items/72259d1725ebaa001d93",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP VEX",
         "articleId": 2025120904,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、途切れてしまった複数のカーブを、アトリビュートとVEXを活用して論理的に繋ぐ手法を解説しています。Connectivity SOPで各カーブにIDを振り、Detail Wrangleを用いて特定のルールに基づいた端点同士をポリラインで結ぶプロセスを紹介しています。既存のJoin SOPでは対応が難しい、インデックスが不揃いなケースや、特定の距離条件に基づいたプロシージャルなカーブ結合を実現するための基礎知識が学べます。",
+            "en": "This article explains how to logically connect multiple broken curves using attributes and VEX. It introduces a process of assigning IDs to each curve via the Connectivity SOP and using a Detail Wrangle to create polylines between endpoints based on specific rules. It provides fundamental knowledge for procedural curve merging in cases where standard nodes like Join SOP fall short due to inconsistent indices or specific distance requirements."
         }
     },
     {
@@ -9979,11 +9979,11 @@
         },
         "articleUrl": "https://qiita.com/amateras/items/1ee6fad4c7486a48dbf8",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "NDC VEX AfterEffects",
         "articleId": 2025122004,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdini上の3D空間の動きをAfter Effectsの2D座標キーフレームとして書き出す手法を解説しています。toNDC関数を用いて3D座標を正規化デバイス座標へ変換し、AEの解像度や座標系に合わせた計算を行うVEXコードの作り方を紹介しています。カメラと位置情報を連動させた2Dトラッキング用のデータを手軽に作成できるため、コンポジット工程でのパーティクル配置やマスク調整を効率化したいユーザーに有用な内容です。",
+            "en": "This article explains how to export 3D spatial movement from Houdini as 2D coordinate keyframes for After Effects. It introduces VEX techniques using the toNDC function to convert 3D coordinates into Normalized Device Coordinates, adjusted for AE's specific resolution and coordinate system. This is useful for users looking to streamline compositing tasks, such as particle placement or mask adjustments, by easily generating 2D tracking data linked to the camera."
         }
     },
     {
@@ -10001,11 +10001,11 @@
         },
         "articleUrl": "https://qiita.com/d658t/items/2feb2f25d24f69c7088c",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "SOP Normal",
         "articleId": 2025122104,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdiniにおけるハードエッジの概念と設定方法について、頂点法線の仕組みから詳しく解説しています。Maya等の他ツールとは異なり、エッジそのものに属性を持たず、隣接する面間で頂点法線を分離させることでハードエッジを表現するHoudini特有の仕様を紐解いています。Point属性とVertex属性の違いや、Normal SOPを用いた具体的な制御手順など、モデルの見た目を正しく管理するための基礎知識を網羅しています。",
+            "en": "This article explains the concept and setup of hard edges in Houdini, focusing on the mechanism of vertex normals. It clarifies Houdini's unique specification where hard edges are represented by detaching vertex normals between adjacent faces, rather than having attributes on the edges themselves. Covering the differences between Point and Vertex attributes and practical control using the Normal SOP, it provides essential knowledge for correctly managing model shading."
         }
     },
     {
@@ -10023,11 +10023,11 @@
         },
         "articleUrl": "https://qiita.com/ijiVFX/items/ee95830e502c1411434b",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "Python HScript",
         "articleId": 2025122304,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdiniのパラメータ制御においてHScriptの代わりにPythonを使用するメリットと注意点を解説しています。ファイルの日付参照やデータベース連携など、Pythonならではの高度な機能をエクスプレッションに組み込む手法を紹介しています。一方で、単純な算術計算においては記述が冗長になるデメリットにも触れ、処理の複雑さに応じて両言語を適切に使い分けるための実践的な指針を提示しています。",
+            "en": "This article explains the advantages and precautions of using Python instead of HScript for parameter control in Houdini. It demonstrates how to incorporate advanced Python features, such as referencing file timestamps or database integration, into expressions. It also discusses the trade-off of redundancy for simple arithmetic, providing a practical guide on choosing the right language based on the complexity of the task."
         }
     },
     {
@@ -10045,11 +10045,11 @@
         },
         "articleUrl": "https://cg-journal.com/cop%e3%81%a7%e3%83%99%e3%82%a4%e3%82%af%e3%81%97%e3%81%a6%e3%82%b5%e3%83%96%e3%82%b9%e3%82%bf%e3%83%b3%e3%82%b9%e3%83%a9%e3%82%a4%e3%82%af%e3%81%abpbr%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3/",
         "categories": "Houdini",
-        "tags": "SOP Python",
+        "tags": "COP Material Copernicus",
         "articleId": 2025122504,
         "summary": {
-            "ja": "ダミー",
-            "en": "Dummy"
+            "ja": "この記事では、Houdini 21の新機能Copernicusを活用し、Substance DesignerのようなワークフローでPBRテクスチャを作成する手法を解説しています。ハイモデルからのCurvatureやAOのベイク、IDマップを用いたマスク抽出、そして複数のテクスチャ素材を合成して最終的なマテリアルを構築する工程を紹介しています。SOPでのモデリングとシームレスに連携しながら、Houdini内で完結する次世代のテクスチャ制作の流れを学べる内容です。",
+            "en": "This article explains how to create PBR textures using Houdini 21's new Copernicus feature, following a workflow similar to Substance Designer. It covers the process of baking Curvature and AO from high-poly models, extracting masks using ID maps, and blending multiple texture layers to build the final material. The guide demonstrates a next-generation texture production flow within Houdini that integrates seamlessly with SOP-based modeling."
         }
     }
   
