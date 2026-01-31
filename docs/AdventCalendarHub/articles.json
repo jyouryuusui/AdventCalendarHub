@@ -8813,7 +8813,7 @@
         },
         "articleUrl": "https://zenn.dev/kickbase/articles/f2df6619636774",
         "categories": "Houdini",
-        "tags": "SOP Effect DOP Loop",
+        "tags": "SOP Effect DOP Loop Recommend",
         "articleId": 2025120601,
         "summary": {
             "ja": "この記事では、FLIPシミュレーションやプロシージャルなノイズを駆使して、違和感のない無限ループ・リキッドアニメーションを作成するテクニックを詳述しています。時間の経過に伴うジオメトリの変位をクロスフェードさせる手法や、ループ用の時間軸設定のコツが具体的に示されています。SNS投稿や背景素材として需要の高い、シームレスに繋がり続ける液体表現を効率よく構築したいユーザーにとって非常に有益な情報です。",
@@ -8879,7 +8879,7 @@
         },
         "articleUrl": "https://qiita.com/jhorikawa_err/items/a81903acd9c173f8d1dc",
         "categories": "Houdini",
-        "tags": "DOP CHOP Effect Audio",
+        "tags": "DOP CHOP Effect Audio Recommend",
         "articleId": 2025120901,
         "summary": {
             "ja": "この記事では、DOPの衝突判定をトリガーにしてサウンドを生成する、物理演算ベースのミュージックシーケンサーの構築手順を解説しています。剛体シミュレーションの結果をCHOPへと転送し、MIDI信号や波形として出力するネットワークの仕組みが紹介されています。視覚的な動きと音が完全に同期したオーディオビジュアル作品を、Houdini単体でロジカルに構築するためのユニークなアプローチを学べます。",
@@ -8967,7 +8967,7 @@
         },
         "articleUrl": "https://note.com/thesaurus/n/n32e672cca02b",
         "categories": "Houdini",
-        "tags": "COP SOP Copernicus",
+        "tags": "COP SOP Copernicus Recommend",
         "articleId": 2025121301,
         "summary": {
             "ja": "この記事では、Houdini 21で正式リリースされたCopernicusとSubstance Designerの考え方の違いについて解説しています。パターンの生成方法やテクスチャの処理フローを具体的に比較し、SOPとの密接な連携といったCopernicusならではの特徴を整理しています。従来の2Dテクスチャ制作ツールとの差異を理解し、Houdini内での効率的なマテリアル制作を目指すユーザーに役立つ内容です。",
@@ -8989,7 +8989,7 @@
         },
         "articleUrl": "https://youtu.be/0WUUmXYS7A0",
         "categories": "Houdini",
-        "tags": "APEX KineFX Animation",
+        "tags": "APEX KineFX Animation Recommend",
         "articleId": 2025121401,
         "summary": {
             "ja": "この動画では、Houdini 20以降で導入されたAPEXによる最新のアニメーションワークフローを徹底解説しています。基本的なリグ操作から、アニメーションレイヤー、各種コンストレイント、APEX Animation Catalog、物理ベースのラグドール、そして複数の動きを統合するモーションミキサーまで幅広く網羅しています。外部データの入出力やリターゲティング手法についても詳しく触れており、次世代の制作環境を学べる内容です。",
@@ -9011,7 +9011,7 @@
         },
         "articleUrl": "https://qiita.com/ijiVFX/items/81b60e429dca6e0df485",
         "categories": "Houdini",
-        "tags": "VEX Math SOP",
+        "tags": "VEX Math SOP Recommend",
         "articleId": 2025121501,
         "summary": {
             "ja": "この記事では、Houdiniにおける様々な回転制御の手法について、敢えてTransform SOPを使わずにVEXを用いて解説しています。クォータニオンやdihedral関数、qrotate関数を使った具体的な計算方法を、初心者にも分かりやすいコード例と共に紹介しています。回転の仕組みを基礎から論理的に理解し、より高度なジオメトリ操作やリギングに応用したい方に最適な入門ガイドです。",
@@ -9187,7 +9187,7 @@
         },
         "articleUrl": "https://note.com/proceduraldesign/n/n73bd01f7d2c5",
         "categories": "Houdini",
-        "tags": "SOP Copernicus",
+        "tags": "SOP Copernicus Recommend",
         "articleId": 2025122301,
         "summary": {
           "ja": "この記事では、60分でお題に沿った作品を制作する競技イベント「Houdini 60 minutes」の参加レポートとして、ピザをモデリング・レンダリングする工程を解説しています。限られた時間内でVDBを活用したチーズの融合表現や、プロシージャルな具材配置を行う戦略的なワークフローが紹介されています。技術的なTipsだけでなく、瞬発力が求められる競技ならではの判断基準や面白さを伝える、臨場感あふれる内容となっています。",
@@ -9407,7 +9407,7 @@
         },
         "articleUrl": "https://qiita.com/hajimeCG/items/1d1981071c75d03aea55",
         "categories": "Houdini",
-        "tags": "Solaris USD",
+        "tags": "Solaris USD Recommend",
         "articleId": 2025120802,
         "summary": {
             "ja": "この記事では、HoudiniにおけるUSDワークフローの入り口として、Solarisの基本概念と利点を初心者向けに噛み砕いて解説しています。複数ソフト間での高い互換性や、メモリ消費を抑えた効率的なレンダリング、ファイルの可読性など、USDを採用するメリットを具体的に紹介しています。Solarisを「USDを司る国（コンテクスト）」として定義し、従来の制作パイプラインからの移行に不安を感じるユーザーに対して、その利便性と将来性を提示する入門ガイドです。",
@@ -9715,7 +9715,7 @@
         },
         "articleUrl": "https://note.com/nightskymap/n/n522726579f91",
         "categories": "Houdini",
-        "tags": "SOP KineFX APEX",
+        "tags": "SOP KineFX APEX Recommend",
         "articleId": 2025122202,
         "summary": {
             "ja": "この記事では、Houdini 21の新機能であるApex Auto Rig Builderを使用したキャラクターセットアップの体験記をまとめています。初心者の視点から、スケルトンの構築、ウェイト付け、そしてリグ生成に至る一連のワークフローを追いながら、実際に躓いたポイントや解決策を詳しく紹介しています。Vellumシミュレーションとの連携や、最新のリギングシステムをまずは「触ってみる」ための等身大のガイドとなっています。",
