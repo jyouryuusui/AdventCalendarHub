@@ -8706,8 +8706,8 @@
         "tags": "SOP Vellum Muscle",
         "articleId": 2025120101,
         "summary": {
-            "ja": "この記事では、HoudiniにおけるVellumベースのマッスル・ティシューシミュレーションの基礎概念とワークフローを解説しています。従来のFEM方式から進化した現行システムの構造を「筋肉・組織・皮膚」の3層パスで紐解き、カピバラのモデルを用いた具体的なセットアップ手順を紹介しています。さらに、筋肉作成を簡略化するフランケンマッスルや、Houdini 21で登場した機械学習デフォーマー「Otis」などの最新機能についても触れ、プロシージャルな筋肉表現への入門ガイドとなっています。",
-            "en": "This article explains the fundamental concepts and workflow of Vellum-based muscle and tissue simulation in Houdini. It breaks down the current system—which evolved from the traditional FEM approach—into a three-pass structure (Muscle, Tissue, and Skin) and introduces a practical setup using a capybara model. Additionally, it covers modern features such as Franken Muscles for simplified creation and the machine learning-based \"Otis\" deformer introduced in Houdini 21, serving as an introductory guide to procedural muscle representation."      
+            "ja": "この記事では、HoudiniにおけるVellumベースのマッスル・ティシューシミュレーションの基礎概念とワークフローを解説しています。従来のFEM方式から進化した現行システムの構造を「筋肉・組織・皮膚」の3層パスで紐解き、カピバラのモデルを用いた具体的なセットアップ手順を紹介しています。さらに、筋肉作成を簡略化するフランケンマッスルや、Houdini 21で登場した機械学習デフォーマーなどの最新機能についても触れ、プロシージャルな筋肉表現への入門ガイドとなっています。",
+            "en": "This article explains the fundamental concepts and workflow of Vellum-based muscle and tissue simulation in Houdini. It breaks down the current system—which evolved from the traditional FEM approach—into a three-pass structure (Muscle, Tissue, and Skin) and introduces a practical setup using a capybara model. Additionally, it covers modern features such as Franken Muscles for simplified creation and the machine learning-based deformer introduced in Houdini 21, serving as an introductory guide to procedural muscle representation."      
         }
     },
     {
@@ -8761,7 +8761,7 @@
             "name": "@torinos",
             "icon": "torinos.jpg",
             "qiitaUrl": "https://qiita.com/torinos",
-            "twitterUrl": "https://twitter.com/torinos"
+            "twitterUrl": "https://twitter.com/ryuto_yukke2247"
         },
         "title": {
             "ja": "APEXで書き捨てのGraphを組むためのHDA",
@@ -8849,7 +8849,7 @@
             "name": "@yu_kita",
             "icon": "yu_kita.jpg",
             "qiitaUrl": "https://qiita.com/yu_kita",
-            "twitterUrl": "https://twitter.com/yu_kita"
+            "twitterUrl": "https://twitter.com/yu_kita89"
         },
         "title": {
             "ja": "チェックポイントを使って、シミュレーションのパターンを作成する！ [Hip有り]",
@@ -8893,7 +8893,7 @@
             "name": "@Kaito_Kachi",
             "icon": "Kaito_Kachi.jpg",
             "qiitaUrl": "https://qiita.com/Kaito_Kachi",
-            "twitterUrl": "https://twitter.com/Kaito_Kachi"
+            "twitterUrl": "https://twitter.com/E79A86E4BABA"
         },
         "title": {
             "ja": "CopernicusとAPEXとVATでいろいろする",
@@ -8915,7 +8915,7 @@
             "name": "@Kaito_Kachi",
             "icon": "Kaito_Kachi.jpg",
             "qiitaUrl": "https://qiita.com/Kaito_Kachi",
-            "twitterUrl": "https://twitter.com/Kaito_Kachi"
+            "twitterUrl": "https://twitter.com/E79A86E4BABA"
         },
         "title": {
             "ja": "VEXでCatmull-Clark Subdivision Surfaceを実装",
@@ -8959,7 +8959,7 @@
             "name": "@kurosawa",
             "icon": "kurosawa.jpg",
             "qiitaUrl": "https://qiita.com/kurosawa",
-            "twitterUrl": "https://twitter.com/kurosawa"
+            "twitterUrl": "https://twitter.com/kurosaurus"
         },
         "title": {
             "ja": "SubstanceDesignerとCopernicus",
@@ -8981,7 +8981,7 @@
             "name": "@Satsuki-Sensei",
             "icon": "Satsuki-Sensei.jpg",
             "qiitaUrl": "https://qiita.com/Satsuki-Sensei",
-            "twitterUrl": "https://twitter.com/Satsuki-Sensei"
+            "twitterUrl": "https://twitter.com/Satsuki_8198"
         },
         "title": {
             "ja": "APEX アニメーションマスタークラス",
@@ -8992,7 +8992,7 @@
         "tags": "APEX KineFX Animation",
         "articleId": 2025121401,
         "summary": {
-            "ja": "この動画では、Houdini 20以降で導入されたAPEXによる最新のアニメーションワークフローを徹底解説しています。基本的なリグ操作から、アニメーションレイヤー、各種コンストレイント、ポーズ管理カタログ、物理ベースのラグドール、そして複数の動きを統合するモーションミキサーまで幅広く網羅しています。外部データの入出力やリターゲティング手法についても詳しく触れており、次世代の制作環境を学べる内容です。",
+            "ja": "この動画では、Houdini 20以降で導入されたAPEXによる最新のアニメーションワークフローを徹底解説しています。基本的なリグ操作から、アニメーションレイヤー、各種コンストレイント、APEX Animation Catalog、物理ベースのラグドール、そして複数の動きを統合するモーションミキサーまで幅広く網羅しています。外部データの入出力やリターゲティング手法についても詳しく触れており、次世代の制作環境を学べる内容です。",
             "en": "This movie provides an in-depth explanation of the latest animation workflow using APEX introduced in Houdini 20. It covers a wide range of topics, from basic rig operations and animation layers to various constraints, the Animation Catalog, physics-based ragdolls, and the Motion Mixer. It also details file I/O for external data and retargeting techniques, offering insights into next-generation production environments."
         }
     },
@@ -9025,7 +9025,7 @@
             "name": "@55hertz",
             "icon": "55hertz.jpg",
             "qiitaUrl": "https://qiita.com/55hertz",
-            "twitterUrl": "https://twitter.com/55hertz"
+            "twitterUrl": "https://twitter.com/MasterWhet"
         },
         "title": {
             "ja": "osd_limit VEX Function（Houdini 20.5 NEW）に触れてみた",
@@ -9113,7 +9113,7 @@
             "name": "@amateras",
             "icon": "amateras.jpg",
             "qiitaUrl": "https://qiita.com/amateras",
-            "twitterUrl": "https://twitter.com/amateras"
+            "twitterUrl": "https://twitter.com/phantom_owl"
         },
         "title": {
             "ja": "複数パッケージを使用する時の注意事項",
@@ -9135,7 +9135,7 @@
             "name": "@godofsuama",
             "icon": "godofsuama.jpg",
             "qiitaUrl": "https://qiita.com/godofsuama",
-            "twitterUrl": "https://twitter.com/godofsuama"
+            "twitterUrl": "https://twitter.com/suamaGod"
         },
         "title": {
             "ja": "Packしたものに回転を追加して動かす",
@@ -9157,7 +9157,7 @@
             "name": "@ichin0se",
             "icon": "ichin0se.jpg",
             "qiitaUrl": "https://qiita.com/ichin0se",
-            "twitterUrl": "https://twitter.com/ichin0se"
+            "twitterUrl": "https://twitter.com/one__no__se__"
         },
         "title": {
             "ja": "POP SolverのDragについて",
@@ -9179,7 +9179,7 @@
             "name": "@procedural_design",
             "icon": "procedural_design.jpg",
             "qiitaUrl": "https://qiita.com/procedural_design",
-            "twitterUrl": "https://twitter.com/procedural_design"
+            "twitterUrl": "https://twitter.com/a_saito"
         },
         "title": {
             "ja": "60分でピザを焼く方法",
@@ -9223,7 +9223,7 @@
             "name": "@neuh",
             "icon": "neuh.jpg",
             "qiitaUrl": "https://qiita.com/neuh",
-            "twitterUrl": "https://twitter.com/neuh"
+            "twitterUrl": ""
         },
         "title": {
             "ja": "Viewport/Networkの単純作業を削る：Houdini自作“時短ツール”8つ（Shelfで即導入）",
@@ -9245,7 +9245,7 @@
             "name": "@Alidade",
             "icon": "Alidade.jpg",
             "qiitaUrl": "https://qiita.com/Alidade",
-            "twitterUrl": "https://twitter.com/Alidade"
+            "twitterUrl": "https://twitter.com/Al_Alidade"
         },
         "title": {
             "ja": "ヨールカの尖塔を作ろう",
@@ -9311,7 +9311,7 @@
             "name": "@Borndigital_Yoshida",
             "icon": "Borndigital_Yoshida.jpg",
             "qiitaUrl": "https://qiita.com/Borndigital_Yoshida",
-            "twitterUrl": "https://twitter.com/Borndigital_Yoshida"
+            "twitterUrl": "https://twitter.com/hiromi_y2022"
         },
         "title": {
             "ja": "読み込んだFBXにリグ用ジョイントポーズを設定する",
@@ -9355,7 +9355,7 @@
             "name": "@Borndigital_Yoshida",
             "icon": "Borndigital_Yoshida.jpg",
             "qiitaUrl": "https://qiita.com/Borndigital_Yoshida",
-            "twitterUrl": "https://twitter.com/Borndigital_Yoshida"
+            "twitterUrl": "https://twitter.com/hiromi_y2022"
         },
         "title": {
             "ja": "KineFX？APEX？何が違うの？",
@@ -9377,7 +9377,7 @@
             "name": "@ryomasanpei",
             "icon": "ryomasanpei.jpg",
             "qiitaUrl": "https://qiita.com/ryomasanpei",
-            "twitterUrl": "https://twitter.com/ryomasanpei"
+            "twitterUrl": "https://twitter.com/peyangusouse123"
         },
         "title": {
             "ja": "パーティクルでビッグバン作ってみた",
@@ -9421,7 +9421,7 @@
             "name": "@kurosawa",
             "icon": "kurosawa.jpg",
             "qiitaUrl": "https://qiita.com/kurosawa",
-            "twitterUrl": "https://twitter.com/kurosawa"
+            "twitterUrl": "https://twitter.com/kurosaurus"
         },
         "title": {
             "ja": "アドベントカレンダーでカレンダーを作ろう",
@@ -9509,7 +9509,7 @@
             "name": "@amateras",
             "icon": "amateras.jpg",
             "qiitaUrl": "https://qiita.com/amateras",
-            "twitterUrl": "https://twitter.com/amateras"
+            "twitterUrl": "https://twitter.com/phantom_owl"
         },
         "title": {
             "ja": "Houdini Panel Layoutを触ろう",
@@ -9531,7 +9531,7 @@
             "name": "@Kaito_Kachi",
             "icon": "Kaito_Kachi.jpg",
             "qiitaUrl": "https://qiita.com/Kaito_Kachi",
-            "twitterUrl": "https://twitter.com/Kaito_Kachi"
+            "twitterUrl": "https://twitter.com/E79A86E4BABA"
         },
         "title": {
             "ja": "asDataメソッドを使おう",
@@ -9553,7 +9553,7 @@
             "name": "@yskzfjt",
             "icon": "yskzfjt.jpg",
             "qiitaUrl": "https://qiita.com/yskzfjt",
-            "twitterUrl": "https://twitter.com/yskzfjt"
+            "twitterUrl": ""
         },
         "title": {
             "ja": "Principal Component Analysis SOPを使ったバリアント作成",
@@ -9575,7 +9575,7 @@
             "name": "@11mako12",
             "icon": "11mako12.jpg",
             "qiitaUrl": "https://qiita.com/11mako12",
-            "twitterUrl": "https://twitter.com/11mako12"
+            "twitterUrl": "https://twitter.com/makoto20021112"
         },
         "title": {
             "ja": "MayaからHoudiniへ：Alembicを書き出してそのまま読み込む仕組み",
@@ -9597,7 +9597,7 @@
             "name": "@Kaito_Kachi",
             "icon": "Kaito_Kachi.jpg",
             "qiitaUrl": "https://qiita.com/Kaito_Kachi",
-            "twitterUrl": "https://twitter.com/Kaito_Kachi"
+            "twitterUrl": "https://twitter.com/E79A86E4BABA"
         },
         "title": {
             "ja": "APEX HDK入門",
@@ -9619,7 +9619,7 @@
             "name": "@ichin0se",
             "icon": "ichin0se.jpg",
             "qiitaUrl": "https://qiita.com/ichin0se",
-            "twitterUrl": "https://twitter.com/ichin0se"
+            "twitterUrl": "https://twitter.com/one__no__se__"
         },
         "title": {
             "ja": "CHOPsを使ってプリロールアニメーションを外挿する",
@@ -9641,7 +9641,7 @@
             "name": "@_mm_",
             "icon": "_mm_.jpg",
             "qiitaUrl": "https://qiita.com/_mm_",
-            "twitterUrl": "https://twitter.com/_mm_"
+            "twitterUrl": "https://twitter.com/bantyoLeo"
         },
         "title": {
             "ja": "Houdiniで観覧車のイルミネーションを作ってみた",
@@ -9707,7 +9707,7 @@
             "name": "@yazukara",
             "icon": "yazukara.jpg",
             "qiitaUrl": "https://qiita.com/yazukara",
-            "twitterUrl": "https://twitter.com/yazukara"
+            "twitterUrl": "https://twitter.com/nightskymap"
         },
         "title": {
             "ja": "houdini初心者がapex auto rig builderを使ってセットアップしてみたお話",
@@ -9751,7 +9751,7 @@
             "name": "@ikatnek",
             "icon": "ikatnek.jpg",
             "qiitaUrl": "https://qiita.com/ikatnek",
-            "twitterUrl": "https://twitter.com/ikatnek"
+            "twitterUrl": "https://twitter.com/Sidefx_jp"
         },
         "title": {
             "ja": "HDA ファイル名への独自ルールの設定方法",
@@ -9839,7 +9839,7 @@
             "name": "@godofsuama",
             "icon": "godofsuama.jpg",
             "qiitaUrl": "https://qiita.com/godofsuama",
-            "twitterUrl": "https://twitter.com/godofsuama"
+            "twitterUrl": "https://twitter.com/suamaGod"
         },
         "title": {
             "ja": "Namespace EditingとRelocatesのメモ",
@@ -9905,7 +9905,7 @@
             "name": "@Borndigital_Yoshida",
             "icon": "Borndigital_Yoshida.jpg",
             "qiitaUrl": "https://qiita.com/Borndigital_Yoshida",
-            "twitterUrl": "https://twitter.com/Borndigital_Yoshida"
+            "twitterUrl": "https://twitter.com/hiromi_y2022"
         },
         "title": {
             "ja": "大量のモデルも怖くない！メモリ節約＆高速化を実現する「パックプリミティブ」の仕組み",
@@ -9971,7 +9971,7 @@
             "name": "@amateras",
             "icon": "amateras.jpg",
             "qiitaUrl": "https://qiita.com/amateras",
-            "twitterUrl": "https://twitter.com/amateras"
+            "twitterUrl": "https://twitter.com/phantom_owl"
         },
         "title": {
             "ja": "HoudiniでAfterEffectsのキーフレームを作る",
@@ -10037,7 +10037,7 @@
             "name": "@cg-journal",
             "icon": "cg-journal.jpg",
             "qiitaUrl": "https://qiita.com/cg-journal",
-            "twitterUrl": "https://twitter.com/cg-journal"
+            "twitterUrl": "https://twitter.com/cgj_master"
         },
         "title": {
             "ja": "COPでベイクしてサブスタンスライクにPBRテクスチャつくる",
